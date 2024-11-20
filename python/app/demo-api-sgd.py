@@ -222,11 +222,11 @@ def update_departments():
 
 def db_connection():
     # NOTE: change the host to "db" if you are running as a Docker container
-    db = psycopg2.connect(user = "aulaspl",
-                            password = "aulaspl",
+    db = psycopg2.connect(user = "postgres",
+                            password = "5432",
                             host = "localhost", #"db",
                             port = "5432",
-                            database = "dbfichas")
+                            database = "postgres")
     return db
 
 
@@ -260,6 +260,3 @@ if __name__ == "__main__":
     
     # NOTE: change to 5000 or remove the port parameter if you are running as a Docker container
     app.run(host="0.0.0.0", port=8080, debug=True, threaded=True)
-
-
-
