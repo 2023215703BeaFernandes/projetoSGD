@@ -153,23 +153,23 @@ def add_airport():
 
     logger.info("---- new airport  ----")
     logger.debug(f'payload: {payload}')
-    dados={}
+    dadosAirport={}
     for key, value in payload.items():
-        dados[key.lower()]= value
+        dadosAirport[key.lower()]= value
         
-    if 'name' not in dados:
+    if 'name' not in dadosAirport:
         response = {'status': statusCode['bad_request'], 'message': 'name value not in payload'}
         return jsonify(response)
-    if 'city' not in dados:
+    if 'city' not in dadosAirport:
         response = {'status': statusCode['bad_request'], 'message': 'city value not in payload'}
         return jsonify(response)
-    if 'country' not in dados:
+    if 'country' not in dadosAirport:
         response = {'status': statusCode['bad_request'], 'message': 'country value not in payload'}
         return jsonify(response)
 
     # parameterized queries, good for security and performance
     statement = """
-                  INSERT INTO airport (city, name, country) 
+                  INSERT INTO Airport (city, name, country) 
                           VALUES ( %s,   %s ,   %s )"""
 
     values = (payload["city"], payload["name"], payload["country"])
@@ -198,31 +198,31 @@ def add_flight():
 
     logger.info("---- new flight  ----")
     logger.debug(f'payload: {payload}')
-    dados={}
+    dadosFlight={}
     for key, value in payload.items():
-        dados[key.lower()]= value
+        dadosFlight[key.lower()]= value
         
-    if 'name' not in dados:
-        response = {'status': statusCode['bad_request'], 'message': 'name value not in payload'}
+    if 'departure_time' not in dadosFlight:
+        response = {'status': statusCode['bad_request'], 'message': 'departure_time value not in payload'}
         return jsonify(response)
-    if 'city' not in dados:
-        response = {'status': statusCode['bad_request'], 'message': 'city value not in payload'}
+    if 'arrivel_time' not in dadosFlight:
+        response = {'status': statusCode['bad_request'], 'message': 'arrivel_time value not in payload'}
         return jsonify(response)
-    if 'country' not in dados:
-        response = {'status': statusCode['bad_request'], 'message': 'country value not in payload'}
+    if 'capacity' not in dadosFlight:
+        response = {'status': statusCode['bad_request'], 'message': 'capacity value not in payload'}
         return jsonify(response)
 
     # parameterized queries, good for security and performance
     statement = """
-                  INSERT INTO airport (city, name, country) 
+                  INSERT INTO Flight (departure_time, arrivel_time, capacity) 
                           VALUES ( %s,   %s ,   %s )"""
 
-    values = (payload["city"], payload["name"], payload["country"])
+    values = (payload["departure_time"], payload["arrivel_time"], payload["capacity"])
 
     try:
         cur.execute(statement, values)
         cur.execute("commit")
-        result = {'status': statusCode['sucess'], 'results:':'airport_code'}
+        result = {'status': statusCode['sucess'], 'results:':'flight_code'}
     except (Exception, psycopg2.DatabaseError) as error:
         logger.error(error)
         result ={'status': statusCode['sucess'], 'errors:':'errors'}
@@ -232,7 +232,44 @@ def add_flight():
 
     return jsonify(result)
 #criar schedule
+@app.route("/schedule/", methods=['POST'])
+def add_schedule():
+    logger.info("###              DEMO: POST /schedule              ###");   
+    payload = request.get_json()
 
+    conn = db_connection()
+    cur = conn.cursor()
+
+    logger.info("---- new schedule  ----")
+    logger.debug(f'payload: {payload}')
+    dadosSchedule={}
+    for key, value in payload.items():
+        dadosSchedule[key.lower()]= value
+        
+    if 'fligth_date' not in dadosSchedule:
+        response = {'status': statusCode['bad_request'], 'message': 'fligth_date value not in payload'}
+        return jsonify(response)
+    
+
+    # parameterized queries, good for security and performance
+    statement = """
+                  INSERT INTO Schedule (fligth_date) 
+                          VALUES ( %s )"""
+
+    values = (payload["fligth_date"])
+
+    try:
+        cur.execute(statement, values)
+        cur.execute("commit")
+        result = {'status': statusCode['sucess'], 'results:':'schedule_id'}
+    except (Exception, psycopg2.DatabaseError) as error:
+        logger.error(error)
+        result ={'status': statusCode['sucess'], 'errors:':'errors'}
+    finally:
+        if conn is not None:
+            conn.close()
+
+    return jsonify(result)
 
 ##
 ##      Demo PUT
