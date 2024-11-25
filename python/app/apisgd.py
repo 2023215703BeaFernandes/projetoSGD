@@ -47,7 +47,24 @@ def inicio():
     <br/> Desenvolvido por: Beatriz Fernandes (2023215703) e Matilde Rebelo (2023231257)
     """
 
+statusCode={
+    'success':200,
+    'bad_request':400,
+    'internal_error':500
+}
 
+##########################################################
+## DATABASE ACCESS
+##########################################################
+
+def db_connection():
+    # NOTE: change the host to "db" if you are running as a Docker container
+    db = psycopg2.connect(user = "projetoSGD",
+                            password = "projetosgd",
+                            host = "localhost", #"db",
+                            port = "5432",
+                            database = "companhiaarea")
+    return db
 
 
 ##
@@ -125,10 +142,55 @@ def get_department(ndep):
 ##   curl -X POST http://localhost:8080/departments/ -H "Content-Type: application/json" -d '{"localidade": "Polo II", "ndep": 69, "nome": "Seguranca"}'
 ##
 
-#criar voos
-'''@app.route("/fligths/", methods=['POST'])
-def add_fligth():
-    logger.info("###              DEMO: POST /fligths              ###");   
+#criar airport
+@app.route("/airport/", methods=['POST'])
+def add_airport():
+    logger.info("###              DEMO: POST /airport              ###");   
+    payload = request.get_json()
+
+    conn = db_connection()
+    cur = conn.cursor()
+
+    logger.info("---- new airport  ----")
+    logger.debug(f'payload: {payload}')
+    dados={}
+    for key, value in payload.items():
+        dados[key.lower()]= value
+        
+    if 'name' not in dados:
+        response = {'status': statusCode['bad_request'], 'message': 'name value not in payload'}
+        return jsonify(response)
+    if 'city' not in dados:
+        response = {'status': statusCode['bad_request'], 'message': 'city value not in payload'}
+        return jsonify(response)
+    if 'country' not in dados:
+        response = {'status': statusCode['bad_request'], 'message': 'country value not in payload'}
+        return jsonify(response)
+
+    # parameterized queries, good for security and performance
+    statement = """
+                  INSERT INTO airport (city, name, country) 
+                          VALUES ( %s,   %s ,   %s )"""
+
+    values = (payload["city"], payload["name"], payload["country"])
+
+    try:
+        cur.execute(statement, values)
+        cur.execute("commit")
+        result = {'status': statusCode['sucess'], 'results:':'airport_code'}
+    except (Exception, psycopg2.DatabaseError) as error:
+        logger.error(error)
+        result ={'status': statusCode['sucess'], 'errors:':'errors'}
+    finally:
+        if conn is not None:
+            conn.close()
+
+    return jsonify(result)
+
+#criar flight
+@app.route("/flight/", methods=['POST'])
+def add_flight():
+    logger.info("###              DEMO: POST /flight              ###");   
     payload = request.get_json()
 
     conn = db_connection()
@@ -136,28 +198,39 @@ def add_fligth():
 
     logger.info("---- new flight  ----")
     logger.debug(f'payload: {payload}')
+    dados={}
+    for key, value in payload.items():
+        dados[key.lower()]= value
+        
+    if 'name' not in dados:
+        response = {'status': statusCode['bad_request'], 'message': 'name value not in payload'}
+        return jsonify(response)
+    if 'city' not in dados:
+        response = {'status': statusCode['bad_request'], 'message': 'city value not in payload'}
+        return jsonify(response)
+    if 'country' not in dados:
+        response = {'status': statusCode['bad_request'], 'message': 'country value not in payload'}
+        return jsonify(response)
 
     # parameterized queries, good for security and performance
     statement = """
-                  INSERT INTO Fligth (departure_time, arrivel_time, status) 
+                  INSERT INTO airport (city, name, country) 
                           VALUES ( %s,   %s ,   %s )"""
 
-    values = (payload["departure_time"], payload["arrivel_time"], payload["status"])
+    values = (payload["city"], payload["name"], payload["country"])
 
     try:
         cur.execute(statement, values)
         cur.execute("commit")
-        result = 'Inserted!'
+        result = {'status': statusCode['sucess'], 'results:':'airport_code'}
     except (Exception, psycopg2.DatabaseError) as error:
         logger.error(error)
-        result = 'Failed!'
+        result ={'status': statusCode['sucess'], 'errors:':'errors'}
     finally:
         if conn is not None:
             conn.close()
 
-    return jsonify(result)'''
-#criar aeroporto
-
+    return jsonify(result)
 #criar schedule
 
 
@@ -214,21 +287,6 @@ def update_departments():
 
 
 
-
-
-
-##########################################################
-## DATABASE ACCESS
-##########################################################
-
-def db_connection():
-    # NOTE: change the host to "db" if you are running as a Docker container
-    db = psycopg2.connect(user = "projetoSGD",
-                            password = "projetosgd",
-                            host = "localhost", #"db",
-                            port = "5432",
-                            database = "companhiaarea")
-    return db
 
 
 ##########################################################
