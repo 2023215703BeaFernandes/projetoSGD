@@ -23,7 +23,7 @@ $ source proj_sgd_env/bin/activate
 $ pip3 install flask
 $ pip3 install jwt
 $ pip3 install psycopg2-binary
-$ python3 demo-api.py
+$ python3 apisgd.py
 --> Ctrl+C to stop
 $ deactivate
 '''
@@ -38,13 +38,13 @@ app = Flask(__name__)
 
 
 @app.route('/') 
-def hello(): 
+def inicio(): 
     return """
 
-    Hello World!  <br/>
+    rest API- sgd  <br/>
     <br/>
     Check the sources for instructions on how to use the endpoints!<br/>
-    <br/>
+    <br/> Desenvolvido por: Beatriz Fernandes (2023215703) e Matilde Rebelo (2023231257)
     """
 
 
@@ -125,24 +125,24 @@ def get_department(ndep):
 ##   curl -X POST http://localhost:8080/departments/ -H "Content-Type: application/json" -d '{"localidade": "Polo II", "ndep": 69, "nome": "Seguranca"}'
 ##
 
-
-@app.route("/departments/", methods=['POST'])
-def add_departments():
-    logger.info("###              DEMO: POST /departments              ###");   
+#criar voos
+'''@app.route("/fligths/", methods=['POST'])
+def add_fligth():
+    logger.info("###              DEMO: POST /fligths              ###");   
     payload = request.get_json()
 
     conn = db_connection()
     cur = conn.cursor()
 
-    logger.info("---- new department  ----")
+    logger.info("---- new flight  ----")
     logger.debug(f'payload: {payload}')
 
     # parameterized queries, good for security and performance
     statement = """
-                  INSERT INTO dep (ndep, nome, local) 
+                  INSERT INTO Fligth (departure_time, arrivel_time, status) 
                           VALUES ( %s,   %s ,   %s )"""
 
-    values = (payload["ndep"], payload["localidade"], payload["nome"])
+    values = (payload["departure_time"], payload["arrivel_time"], payload["status"])
 
     try:
         cur.execute(statement, values)
@@ -155,9 +155,10 @@ def add_departments():
         if conn is not None:
             conn.close()
 
-    return jsonify(result)
+    return jsonify(result)'''
+#criar aeroporto
 
-
+#criar schedule
 
 
 ##
@@ -222,11 +223,11 @@ def update_departments():
 
 def db_connection():
     # NOTE: change the host to "db" if you are running as a Docker container
-    db = psycopg2.connect(user = "postgres",
-                            password = "5432",
+    db = psycopg2.connect(user = "projetoSGD",
+                            password = "projetosgd",
                             host = "localhost", #"db",
                             port = "5432",
-                            database = "postgres")
+                            database = "companhiaarea")
     return db
 
 
