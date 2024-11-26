@@ -64,7 +64,66 @@ def gerar_token (id_users):
     token= jwt.encode(payload, password, algorithm='HS256')
     return token
 
-#def verificar_token():
+def verificar_token(id_users):
+    token= gerar_token(id_users)
+    try:
+        descodificar_payload= jwt.decode(token, password, algorithms=["HS256"])
+
+        # Se o token for válido, retornar os dados decodificados
+        return {"status": "success", "user_id": descodificar_payload["id"], "message": "Token válido"}
+
+    except jwt.ExpiredSignatureError:
+        # Se o token expirou
+        return {"status": "error", "message": "Token expirado"}
+    
+    except jwt.InvalidTokenError:
+        # Se o token é inválido
+        return {"status": "error", "message": "Token inválido"}
+    
+@app.route("/users/", methods=['POST'])
+def criar_user():
+    logger.info("###              DEMO: POST /airport              ###");   
+    payload = request.get_json()
+
+    conn = db_connection()
+    cur = conn.cursor()
+
+    logger.info("---- new airport  ----")
+    logger.debug(f'payload: {payload}')
+    dadosAirport={}
+    for key, value in payload.items():
+        dadosAirport[key.lower()]= value
+        
+    if 'name' not in dadosAirport:
+        response = {'status': statusCode['bad_request'], 'message': 'name value not in payload'}
+        return jsonify(response)
+    if 'city' not in dadosAirport:
+        response = {'status': statusCode['bad_request'], 'message': 'city value not in payload'}
+        return jsonify(response)
+    if 'country' not in dadosAirport:
+        response = {'status': statusCode['bad_request'], 'message': 'country value not in payload'}
+        return jsonify(response)
+
+    # parameterized queries, good for security and performance
+    statement = """
+                  INSERT INTO Airport (city, name, country) 
+                          VALUES ( %s,   %s ,   %s )"""
+
+    values = (payload["city"], payload["name"], payload["country"])
+
+    try:
+        cur.execute(statement, values)
+        cur.execute("commit")
+        result = {'status': statusCode['sucess'], 'results:':'airport_code'}
+    except (Exception, psycopg2.DatabaseError) as error:
+        logger.error(error)
+        result ={'status': statusCode['sucess'], 'errors:':'errors'}
+    finally:
+        if conn is not None:
+            conn.close()
+
+    return jsonify(result)
+    
 ##########################################################
 ## DATABASE ACCESS
 ##########################################################
