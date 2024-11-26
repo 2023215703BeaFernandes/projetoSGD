@@ -33,9 +33,11 @@ from flask import Flask, jsonify, request
 import logging
 import psycopg2
 import time
+import jwt
+import json
 
 app = Flask(__name__) 
-
+password= "token123sgd"
 
 @app.route('/') 
 def inicio(): 
@@ -53,6 +55,16 @@ statusCode={
     'internal_error':500
 }
 
+
+def gerar_token (id_users):
+    payload={
+        "id": id_users,
+        "tempo_expiração": time.time()+1800 #30min
+    }
+    token= jwt.encode(payload, password, algorithm='HS256')
+    return token
+
+#def verificar_token():
 ##########################################################
 ## DATABASE ACCESS
 ##########################################################
@@ -67,6 +79,8 @@ def db_connection():
     return db
 
 
+
+
 ##
 ##      Demo GET
 ##
@@ -78,25 +92,32 @@ def db_connection():
 ##
 
 #ver rotas available
-@app.route("/rotas/", methods=['GET'], strict_slashes=True)
-def get_available_routes():
-    logger.info("###              DEMO: GET /rotas              ###");   
+'''@app.route("/rotas/", methods=['GET'], strict_slashes=True)
+def get_available_route():
+    logger.info("###              DEMO: GET /rotas              ###")
+    dadosFlight= request.get_json()   
 
     conn = db_connection()
     cur = conn.cursor()
 
-    cur.execute("SELECT ndep, nome, local FROM dep")
-    rows = cur.fetchall()
+    #cur.execute("SELECT ndep, nome, local FROM dep")
+    #rows = cur.fetchall()
 
-    payload = []
-    logger.debug("---- departments  ----")
+    #payload = []
+    logger.debug(f'Post/ available_routes-payload:{dadosFlight}')
+    dados={}
+    if dadosFlight:
+        for key, value in dados.items():
+            dados[key.lower()]=value
+            
+    #statement= "SELECT f.id "
     for row in rows:
         logger.debug(row)
         content = {'ndep': int(row[0]), 'nome': row[1], 'localidade': row[2]}
         payload.append(content) # appending to the payload to be returned
 
     conn.close()
-    return jsonify(payload)
+    return jsonify(payload)'''
 
 
 
@@ -109,29 +130,6 @@ def get_available_routes():
 ## 
 ##   http://localhost:8080/departments/10
 ##
-
-
-
-@app.route("/departments/<ndep>", methods=['GET'])
-def get_available_routes(ndep):
-    logger.info("###              DEMO: GET /departments/<ndep>              ###");   
-
-    logger.debug(f'ndep: {ndep}')
-
-    conn = db_connection()
-    cur = conn.cursor()
-
-    cur.execute("SELECT ndep, nome, local FROM dep where ndep = %s", (ndep,) )
-    rows = cur.fetchall()
-
-    row = rows[0]
-
-    logger.debug("---- selected department  ----")
-    logger.debug(row)
-    content = {'ndep': int(row[0]), 'nome': row[1], 'localidade': row[2]}
-
-    conn.close ()
-    return jsonify(content)
 
 
 
@@ -279,6 +277,7 @@ def add_schedule():
             conn.close()
 
     return jsonify(result)
+
 
 ##
 ##      Demo PUT
