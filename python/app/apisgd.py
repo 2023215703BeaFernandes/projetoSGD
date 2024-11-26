@@ -29,7 +29,7 @@ $ deactivate
 '''
 
 import flask
-# from flask import Flask, jsonify, request
+from flask import Flask, jsonify, request
 import logging
 import psycopg2
 import time
@@ -80,6 +80,83 @@ def verificar_token(id_users):
         # Se o token é inválido
         return {"status": "error", "message": "Token inválido"}
     
+
+@app.route("/admin/", methods=['POST'])
+def verificar_admin():
+    logger.info("###              DEMO: POST /admin              ###")
+    #playload= request.get_json()
+    resultado= verificar_token(id_users)
+    if resultado["status"]!="success":
+        return resultado
+    
+    conn = db_connection()
+    cur = conn.cursor()
+    try:
+        cur.execute("SELECT COUNT(*) FROM Administrator WHERE id_users=?", (id_users))  #nao sei s é necessario meter assim id_users=?", (id_users,)
+        resultado=cur.fetchone()
+        if resultado[0]>0:
+            return {"status": "success", "message": "Administrador válido"}
+        else:
+            return {"status": "error", "message": "Administrador inválido"}
+    except Exception as e:
+        return {"status": "error", "message": "Usuário não é administrador"}
+    finally: 
+        conn.close()
+    
+    
+@app.route("/admin/", methods=['POST'])
+def criar_administrador():
+    logger.info("###              DEMO: POST /admin/create              ###");
+    resultado= verificar_admin()
+    if resultado["status"]!= "success":
+        return resultado
+    
+    payload=request.get_json()
+    conn = db_connection()
+    cur = conn.cursor()
+
+    logger.info("---- new administrator  ----")
+    logger.debug(f'payload: {payload}')
+    dadosAdmin={}
+    for key, value in payload.items():
+        dadosAdmin[key.lower()]= value
+        
+    if 'name' not in dadosAdmin:
+        response = {'status': statusCode['bad_request'], 'message': 'name value not in payload'}
+        return flask.jsonify(response)
+    if 'email' not in dadosAdmin:
+        response = {'status': statusCode['bad_request'], 'message': 'email value not in payload'}
+        return flask.jsonify(response)
+    if 'password' not in dadosAdmin:
+        response = {'status': statusCode['bad_request'], 'message': 'password value not in payload'}
+        return flask.jsonify(response)
+
+    # parameterized queries, good for security and performance
+    statement = """
+                  INSERT INTO Administrator (name, email, password) 
+                          VALUES ( %s,   %s ,   %s )"""
+
+    values = (payload["name"], payload["email"], payload["password"])
+
+    try:
+        cur.execute(statement, values)
+        cur.execute("commit")
+        result = {'status': statusCode['sucess'], 'results:':'admin_code'}
+    except (Exception, psycopg2.DatabaseError) as error:
+        logger.error(error)
+        result ={'status': statusCode['sucess'], 'errors:':'errors'}
+    finally:
+        if conn is not None:
+            conn.close()
+
+    return flask.jsonify(result)
+
+
+
+
+
+
+
 @app.route("/users/", methods=['POST'])
 def criar_user():
     logger.info("###              DEMO: POST /user              ###");   
