@@ -82,39 +82,39 @@ def verificar_token(id_users):
     
 @app.route("/users/", methods=['POST'])
 def criar_user():
-    logger.info("###              DEMO: POST /airport              ###");   
+    logger.info("###              DEMO: POST /user              ###");   
     payload = request.get_json()
 
     conn = db_connection()
     cur = conn.cursor()
 
-    logger.info("---- new airport  ----")
+    logger.info("---- new user  ----")
     logger.debug(f'payload: {payload}')
-    dadosAirport={}
+    dadosUser={}
     for key, value in payload.items():
-        dadosAirport[key.lower()]= value
+        dadosUser[key.lower()]= value
         
-    if 'name' not in dadosAirport:
+    if 'name' not in dadosUser:
         response = {'status': statusCode['bad_request'], 'message': 'name value not in payload'}
         return jsonify(response)
-    if 'city' not in dadosAirport:
-        response = {'status': statusCode['bad_request'], 'message': 'city value not in payload'}
+    if 'email' not in dadosUser:
+        response = {'status': statusCode['bad_request'], 'message': 'email value not in payload'}
         return jsonify(response)
-    if 'country' not in dadosAirport:
-        response = {'status': statusCode['bad_request'], 'message': 'country value not in payload'}
+    if 'password' not in dadosUser:
+        response = {'status': statusCode['bad_request'], 'message': 'password value not in payload'}
         return jsonify(response)
 
     # parameterized queries, good for security and performance
     statement = """
-                  INSERT INTO Airport (city, name, country) 
+                  INSERT INTO Airport (name, email, password) 
                           VALUES ( %s,   %s ,   %s )"""
 
-    values = (payload["city"], payload["name"], payload["country"])
+    values = (payload["name"], payload["email"], payload["password"])
 
     try:
         cur.execute(statement, values)
         cur.execute("commit")
-        result = {'status': statusCode['sucess'], 'results:':'airport_code'}
+        result = {'status': statusCode['sucess'], 'results:':'user_code'}
     except (Exception, psycopg2.DatabaseError) as error:
         logger.error(error)
         result ={'status': statusCode['sucess'], 'errors:':'errors'}
