@@ -42,3 +42,5 @@ API v1.0 online: http://localhost:8080/departments/
 
 WARNING:werkzeug: * Debugger is active!
 INFO:werkzeug: * Debugger PIN: 119-983-821
+INFO:werkzeug: * Detected change in 'c:\\Users\\HP\\Desktop\\projetoSGD\\python\\app\\apisgd.py', reloading
+INFO:werkzeug: * Restarting with stat

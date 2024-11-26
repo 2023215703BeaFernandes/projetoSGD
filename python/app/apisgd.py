@@ -77,9 +77,10 @@ def db_connection():
 ##   http://localhost:8080/departments/
 ##
 
-@app.route("/departments/", methods=['GET'], strict_slashes=True)
-def get_all_departments():
-    logger.info("###              DEMO: GET /departments              ###");   
+#ver rotas available
+@app.route("/rotas/", methods=['GET'], strict_slashes=True)
+def get_available_routes():
+    logger.info("###              DEMO: GET /rotas              ###");   
 
     conn = db_connection()
     cur = conn.cursor()
@@ -109,8 +110,10 @@ def get_all_departments():
 ##   http://localhost:8080/departments/10
 ##
 
+
+
 @app.route("/departments/<ndep>", methods=['GET'])
-def get_department(ndep):
+def get_available_routes(ndep):
     logger.info("###              DEMO: GET /departments/<ndep>              ###");   
 
     logger.debug(f'ndep: {ndep}')
@@ -211,13 +214,19 @@ def add_flight():
     if 'capacity' not in dadosFlight:
         response = {'status': statusCode['bad_request'], 'message': 'capacity value not in payload'}
         return jsonify(response)
+    if 'destination' not in dadosFlight:
+        response = {'status': statusCode['bad_request'], 'message': 'destination value not in payload'}
+        return jsonify(response)
+    if 'origin' not in dadosFlight:
+        response = {'status': statusCode['bad_request'], 'message': 'origin value not in payload'}
+        return jsonify(response)
 
     # parameterized queries, good for security and performance
     statement = """
-                  INSERT INTO Flight (departure_time, arrivel_time, capacity) 
-                          VALUES ( %s,   %s ,   %s )"""
+                  INSERT INTO Flight (departure_time, arrivel_time, capacity, destination, origin) 
+                          VALUES ( %s,   %s ,   %s,   %s ,   %s  )"""
 
-    values = (payload["departure_time"], payload["arrivel_time"], payload["capacity"])
+    values = (payload["departure_time"], payload["arrivel_time"], payload["capacity"], payload["destination"], payload["origin"])
 
     try:
         cur.execute(statement, values)
