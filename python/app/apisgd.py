@@ -151,8 +151,12 @@ def criar_administrador():
 
     return flask.jsonify(result)
 
-
-
+@app.route("/passenger/", methods=['POST'])
+def criar_passenger():
+    logger.info("###              DEMO: POST /passenger/create              ###");
+    payload= request.get_json()
+    return criar_user(payload)
+    
 
 
 
