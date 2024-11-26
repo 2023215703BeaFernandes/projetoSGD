@@ -28,16 +28,16 @@ $ python3 apisgd.py
 $ deactivate
 '''
 
- 
-from flask import Flask, jsonify, request
+import flask
+# from flask import Flask, jsonify, request
 import logging
 import psycopg2
 import time
 import jwt
 import json
 
-app = Flask(__name__) 
-password= "token123sgd"
+app = flask.Flask(__name__) 
+password_token= "token123sgd"
 
 @app.route('/') 
 def inicio(): 
@@ -61,13 +61,13 @@ def gerar_token (id_users):
         "id": id_users,
         "tempo_expiração": time.time()+1800 #30min
     }
-    token= jwt.encode(payload, password, algorithm='HS256')
+    token= jwt.encode(payload, password_token, algorithm='HS256')
     return token
 
 def verificar_token(id_users):
     token= gerar_token(id_users)
     try:
-        descodificar_payload= jwt.decode(token, password, algorithms=["HS256"])
+        descodificar_payload= jwt.decode(token, password_token, algorithms=["HS256"])
 
         # Se o token for válido, retornar os dados decodificados
         return {"status": "success", "user_id": descodificar_payload["id"], "message": "Token válido"}
@@ -96,17 +96,17 @@ def criar_user():
         
     if 'name' not in dadosUser:
         response = {'status': statusCode['bad_request'], 'message': 'name value not in payload'}
-        return jsonify(response)
+        return flask.jsonify(response)
     if 'email' not in dadosUser:
         response = {'status': statusCode['bad_request'], 'message': 'email value not in payload'}
-        return jsonify(response)
+        return flask.jsonify(response)
     if 'password' not in dadosUser:
         response = {'status': statusCode['bad_request'], 'message': 'password value not in payload'}
-        return jsonify(response)
+        return flask.jsonify(response)
 
     # parameterized queries, good for security and performance
     statement = """
-                  INSERT INTO Airport (name, email, password) 
+                  INSERT INTO Users (name, email, password) 
                           VALUES ( %s,   %s ,   %s )"""
 
     values = (payload["name"], payload["email"], payload["password"])
@@ -122,7 +122,7 @@ def criar_user():
         if conn is not None:
             conn.close()
 
-    return jsonify(result)
+    return flask.jsonify(result)
     
 ##########################################################
 ## DATABASE ACCESS
@@ -130,11 +130,11 @@ def criar_user():
 
 def db_connection():
     # NOTE: change the host to "db" if you are running as a Docker container
-    db = psycopg2.connect(user = "projetoSGD",
+    db = psycopg2.connect(user = "postgres",
                             password = "projetosgd",
                             host = "localhost", #"db",
                             port = "5432",
-                            database = "companhiaarea")
+                            database = "projetosgd")
     return db
 
 
@@ -143,42 +143,36 @@ def db_connection():
 ##
 ##      Demo GET
 ##
-## Obtain all departments, in JSON format
+## Obtain all users, in JSON format
 ##
 ## To use it, access: 
 ## 
-##   http://localhost:8080/departments/
+##   http://localhost:8080/users/
 ##
 
 #ver rotas available
-'''@app.route("/rotas/", methods=['GET'], strict_slashes=True)
-def get_available_route():
-    logger.info("###              DEMO: GET /rotas              ###")
-    dadosFlight= request.get_json()   
-
+@app.route("/users/", methods=['GET'], strict_slashes=True)
+def get_all_users():
+    logger.info("###              DEMO: GET /users              ###")
+    
     conn = db_connection()
     cur = conn.cursor()
 
-    #cur.execute("SELECT ndep, nome, local FROM dep")
-    #rows = cur.fetchall()
+    cur.execute("SELECT id_users, name, email FROM users")
+    rows = cur.fetchall()
 
-    #payload = []
-    logger.debug(f'Post/ available_routes-payload:{dadosFlight}')
-    dados={}
-    if dadosFlight:
-        for key, value in dados.items():
-            dados[key.lower()]=value
+    Results = []
+    #logger.debug(f'Post/ available_routes-payload:{dadosFlight}')
             
     #statement= "SELECT f.id "
     for row in rows:
         logger.debug(row)
-        content = {'ndep': int(row[0]), 'nome': row[1], 'localidade': row[2]}
-        payload.append(content) # appending to the payload to be returned
+        content = {'id': int(row[0]), 'nome': row[1], 'email': row[2]}
+        Results.append(content) # appending to the payload to be returned
 
+    response = {'status': statusCode['success'], 'Results:': Results}
     conn.close()
-    return jsonify(payload)'''
-
-
+    return flask.jsonify(response)
 
 ##
 ##      Demo GET
@@ -219,13 +213,13 @@ def add_airport():
         
     if 'name' not in dadosAirport:
         response = {'status': statusCode['bad_request'], 'message': 'name value not in payload'}
-        return jsonify(response)
+        return flask.jsonify(response)
     if 'city' not in dadosAirport:
         response = {'status': statusCode['bad_request'], 'message': 'city value not in payload'}
-        return jsonify(response)
+        return flask.jsonify(response)
     if 'country' not in dadosAirport:
         response = {'status': statusCode['bad_request'], 'message': 'country value not in payload'}
-        return jsonify(response)
+        return flask.jsonify(response)
 
     # parameterized queries, good for security and performance
     statement = """
@@ -245,7 +239,7 @@ def add_airport():
         if conn is not None:
             conn.close()
 
-    return jsonify(result)
+    return flask.jsonify(result)
 
 #criar flight
 @app.route("/flight/", methods=['POST'])
@@ -264,19 +258,19 @@ def add_flight():
         
     if 'departure_time' not in dadosFlight:
         response = {'status': statusCode['bad_request'], 'message': 'departure_time value not in payload'}
-        return jsonify(response)
+        return flask.jsonify(response)
     if 'arrivel_time' not in dadosFlight:
         response = {'status': statusCode['bad_request'], 'message': 'arrivel_time value not in payload'}
-        return jsonify(response)
+        return flask.jsonify(response)
     if 'capacity' not in dadosFlight:
         response = {'status': statusCode['bad_request'], 'message': 'capacity value not in payload'}
-        return jsonify(response)
+        return flask.jsonify(response)
     if 'destination' not in dadosFlight:
         response = {'status': statusCode['bad_request'], 'message': 'destination value not in payload'}
-        return jsonify(response)
+        return flask.jsonify(response)
     if 'origin' not in dadosFlight:
         response = {'status': statusCode['bad_request'], 'message': 'origin value not in payload'}
-        return jsonify(response)
+        return flask.jsonify(response)
 
     # parameterized queries, good for security and performance
     statement = """
@@ -296,7 +290,7 @@ def add_flight():
         if conn is not None:
             conn.close()
 
-    return jsonify(result)
+    return flask.jsonify(result)
 #criar schedule
 @app.route("/schedule/", methods=['POST'])
 def add_schedule():
@@ -314,7 +308,7 @@ def add_schedule():
         
     if 'fligth_date' not in dadosSchedule:
         response = {'status': statusCode['bad_request'], 'message': 'fligth_date value not in payload'}
-        return jsonify(response)
+        return flask.jsonify(response)
     
 
     # parameterized queries, good for security and performance
@@ -335,7 +329,7 @@ def add_schedule():
         if conn is not None:
             conn.close()
 
-    return jsonify(result)
+    return flask.jsonify(result)
 
 
 ##
@@ -386,7 +380,7 @@ def update_departments():
     finally:
         if conn is not None:
             conn.close()
-    return jsonify(result)
+    return flask.jsonify(result)
 
 
 
@@ -417,9 +411,10 @@ if __name__ == "__main__":
 
 
     logger.info("\n---------------------------------------------------------------\n" + 
-                  "API v1.0 online: http://localhost:8080/departments/\n\n")
+                  "API v1.0 online: http://localhost:8080/")
 
 
     
     # NOTE: change to 5000 or remove the port parameter if you are running as a Docker container
-    app.run(host="0.0.0.0", port=8080, debug=True, threaded=True)
+    app.run(host="127.0.0.1", port=8080, debug=True, threaded=True)
+    

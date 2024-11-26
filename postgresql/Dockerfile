@@ -9,9 +9,9 @@
 FROM library/postgres
 
 
-ENV POSTGRES_USER aulaspl
-ENV POSTGRES_PASSWORD aulaspl
-ENV POSTGRES_DB dbfichas
+ENV POSTGRES_USER projetosgd
+ENV POSTGRES_PASSWORD projetosgd
+ENV POSTGRES_DB companhiaaerea
 
 COPY SGD2024_data.sql /docker-entrypoint-initdb.d/
 
