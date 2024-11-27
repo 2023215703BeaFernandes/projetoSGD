@@ -65,34 +65,38 @@ def gerar_token (id_users):
     return token
 
 def verificar_token(id_users):
-    token= gerar_token(id_users)
+    token= request.headers.get('Authorization') #Temos de explicar isto
+    if not token:
+        return jsonify({'error':'Token is missing'}), 401
     try:
-        descodificar_payload= jwt.decode(token, password_token, algorithms=["HS256"])
+        if token.startswith("JWT "):
+            token = token[4:]
 
-        # Se o token for válido, retornar os dados decodificados
-        return {"status": "success", "user_id": descodificar_payload["id"], "message": "Token válido"}
+        payload = jwt.decode(token, password_token, algorithms=["HS256"])
+
+        if payload["exp"] < time.time():
+            return jsonify({"message": "Token expirado!"}), 401
+
+        return payload
 
     except jwt.ExpiredSignatureError:
-        # Se o token expirou
-        return {"status": "error", "message": "Token expirado"}
-    
+        return jsonify({"message": "Token expirado!"}), 401
     except jwt.InvalidTokenError:
-        # Se o token é inválido
-        return {"status": "error", "message": "Token inválido"}
-    
+        return jsonify({"message": "Token inválido!"}),401
+
 
 @app.route("/admin/", methods=['POST'])
 def verificar_admin():
     logger.info("###              DEMO: POST /admin              ###")
     #playload= request.get_json()
-    resultado= verificar_token(id_users)
+    resultado= verificar_token()
     if resultado["status"]!="success":
         return resultado
     
     conn = db_connection()
     cur = conn.cursor()
     try:
-        cur.execute("SELECT COUNT(*) FROM Administrator WHERE id_users=?", (id_users))  #nao sei s é necessario meter assim id_users=?", (id_users,)
+        cur.execute("SELECT COUNT(*) FROM Administrator WHERE id_users=?", (id_users,))  #nao sei s é necessario meter assim id_users=?", (id_users,)
         resultado=cur.fetchone()
         if resultado[0]>0:
             return {"status": "success", "message": "Administrador válido"}
@@ -101,12 +105,12 @@ def verificar_admin():
     except Exception as e:
         return {"status": "error", "message": "Usuário não é administrador"}
     finally: 
-        conn.close()
-    
+        conn.close()    
     
 @app.route("/admin/", methods=['POST'])
 def criar_administrador():
     logger.info("###              DEMO: POST /admin/create              ###");
+    payload=request.get_json()
     resultado= verificar_admin()
     if resultado["status"]!= "success":
         return resultado
@@ -114,8 +118,32 @@ def criar_administrador():
     payload=request.get_json()
     conn = db_connection()
     cur = conn.cursor()
+    resultado_user= criar_user(payload)
+    
+    if resultado_user['status']!= statusCode['success']:
+        return resultado_user
+    
+    conn = db_connection()
+    cur = conn.cursor()
+    
+    try:
+        cur.execute("SELECT id_user FROM users WHERE name = %s AND email = %s AND password = %s", 
+                    (payload['name'], payload['email'], payload['password']))
+        id_user= cur.fetchone()
+        
+        cur.execute("INSERT INTO Administrator (id_users) VALUES (?)", (id_user[0],))
+        conn.commit()
+        return {'status': statusCode['success'], 'message': 'Administrador criado com sucesso.'}
 
-    logger.info("---- new administrator  ----")
+    except Exception as e:
+        logger.error(e)
+        return {'status': statusCode['internal_error'], 'message': 'Erro ao criar administrador.'}
+    
+    finally:
+        if conn is not None:
+            conn.close()
+    
+    '''logger.info("---- new administrator  ----")
     logger.debug(f'payload: {payload}')
     dadosAdmin={}
     for key, value in payload.items():
@@ -149,17 +177,40 @@ def criar_administrador():
         if conn is not None:
             conn.close()
 
-    return flask.jsonify(result)
+    return flask.jsonify(result)'''
 
 @app.route("/passenger/", methods=['POST'])
 def criar_passenger():
     logger.info("###              DEMO: POST /passenger/create              ###");
     payload= request.get_json()
-    return criar_user(payload)
+    resultado_user= criar_user(payload)
+    if resultado_user['status'] != statusCode['sucess']:
+        return resultado_user
+    conn= db_connection()
+    cur= conn.cursor()
+    try:
+        cur.execute("SELECT id_user FROM users WHERE name = %s AND email = %s AND password = %s", 
+                    (payload['name'], payload['email'], payload['password']))
+        id_user= cur.fetchone()
+        
+        cur.execute("INSERT INTO Passenger (id_users) VALUES (?)", (id_user[0],))
+        conn.commit()
+        return {'status': statusCode['success'], 'message': 'Passageiro criado com sucesso.'}
+
+    except Exception as e:
+        logger.error(e)
+        return {'status': statusCode['internal_error'], 'message': 'Erro ao criar passageiro.'}
     
+    finally:
+        if conn is not None:
+            conn.close()
+ 
 
-
-
+'''@app.route("/crew/", methods=['POST'])
+def criar_crew():
+    logger.info("###              DEMO: POST /crew/create              ###");
+    payload= request.get_json()
+    return criar_crew(payload)'''
 
 @app.route("/users/", methods=['POST'])
 def criar_user():
