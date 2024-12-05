@@ -154,3 +154,1157 @@ DEBUG:logger:ndep: 40
 DEBUG:logger:---- selected department  ----
 DEBUG:logger:(Decimal('40'), 'Planeamento', 'Montemor')
 INFO:werkzeug:127.0.0.1 - - [20/Nov/2024 16:58:32] "GET /departments/40 HTTP/1.1" 200 -
+INFO:logger:
+---------------------------------------------------------------
+API v1.0 online: http://localhost:8080/
+INFO:werkzeug:[31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:8080
+INFO:werkzeug:[33mPress CTRL+C to quit[0m
+INFO:werkzeug: * Restarting with stat
+INFO:logger:
+---------------------------------------------------------------
+API v1.0 online: http://localhost:8080/
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 119-983-821
+INFO:logger:###              DEMO: PUT /users            ###
+INFO:werkzeug:127.0.0.1 - - [02/Dec/2024 20:29:26] "PUT /login HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [02/Dec/2024 20:30:42] "[32mPOST /criarbooking HTTP/1.1[0m" 308 -
+INFO:logger:---- Creating booking ----
+DEBUG:logger:Payload: {'numbertickets': 6, 'typeluggage': 'mao', 'id_schedule': 4}
+INFO:werkzeug:127.0.0.1 - - [02/Dec/2024 20:30:42] "POST /criarbooking/ HTTP/1.1" 200 -
+INFO:werkzeug: * Detected change in 'c:\\Users\\HP\\Desktop\\projetoSGD\\python\\app\\apisgd.py', reloading
+INFO:werkzeug: * Restarting with stat
+INFO:logger:
+---------------------------------------------------------------
+API v1.0 online: http://localhost:8080/
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 119-983-821
+INFO:werkzeug: * Detected change in 'c:\\Users\\HP\\Desktop\\projetoSGD\\python\\app\\apisgd.py', reloading
+INFO:werkzeug: * Restarting with stat
+INFO:logger:
+---------------------------------------------------------------
+API v1.0 online: http://localhost:8080/
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 119-983-821
+INFO:werkzeug:127.0.0.1 - - [02/Dec/2024 20:32:36] "[32mPOST /criarbooking HTTP/1.1[0m" 308 -
+INFO:logger:---- Creating booking ----
+DEBUG:logger:Payload: {'numbertickets': 6, 'typeluggage': 'mao', 'id_schedule': 4}
+DEBUG:logger:Inserting booking with numbertickets: 6, typeluggage: mao, schedule_id_schedule: 4
+ERROR:logger:erro ao criar reserva
+INFO:werkzeug:127.0.0.1 - - [02/Dec/2024 20:32:36] "POST /criarbooking/ HTTP/1.1" 200 -
+INFO:werkzeug: * Detected change in 'c:\\Users\\HP\\Desktop\\projetoSGD\\python\\app\\apisgd.py', reloading
+INFO:werkzeug: * Restarting with stat
+INFO:logger:
+---------------------------------------------------------------
+API v1.0 online: http://localhost:8080/
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 119-983-821
+INFO:werkzeug:127.0.0.1 - - [02/Dec/2024 20:34:44] "[32mPOST /criarbooking HTTP/1.1[0m" 308 -
+INFO:logger:---- Creating booking ----
+DEBUG:logger:Payload: {'numbertickets': 6, 'typeluggage': 'mao', 'id_schedule': 4}
+DEBUG:logger:Inserting booking with numbertickets: 6, typeluggage: mao, schedule_id_schedule: 4
+ERROR:logger:erro ao criar reserva
+INFO:werkzeug:127.0.0.1 - - [02/Dec/2024 20:34:44] "[35m[1mPOST /criarbooking/ HTTP/1.1[0m" 500 -
+INFO:werkzeug: * Detected change in 'c:\\Users\\HP\\Desktop\\projetoSGD\\python\\app\\apisgd.py', reloading
+INFO:werkzeug: * Restarting with stat
+INFO:logger:
+---------------------------------------------------------------
+API v1.0 online: http://localhost:8080/
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 119-983-821
+INFO:werkzeug:127.0.0.1 - - [02/Dec/2024 20:35:19] "[32mPOST /criarbooking HTTP/1.1[0m" 308 -
+INFO:logger:---- Creating booking ----
+DEBUG:logger:Payload: {'numbertickets': 6, 'typeluggage': 'mao', 'id_schedule': 4}
+DEBUG:logger:Inserting booking with numbertickets: 6, typeluggage: mao, schedule_id_schedule: 4
+ERROR:logger:erro ao criar reserva
+ERROR:logger:Traceback (most recent call last):
+  File "c:\Users\HP\Desktop\projetoSGD\python\app\apisgd.py", line 772, in criar_booking
+    cur.execute("INSERT INTO booking (numbertickets, typeluggage, schedule_id_schedule) VALUES (%s, %s,%s)", (numbertickets, typeluggage, schedule))
+psycopg2.errors.UndefinedColumn: column "typeluggage" of relation "booking" does not exist
+LINE 1: INSERT INTO booking (numbertickets, typeluggage, schedule_id...
+                                            ^
+
+
+INFO:werkzeug:127.0.0.1 - - [02/Dec/2024 20:35:19] "POST /criarbooking/ HTTP/1.1" 200 -
+INFO:werkzeug: * Detected change in 'c:\\Users\\HP\\Desktop\\projetoSGD\\python\\app\\apisgd.py', reloading
+INFO:werkzeug: * Restarting with stat
+INFO:logger:
+---------------------------------------------------------------
+API v1.0 online: http://localhost:8080/
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 119-983-821
+INFO:werkzeug:127.0.0.1 - - [02/Dec/2024 20:36:04] "[32mPOST /criarbooking HTTP/1.1[0m" 308 -
+INFO:logger:---- Creating booking ----
+DEBUG:logger:Payload: {'numbertickets': 6, 'typeluggage': 'mao', 'id_schedule': 4}
+INFO:werkzeug:127.0.0.1 - - [02/Dec/2024 20:36:04] "POST /criarbooking/ HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [02/Dec/2024 20:38:42] "[32mPOST /passengerbooking HTTP/1.1[0m" 308 -
+INFO:logger:---- Associar passageiros a uma reserva ----
+DEBUG:logger:Payload: {'id_booking': 2, 'id_passengers': [3, 4, 5, 18, 19, 20]}
+INFO:werkzeug:127.0.0.1 - - [02/Dec/2024 20:38:42] "POST /passengerbooking/ HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [02/Dec/2024 20:40:17] "[32mPOST /passengerbooking HTTP/1.1[0m" 308 -
+INFO:logger:---- Associar passageiros a uma reserva ----
+DEBUG:logger:Payload: {'id_booking': 2, 'total_linhas': 3, 'numero_por_linha': 4}
+INFO:werkzeug:127.0.0.1 - - [02/Dec/2024 20:40:17] "POST /passengerbooking/ HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [02/Dec/2024 20:41:13] "[32mPOST /criarseats HTTP/1.1[0m" 308 -
+INFO:logger:---- Creating seats ----
+DEBUG:logger:Payload: {'id_booking': 2, 'total_linhas': 3, 'numero_por_linha': 4}
+INFO:werkzeug:127.0.0.1 - - [02/Dec/2024 20:41:13] "POST /criarseats/ HTTP/1.1" 200 -
+INFO:werkzeug: * Detected change in 'c:\\Users\\HP\\Desktop\\projetoSGD\\python\\app\\apisgd.py', reloading
+INFO:werkzeug: * Restarting with stat
+INFO:logger:
+---------------------------------------------------------------
+API v1.0 online: http://localhost:8080/
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 119-983-821
+INFO:logger:
+---------------------------------------------------------------
+API v1.0 online: http://localhost:8080/
+INFO:werkzeug:[31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:8080
+INFO:werkzeug:[33mPress CTRL+C to quit[0m
+INFO:werkzeug: * Restarting with stat
+INFO:logger:
+---------------------------------------------------------------
+API v1.0 online: http://localhost:8080/
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 119-983-821
+INFO:logger:###              DEMO: PUT /users            ###
+INFO:werkzeug:127.0.0.1 - - [02/Dec/2024 22:10:25] "PUT /login HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [02/Dec/2024 22:11:01] "[32mPOST /criarseats HTTP/1.1[0m" 308 -
+INFO:logger:---- Creating seats ----
+DEBUG:logger:Payload: {'id_booking': 2, 'total_linhas': 3, 'numero_por_linha': 4}
+INFO:werkzeug:127.0.0.1 - - [02/Dec/2024 22:11:01] "POST /criarseats/ HTTP/1.1" 200 -
+INFO:werkzeug: * Detected change in 'c:\\Users\\HP\\Desktop\\projetoSGD\\python\\app\\apisgd.py', reloading
+INFO:werkzeug: * Restarting with stat
+INFO:logger:
+---------------------------------------------------------------
+API v1.0 online: http://localhost:8080/
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 119-983-821
+INFO:werkzeug: * Detected change in 'c:\\Users\\HP\\Desktop\\projetoSGD\\python\\app\\apisgd.py', reloading
+INFO:werkzeug: * Restarting with stat
+INFO:logger:
+---------------------------------------------------------------
+API v1.0 online: http://localhost:8080/
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 119-983-821
+INFO:werkzeug:127.0.0.1 - - [02/Dec/2024 22:14:03] "[32mPOST /criarseats HTTP/1.1[0m" 308 -
+INFO:logger:---- Creating seats ----
+DEBUG:logger:Payload: {'id_booking': 2, 'total_linhas': 3, 'numero_por_linha': 4}
+ERROR:logger:Error while creating seats: 'int' object does not support indexing
+Traceback (most recent call last):
+  File "c:\Users\HP\Desktop\projetoSGD\python\app\apisgd.py", line 825, in criar_seats
+    cur.execute("SELECT * FROM booking WHERE id_booking=%s", (id_booking))
+TypeError: 'int' object does not support indexing
+INFO:werkzeug:127.0.0.1 - - [02/Dec/2024 22:14:04] "POST /criarseats/ HTTP/1.1" 200 -
+INFO:werkzeug: * Detected change in 'c:\\Users\\HP\\Desktop\\projetoSGD\\python\\app\\apisgd.py', reloading
+INFO:werkzeug: * Restarting with stat
+INFO:logger:
+---------------------------------------------------------------
+API v1.0 online: http://localhost:8080/
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 119-983-821
+INFO:werkzeug:127.0.0.1 - - [02/Dec/2024 22:14:44] "[32mPOST /criarseats HTTP/1.1[0m" 308 -
+INFO:logger:---- Creating seats ----
+DEBUG:logger:Payload: {'id_booking': 2, 'total_linhas': 3, 'numero_por_linha': 4}
+ERROR:logger:Error while creating seats: invalid input syntax for type bigint: "1A"
+LINE 1: ...t, seat_availability, booking_id_booking) VALUES ('1A', true...
+                                                             ^
+Traceback (most recent call last):
+  File "c:\Users\HP\Desktop\projetoSGD\python\app\apisgd.py", line 833, in criar_seats
+    cur.execute("INSERT INTO ticket_seat (seat_id_seat, seat_availability, booking_id_booking) VALUES (%s, %s, %s)", (lugar, True, booking))
+psycopg2.errors.InvalidTextRepresentation: invalid input syntax for type bigint: "1A"
+LINE 1: ...t, seat_availability, booking_id_booking) VALUES ('1A', true...
+                                                             ^
+
+INFO:werkzeug:127.0.0.1 - - [02/Dec/2024 22:14:44] "POST /criarseats/ HTTP/1.1" 200 -
+INFO:logger:
+---------------------------------------------------------------
+API v1.0 online: http://localhost:8080/
+INFO:werkzeug:[31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:8080
+INFO:werkzeug:[33mPress CTRL+C to quit[0m
+INFO:werkzeug: * Restarting with stat
+INFO:logger:
+---------------------------------------------------------------
+API v1.0 online: http://localhost:8080/
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 119-983-821
+INFO:logger:###              DEMO: PUT /users            ###
+INFO:werkzeug:127.0.0.1 - - [03/Dec/2024 09:32:36] "PUT /login HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [03/Dec/2024 09:33:06] "[32mPOST /criarseats HTTP/1.1[0m" 308 -
+INFO:logger:---- Creating seats ----
+DEBUG:logger:Payload: {'id_booking': 2, 'total_linhas': 3, 'numero_por_linha': 4}
+ERROR:logger:Error while creating seats: invalid input syntax for type bigint: "1A"
+LINE 1: ...t, seat_availability, booking_id_booking) VALUES ('1A', true...
+                                                             ^
+Traceback (most recent call last):
+  File "c:\Users\HP\Desktop\projetoSGD\python\app\apisgd.py", line 833, in criar_seats
+    cur.execute("INSERT INTO ticket_seat (seat_id_seat, seat_availability, booking_id_booking) VALUES (%s, %s, %s)", (lugar, True, booking))
+psycopg2.errors.InvalidTextRepresentation: invalid input syntax for type bigint: "1A"
+LINE 1: ...t, seat_availability, booking_id_booking) VALUES ('1A', true...
+                                                             ^
+
+INFO:werkzeug:127.0.0.1 - - [03/Dec/2024 09:33:06] "POST /criarseats/ HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [03/Dec/2024 09:40:53] "[32mPOST /criarseats HTTP/1.1[0m" 308 -
+INFO:logger:---- Creating seats ----
+DEBUG:logger:Payload: {'id_booking': 2, 'total_linhas': 3, 'numero_por_linha': 4}
+ERROR:logger:Error while creating seats: invalid input syntax for type bigint: "1A"
+LINE 1: ...t, seat_availability, booking_id_booking) VALUES ('1A', true...
+                                                             ^
+Traceback (most recent call last):
+  File "c:\Users\HP\Desktop\projetoSGD\python\app\apisgd.py", line 833, in criar_seats
+    cur.execute("INSERT INTO ticket_seat (seat_id_seat, seat_availability, booking_id_booking) VALUES (%s, %s, %s)", (lugar, True, booking))
+psycopg2.errors.InvalidTextRepresentation: invalid input syntax for type bigint: "1A"
+LINE 1: ...t, seat_availability, booking_id_booking) VALUES ('1A', true...
+                                                             ^
+
+INFO:werkzeug:127.0.0.1 - - [03/Dec/2024 09:40:54] "POST /criarseats/ HTTP/1.1" 200 -
+INFO:werkzeug: * Detected change in 'c:\\Users\\HP\\Desktop\\projetoSGD\\python\\app\\apisgd.py', reloading
+INFO:werkzeug: * Restarting with stat
+INFO:logger:
+---------------------------------------------------------------
+API v1.0 online: http://localhost:8080/
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 119-983-821
+INFO:werkzeug:127.0.0.1 - - [03/Dec/2024 09:43:22] "[32mPOST /criarseats HTTP/1.1[0m" 308 -
+INFO:logger:---- Creating seats ----
+DEBUG:logger:Payload: {'id_booking': 2, 'total_linhas': 3, 'numero_por_linha': 4}
+DEBUG:logger:2
+ERROR:logger:Error while creating seats: invalid input syntax for type bigint: "1A"
+LINE 1: ...t, seat_availability, booking_id_booking) VALUES ('1A', true...
+                                                             ^
+Traceback (most recent call last):
+  File "c:\Users\HP\Desktop\projetoSGD\python\app\apisgd.py", line 834, in criar_seats
+    cur.execute("INSERT INTO ticket_seat (seat_id_seat, seat_availability, booking_id_booking) VALUES (%s, %s, %s)", (lugar, True, booking))
+psycopg2.errors.InvalidTextRepresentation: invalid input syntax for type bigint: "1A"
+LINE 1: ...t, seat_availability, booking_id_booking) VALUES ('1A', true...
+                                                             ^
+
+INFO:werkzeug:127.0.0.1 - - [03/Dec/2024 09:43:23] "POST /criarseats/ HTTP/1.1" 200 -
+INFO:werkzeug: * Detected change in 'c:\\Users\\HP\\Desktop\\projetoSGD\\python\\app\\apisgd.py', reloading
+INFO:werkzeug: * Restarting with stat
+INFO:logger:
+---------------------------------------------------------------
+API v1.0 online: http://localhost:8080/
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 119-983-821
+INFO:werkzeug:127.0.0.1 - - [03/Dec/2024 09:47:38] "[32mPOST /criarseats HTTP/1.1[0m" 308 -
+INFO:logger:---- Creating seats ----
+DEBUG:logger:Payload: {'id_booking': 2, 'total_linhas': 3, 'numero_por_linha': 4}
+DEBUG:logger:2
+DEBUG:logger:Inserting seat: 1A, Availability: True, Booking ID: 2
+ERROR:logger:Error while creating seats: invalid input syntax for type bigint: "1A"
+LINE 1: ...t, seat_availability, booking_id_booking) VALUES ('1A', true...
+                                                             ^
+Traceback (most recent call last):
+  File "c:\Users\HP\Desktop\projetoSGD\python\app\apisgd.py", line 835, in criar_seats
+    cur.execute("INSERT INTO ticket_seat (seat_id_seat, seat_availability, booking_id_booking) VALUES (%s, %s, %s)", (lugar, True, booking))
+psycopg2.errors.InvalidTextRepresentation: invalid input syntax for type bigint: "1A"
+LINE 1: ...t, seat_availability, booking_id_booking) VALUES ('1A', true...
+                                                             ^
+
+INFO:werkzeug:127.0.0.1 - - [03/Dec/2024 09:47:38] "POST /criarseats/ HTTP/1.1" 200 -
+INFO:werkzeug: * Detected change in 'c:\\Users\\HP\\Desktop\\projetoSGD\\python\\app\\apisgd.py', reloading
+INFO:werkzeug: * Restarting with stat
+INFO:logger:
+---------------------------------------------------------------
+API v1.0 online: http://localhost:8080/
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 119-983-821
+INFO:werkzeug:127.0.0.1 - - [03/Dec/2024 09:49:37] "[32mPOST /criarseats HTTP/1.1[0m" 308 -
+INFO:logger:---- Creating seats ----
+DEBUG:logger:Payload: {'id_booking': 2, 'total_linhas': 3, 'numero_por_linha': 4}
+DEBUG:logger:Booking ID: 2 (Type: <class 'int'>)
+DEBUG:logger:Inserting seat: 1A, Availability: True, Booking ID: 2
+ERROR:logger:Error while creating seats: invalid input syntax for type bigint: "1A"
+LINE 1: ...t, seat_availability, booking_id_booking) VALUES ('1A', true...
+                                                             ^
+Traceback (most recent call last):
+  File "c:\Users\HP\Desktop\projetoSGD\python\app\apisgd.py", line 835, in criar_seats
+    cur.execute("INSERT INTO ticket_seat (seat_id_seat, seat_availability, booking_id_booking) VALUES (%s, %s, %s)", (lugar, True, booking))
+psycopg2.errors.InvalidTextRepresentation: invalid input syntax for type bigint: "1A"
+LINE 1: ...t, seat_availability, booking_id_booking) VALUES ('1A', true...
+                                                             ^
+
+INFO:werkzeug:127.0.0.1 - - [03/Dec/2024 09:49:37] "POST /criarseats/ HTTP/1.1" 200 -
+INFO:werkzeug: * Detected change in 'c:\\Users\\HP\\Desktop\\projetoSGD\\python\\app\\apisgd.py', reloading
+INFO:werkzeug: * Restarting with stat
+INFO:logger:
+---------------------------------------------------------------
+API v1.0 online: http://localhost:8080/
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 119-983-821
+INFO:werkzeug:127.0.0.1 - - [03/Dec/2024 09:49:52] "[32mPOST /criarseats HTTP/1.1[0m" 308 -
+INFO:logger:---- Creating seats ----
+DEBUG:logger:Payload: {'id_booking': 2, 'total_linhas': 3, 'numero_por_linha': 4}
+DEBUG:logger:Booking ID: 2 (Type: <class 'int'>)
+DEBUG:logger:Inserting seat: 1A, Availability: True, Booking ID: 2
+ERROR:logger:Error while creating seats: invalid input syntax for type bigint: "1A"
+LINE 1: ...t, seat_availability, booking_id_booking) VALUES ('1A', true...
+                                                             ^
+Traceback (most recent call last):
+  File "c:\Users\HP\Desktop\projetoSGD\python\app\apisgd.py", line 835, in criar_seats
+    cur.execute("INSERT INTO ticket_seat (seat_id_seat, seat_availability, booking_id_booking) VALUES (%s, %s, %s)", (lugar, True, booking))
+psycopg2.errors.InvalidTextRepresentation: invalid input syntax for type bigint: "1A"
+LINE 1: ...t, seat_availability, booking_id_booking) VALUES ('1A', true...
+                                                             ^
+
+INFO:werkzeug:127.0.0.1 - - [03/Dec/2024 09:49:52] "POST /criarseats/ HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [03/Dec/2024 09:52:12] "[32mPOST /criarseats HTTP/1.1[0m" 308 -
+INFO:logger:---- Creating seats ----
+DEBUG:logger:Payload: {'id_booking': 2, 'total_linhas': 3, 'numero_por_linha': 4}
+DEBUG:logger:Booking ID: 2 (Type: <class 'int'>)
+DEBUG:logger:Inserting seat: 1A, Availability: True, Booking ID: 2
+DEBUG:logger:Inserting seat: 1B, Availability: True, Booking ID: 2
+ERROR:logger:Error while creating seats: duplicate key value violates unique constraint "ticket_seat_pkey"
+DETAIL:  Key (booking_id_booking)=(2) already exists.
+Traceback (most recent call last):
+  File "c:\Users\HP\Desktop\projetoSGD\python\app\apisgd.py", line 835, in criar_seats
+    cur.execute("INSERT INTO ticket_seat (seat_id_seat, seat_availability, booking_id_booking) VALUES (%s, %s, %s)", (lugar, True, booking))
+psycopg2.errors.UniqueViolation: duplicate key value violates unique constraint "ticket_seat_pkey"
+DETAIL:  Key (booking_id_booking)=(2) already exists.
+
+INFO:werkzeug:127.0.0.1 - - [03/Dec/2024 09:52:12] "POST /criarseats/ HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [03/Dec/2024 10:12:13] "[32mPOST /criarseats HTTP/1.1[0m" 308 -
+INFO:logger:---- Creating seats ----
+DEBUG:logger:Payload: {'id_booking': 2, 'total_linhas': 3, 'numero_por_linha': 4}
+DEBUG:logger:Booking ID: 2 (Type: <class 'int'>)
+DEBUG:logger:Inserting seat: 1A, Availability: True, Booking ID: 2
+DEBUG:logger:Inserting seat: 1B, Availability: True, Booking ID: 2
+ERROR:logger:Error while creating seats: duplicate key value violates unique constraint "ticket_seat_pkey"
+DETAIL:  Key (booking_id_booking)=(2) already exists.
+Traceback (most recent call last):
+  File "c:\Users\HP\Desktop\projetoSGD\python\app\apisgd.py", line 835, in criar_seats
+    cur.execute("INSERT INTO ticket_seat (seat_id_seat, seat_availability, booking_id_booking) VALUES (%s, %s, %s)", (lugar, True, booking))
+psycopg2.errors.UniqueViolation: duplicate key value violates unique constraint "ticket_seat_pkey"
+DETAIL:  Key (booking_id_booking)=(2) already exists.
+
+INFO:werkzeug:127.0.0.1 - - [03/Dec/2024 10:12:13] "POST /criarseats/ HTTP/1.1" 200 -
+INFO:werkzeug: * Detected change in 'c:\\Users\\HP\\Desktop\\projetoSGD\\python\\app\\apisgd.py', reloading
+INFO:werkzeug: * Restarting with stat
+INFO:logger:
+---------------------------------------------------------------
+API v1.0 online: http://localhost:8080/
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 119-983-821
+INFO:werkzeug:127.0.0.1 - - [03/Dec/2024 10:12:31] "[32mPOST /criarseats HTTP/1.1[0m" 308 -
+INFO:logger:---- Creating seats ----
+DEBUG:logger:Payload: {'id_booking': 2, 'total_linhas': 3, 'numero_por_linha': 4}
+DEBUG:logger:Booking ID: 2 (Type: <class 'int'>)
+DEBUG:logger:Inserting seat: 1A, Availability: True, Booking ID: 2
+DEBUG:logger:Inserting seat: 1B, Availability: True, Booking ID: 2
+ERROR:logger:Error while creating seats: duplicate key value violates unique constraint "ticket_seat_pkey"
+DETAIL:  Key (booking_id_booking)=(2) already exists.
+Traceback (most recent call last):
+  File "c:\Users\HP\Desktop\projetoSGD\python\app\apisgd.py", line 835, in criar_seats
+    cur.execute("INSERT INTO ticket_seat (seat_id_seat, seat_availability, booking_id_booking) VALUES (%s, %s, %s)", (lugar, True, booking))
+psycopg2.errors.UniqueViolation: duplicate key value violates unique constraint "ticket_seat_pkey"
+DETAIL:  Key (booking_id_booking)=(2) already exists.
+
+INFO:werkzeug:127.0.0.1 - - [03/Dec/2024 10:12:31] "POST /criarseats/ HTTP/1.1" 200 -
+INFO:werkzeug: * Detected change in 'c:\\Users\\HP\\Desktop\\projetoSGD\\python\\app\\apisgd.py', reloading
+INFO:werkzeug: * Restarting with stat
+INFO:logger:
+---------------------------------------------------------------
+API v1.0 online: http://localhost:8080/
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 119-983-821
+INFO:logger:
+---------------------------------------------------------------
+API v1.0 online: http://localhost:8080/
+INFO:werkzeug:[31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:8080
+INFO:werkzeug:[33mPress CTRL+C to quit[0m
+INFO:werkzeug: * Restarting with stat
+INFO:logger:
+---------------------------------------------------------------
+API v1.0 online: http://localhost:8080/
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 119-983-821
+INFO:werkzeug:127.0.0.1 - - [03/Dec/2024 19:49:22] "[32mPOST /criarseats HTTP/1.1[0m" 308 -
+INFO:logger:---- Creating seats ----
+DEBUG:logger:Payload: {'name': 'duarte', 'password': '123sgdduarte'}
+INFO:werkzeug:127.0.0.1 - - [03/Dec/2024 19:49:22] "POST /criarseats/ HTTP/1.1" 200 -
+INFO:logger:###              DEMO: PUT /users            ###
+INFO:werkzeug:127.0.0.1 - - [03/Dec/2024 19:49:29] "PUT /login HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [03/Dec/2024 19:51:38] "[32mPOST /fligth HTTP/1.1[0m" 308 -
+INFO:logger:###              DEMO: POST /flight              ###
+INFO:logger:---- new flight  ----
+DEBUG:logger:payload: {'departure_time': '2024-12-24', 'arrivel_time': '2024-12-25', 'capacity': '100', 'origin': 'Arrecife', 'destination': 'CharlesdeGaulle', 'flight_code': 'HG85'}
+DEBUG:logger:origin_row: (4,)
+DEBUG:logger:origin_row: (6,)
+INFO:werkzeug:127.0.0.1 - - [03/Dec/2024 19:51:38] "[35m[1mPOST /fligth/ HTTP/1.1[0m" 500 -
+INFO:werkzeug: * Detected change in 'c:\\Users\\HP\\Desktop\\projetoSGD\\python\\app\\apisgd.py', reloading
+INFO:werkzeug: * Restarting with stat
+INFO:logger:
+---------------------------------------------------------------
+API v1.0 online: http://localhost:8080/
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 119-983-821
+INFO:werkzeug:127.0.0.1 - - [03/Dec/2024 19:52:31] "[32mPOST /fligth HTTP/1.1[0m" 308 -
+INFO:logger:###              DEMO: POST /flight              ###
+INFO:logger:---- new flight  ----
+DEBUG:logger:payload: {'departure_time': '2024-12-24', 'arrivel_time': '2024-12-25', 'capacity': '100', 'origin': 'Arrecife', 'destination': 'CharlesdeGaulle', 'flight_code': 'HG85'}
+DEBUG:logger:origin_row: (4,)
+DEBUG:logger:origin_row: (6,)
+DEBUG:logger:Assentos gerados: ['16F', '16F', '16F', '16F', '16F', '16F', '16F', '16F', '16F', '16F', '16F', '16F', '16F', '16F', '16F', '16F', '16F', '16F', '16F', '16F', '16F', '16F', '16F', '16F', '16F', '16F', '16F', '16F', '16F', '16F', '16F', '16F', '16F', '16F', '16F', '16F', '16F', '16F', '16F', '16F', '16F', '16F', '16F', '16F', '16F', '16F', '16F', '16F', '16F', '16F', '16F', '16F', '16F', '16F', '16F', '16F', '16F', '16F', '16F', '16F', '16F', '16F', '16F', '16F', '16F', '16F', '16F', '16F', '16F', '16F', '16F', '16F', '16F', '16F', '16F', '16F', '16F', '16F', '16F', '16F', '16F', '16F', '16F', '16F', '16F', '16F', '16F', '16F', '16F', '16F', '16F', '16F', '16F', '16F', '16F', '16F']
+INFO:werkzeug:127.0.0.1 - - [03/Dec/2024 19:52:31] "POST /fligth/ HTTP/1.1" 200 -
+INFO:werkzeug: * Detected change in 'c:\\Users\\HP\\Desktop\\projetoSGD\\python\\app\\apisgd.py', reloading
+INFO:werkzeug: * Restarting with stat
+INFO:logger:
+---------------------------------------------------------------
+API v1.0 online: http://localhost:8080/
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 119-983-821
+INFO:werkzeug:127.0.0.1 - - [03/Dec/2024 19:55:02] "[32mPOST /fligth HTTP/1.1[0m" 308 -
+INFO:logger:###              DEMO: POST /flight              ###
+INFO:logger:---- new flight  ----
+DEBUG:logger:payload: {'departure_time': '2025-02-17', 'arrivel_time': '2024-02-17', 'capacity': '100', 'origin': 'brussels', 'destination': 'CharlesdeGaulle', 'flight_code': 'JK936'}
+DEBUG:logger:origin_row: (8,)
+DEBUG:logger:origin_row: (6,)
+DEBUG:logger:Assentos gerados: ['1@', '1A', '1B', '1C', '1D', '1E', '2@', '2A', '2B', '2C', '2D', '2E', '3@', '3A', '3B', '3C', '3D', '3E', '4@', '4A', '4B', '4C', '4D', '4E', '5@', '5A', '5B', '5C', '5D', '5E', '6@', '6A', '6B', '6C', '6D', '6E', '7@', '7A', '7B', '7C', '7D', '7E', '8@', '8A', '8B', '8C', '8D', '8E', '9@', '9A', '9B', '9C', '9D', '9E', '10@', '10A', '10B', '10C', '10D', '10E', '11@', '11A', '11B', '11C', '11D', '11E', '12@', '12A', '12B', '12C', '12D', '12E', '13@', '13A', '13B', '13C', '13D', '13E', '14@', '14A', '14B', '14C', '14D', '14E', '15@', '15A', '15B', '15C', '15D', '15E', '16@', '16A', '16B', '16C', '16D', '16E']
+INFO:werkzeug:127.0.0.1 - - [03/Dec/2024 19:55:02] "POST /fligth/ HTTP/1.1" 200 -
+INFO:werkzeug: * Detected change in 'c:\\Users\\HP\\Desktop\\projetoSGD\\python\\app\\apisgd.py', reloading
+INFO:werkzeug: * Restarting with stat
+INFO:logger:
+---------------------------------------------------------------
+API v1.0 online: http://localhost:8080/
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 119-983-821
+INFO:werkzeug:127.0.0.1 - - [03/Dec/2024 19:56:32] "[32mPOST /fligth HTTP/1.1[0m" 308 -
+INFO:logger:###              DEMO: POST /flight              ###
+INFO:logger:---- new flight  ----
+DEBUG:logger:payload: {'departure_time': '2025-04-29', 'arrivel_time': '2024-04-30', 'capacity': '100', 'origin': 'brussels', 'destination': 'ellisonOnizula', 'flight_code': 'AK987'}
+DEBUG:logger:origin_row: (8,)
+DEBUG:logger:origin_row: (13,)
+DEBUG:logger:Assentos gerados: ['1A', '1B', '1C', '1D', '1E', '1F', '2A', '2B', '2C', '2D', '2E', '2F', '3A', '3B', '3C', '3D', '3E', '3F', '4A', '4B', '4C', '4D', '4E', '4F', '5A', '5B', '5C', '5D', '5E', '5F', '6A', '6B', '6C', '6D', '6E', '6F', '7A', '7B', '7C', '7D', '7E', '7F', '8A', '8B', '8C', '8D', '8E', '8F', '9A', '9B', '9C', '9D', '9E', '9F', '10A', '10B', '10C', '10D', '10E', '10F', '11A', '11B', '11C', '11D', '11E', '11F', '12A', '12B', '12C', '12D', '12E', '12F', '13A', '13B', '13C', '13D', '13E', '13F', '14A', '14B', '14C', '14D', '14E', '14F', '15A', '15B', '15C', '15D', '15E', '15F', '16A', '16B', '16C', '16D', '16E', '16F']
+INFO:werkzeug:127.0.0.1 - - [03/Dec/2024 19:56:32] "POST /fligth/ HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [03/Dec/2024 20:05:17] "[32mPOST /schedule HTTP/1.1[0m" 308 -
+INFO:logger:###              DEMO: POST /schedule              ###
+INFO:logger:---- new schedule  ----
+DEBUG:logger:payload: {'flight_code': 'AK987', 'flight_date': '2025-04-29'}
+INFO:werkzeug:127.0.0.1 - - [03/Dec/2024 20:05:17] "[35m[1mPOST /schedule/ HTTP/1.1[0m" 500 -
+INFO:werkzeug: * Detected change in 'c:\\Users\\HP\\Desktop\\projetoSGD\\python\\app\\apisgd.py', reloading
+INFO:werkzeug: * Restarting with stat
+INFO:logger:
+---------------------------------------------------------------
+API v1.0 online: http://localhost:8080/
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 119-983-821
+INFO:werkzeug:127.0.0.1 - - [03/Dec/2024 20:05:59] "[32mPOST /schedule HTTP/1.1[0m" 308 -
+INFO:logger:###              DEMO: POST /schedule              ###
+INFO:logger:---- new schedule  ----
+DEBUG:logger:payload: {'flight_code': 'AK987', 'flight_date': '2025-04-29'}
+INFO:werkzeug:127.0.0.1 - - [03/Dec/2024 20:05:59] "POST /schedule/ HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [03/Dec/2024 20:07:25] "[32mPOST /schedule HTTP/1.1[0m" 308 -
+INFO:logger:###              DEMO: POST /schedule              ###
+INFO:logger:---- new schedule  ----
+DEBUG:logger:payload: {'flight_code': 'AK987', 'fligth_date': '2025-04-29'}
+INFO:werkzeug:127.0.0.1 - - [03/Dec/2024 20:07:26] "POST /schedule/ HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [03/Dec/2024 20:07:35] "[32mPOST /schedule HTTP/1.1[0m" 308 -
+INFO:logger:###              DEMO: POST /schedule              ###
+INFO:logger:---- new schedule  ----
+DEBUG:logger:payload: {'fligth_code': 'AK987', 'fligth_date': '2025-04-29'}
+INFO:werkzeug:127.0.0.1 - - [03/Dec/2024 20:07:36] "POST /schedule/ HTTP/1.1" 200 -
+INFO:logger:###              DEMO: GET /check_seats            ###
+INFO:logger:---- lugares disponíveis  ----
+DEBUG:logger:payload: {'fligth_code': 'AK987', 'id_schedule': '7'}
+INFO:werkzeug:127.0.0.1 - - [03/Dec/2024 20:08:39] "GET /check_seats HTTP/1.1" 200 -
+INFO:logger:###              DEMO: GET /check_seats            ###
+INFO:logger:---- lugares disponíveis  ----
+DEBUG:logger:payload: {'fligth_code': 'AK987', 'id_schedule': 7}
+INFO:werkzeug:127.0.0.1 - - [03/Dec/2024 20:08:43] "GET /check_seats HTTP/1.1" 200 -
+INFO:logger:###              DEMO: GET /check_seats            ###
+INFO:logger:---- lugares disponíveis  ----
+DEBUG:logger:payload: {'flight_code': 'AK987', 'id_schedule': 7}
+INFO:werkzeug:127.0.0.1 - - [03/Dec/2024 20:09:42] "GET /check_seats HTTP/1.1" 200 -
+INFO:werkzeug: * Detected change in 'c:\\Users\\HP\\Desktop\\projetoSGD\\python\\app\\apisgd.py', reloading
+INFO:werkzeug: * Restarting with stat
+INFO:logger:
+---------------------------------------------------------------
+API v1.0 online: http://localhost:8080/
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 119-983-821
+INFO:werkzeug: * Detected change in 'c:\\Users\\HP\\Desktop\\projetoSGD\\python\\app\\apisgd.py', reloading
+INFO:werkzeug: * Restarting with stat
+INFO:logger:
+---------------------------------------------------------------
+API v1.0 online: http://localhost:8080/
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 119-983-821
+INFO:werkzeug: * Detected change in 'c:\\Users\\HP\\Desktop\\projetoSGD\\python\\app\\apisgd.py', reloading
+INFO:werkzeug: * Restarting with stat
+INFO:logger:
+---------------------------------------------------------------
+API v1.0 online: http://localhost:8080/
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 119-983-821
+INFO:logger:
+---------------------------------------------------------------
+API v1.0 online: http://localhost:8080/
+INFO:werkzeug:[31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:8080
+INFO:werkzeug:[33mPress CTRL+C to quit[0m
+INFO:werkzeug: * Restarting with stat
+INFO:logger:
+---------------------------------------------------------------
+API v1.0 online: http://localhost:8080/
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 119-983-821
+INFO:logger:###              DEMO: PUT /users            ###
+INFO:werkzeug:127.0.0.1 - - [03/Dec/2024 21:17:52] "PUT /login HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [03/Dec/2024 21:18:42] "[32mPOST /admin HTTP/1.1[0m" 308 -
+INFO:logger:###              DEMO: POST /admin/create              ###
+INFO:werkzeug:127.0.0.1 - - [03/Dec/2024 21:18:42] "[31m[1mPOST /admin/ HTTP/1.1[0m" 403 -
+INFO:werkzeug: * Detected change in 'c:\\Users\\HP\\Desktop\\projetoSGD\\python\\app\\apisgd.py', reloading
+INFO:werkzeug: * Restarting with stat
+INFO:logger:
+---------------------------------------------------------------
+API v1.0 online: http://localhost:8080/
+INFO:werkzeug:[31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:8080
+INFO:werkzeug:[33mPress CTRL+C to quit[0m
+INFO:werkzeug: * Restarting with stat
+INFO:logger:
+---------------------------------------------------------------
+API v1.0 online: http://localhost:8080/
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 119-983-821
+INFO:logger:###              DEMO: PUT /users            ###
+INFO:werkzeug:127.0.0.1 - - [04/Dec/2024 12:55:27] "PUT /login HTTP/1.1" 200 -
+INFO:werkzeug: * Detected change in 'c:\\Users\\HP\\Desktop\\projetoSGD\\python\\app\\apisgd.py', reloading
+INFO:werkzeug: * Restarting with stat
+INFO:logger:
+---------------------------------------------------------------
+API v1.0 online: http://localhost:8080/
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 119-983-821
+INFO:logger:###              DEMO: PUT /users            ###
+INFO:werkzeug:127.0.0.1 - - [04/Dec/2024 13:56:21] "PUT /login HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [04/Dec/2024 13:58:32] "[32mPOST /criarbooking HTTP/1.1[0m" 308 -
+INFO:logger:---- Creating booking ----
+DEBUG:logger:Payload: {'numbertickets': 2, 'seat_id': [1, 2], 'typeluggage': 'porao', 'id_schedule': 7, 'fligth_code': 'AK987', 'id_passengers': [20, 21]}
+INFO:werkzeug:127.0.0.1 - - [04/Dec/2024 13:58:32] "POST /criarbooking/ HTTP/1.1" 200 -
+INFO:werkzeug: * Detected change in 'c:\\Users\\HP\\Desktop\\projetoSGD\\python\\app\\apisgd.py', reloading
+INFO:werkzeug: * Restarting with stat
+INFO:logger:
+---------------------------------------------------------------
+API v1.0 online: http://localhost:8080/
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 119-983-821
+INFO:werkzeug:127.0.0.1 - - [04/Dec/2024 13:59:22] "[32mPOST /criarbooking HTTP/1.1[0m" 308 -
+INFO:logger:---- Creating booking ----
+DEBUG:logger:Payload: {'numbertickets': 2, 'seat_id': [1, 2], 'typeluggage': 'porao', 'id_schedule': 7, 'fligth_code': 'AK987', 'id_passengers': [20, 21]}
+INFO:werkzeug:127.0.0.1 - - [04/Dec/2024 13:59:23] "POST /criarbooking/ HTTP/1.1" 200 -
+INFO:werkzeug: * Detected change in 'c:\\Users\\HP\\Desktop\\projetoSGD\\python\\app\\apisgd.py', reloading
+INFO:werkzeug: * Restarting with stat
+INFO:logger:
+---------------------------------------------------------------
+API v1.0 online: http://localhost:8080/
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 119-983-821
+INFO:werkzeug:127.0.0.1 - - [04/Dec/2024 14:00:15] "[32mPOST /criarbooking HTTP/1.1[0m" 308 -
+INFO:logger:---- Creating booking ----
+DEBUG:logger:Payload: {'numbertickets': 2, 'seat_id': [1, 2], 'typeluggage': 'porao', 'id_schedule': 7, 'fligth_code': 'AK987', 'id_passengers': [20, 21]}
+INFO:werkzeug:127.0.0.1 - - [04/Dec/2024 14:00:16] "POST /criarbooking/ HTTP/1.1" 200 -
+INFO:werkzeug: * Detected change in 'c:\\Users\\HP\\Desktop\\projetoSGD\\python\\app\\apisgd.py', reloading
+INFO:werkzeug: * Restarting with stat
+INFO:logger:
+---------------------------------------------------------------
+API v1.0 online: http://localhost:8080/
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 119-983-821
+INFO:werkzeug:127.0.0.1 - - [04/Dec/2024 14:01:42] "[32mPOST /criarbooking HTTP/1.1[0m" 308 -
+INFO:logger:---- Creating booking ----
+DEBUG:logger:Payload: {'numbertickets': 2, 'seat_id': [1, 2], 'typeluggage': 'porao', 'id_schedule': 7, 'fligth_code': 'AK987', 'id_passengers': [20, 21]}
+INFO:werkzeug:127.0.0.1 - - [04/Dec/2024 14:01:42] "POST /criarbooking/ HTTP/1.1" 200 -
+INFO:werkzeug: * Detected change in 'c:\\Users\\HP\\Desktop\\projetoSGD\\python\\app\\apisgd.py', reloading
+INFO:werkzeug: * Restarting with stat
+INFO:logger:
+---------------------------------------------------------------
+API v1.0 online: http://localhost:8080/
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 119-983-821
+INFO:werkzeug: * Detected change in 'c:\\Users\\HP\\Desktop\\projetoSGD\\python\\app\\apisgd.py', reloading
+INFO:werkzeug: * Restarting with stat
+INFO:logger:
+---------------------------------------------------------------
+API v1.0 online: http://localhost:8080/
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 119-983-821
+INFO:werkzeug:127.0.0.1 - - [04/Dec/2024 14:03:14] "[32mPOST /criarbooking HTTP/1.1[0m" 308 -
+INFO:logger:---- Creating booking ----
+DEBUG:logger:Payload: {'numbertickets': 2, 'seat_id': [1, 2], 'typeluggage': 'porao', 'id_schedule': 7, 'fligth_code': 'AK987', 'id_passengers': [20, 21]}
+ERROR:logger:Error creating booking: 'not found'
+INFO:werkzeug:127.0.0.1 - - [04/Dec/2024 14:03:14] "POST /criarbooking/ HTTP/1.1" 200 -
+INFO:werkzeug: * Detected change in 'c:\\Users\\HP\\Desktop\\projetoSGD\\python\\app\\apisgd.py', reloading
+INFO:werkzeug: * Restarting with stat
+INFO:logger:
+---------------------------------------------------------------
+API v1.0 online: http://localhost:8080/
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 119-983-821
+INFO:werkzeug: * Detected change in 'c:\\Users\\HP\\Desktop\\projetoSGD\\python\\app\\apisgd.py', reloading
+INFO:werkzeug: * Restarting with stat
+INFO:logger:
+---------------------------------------------------------------
+API v1.0 online: http://localhost:8080/
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 119-983-821
+INFO:werkzeug: * Detected change in 'c:\\Users\\HP\\Desktop\\projetoSGD\\python\\app\\apisgd.py', reloading
+INFO:werkzeug: * Restarting with stat
+INFO:logger:
+---------------------------------------------------------------
+API v1.0 online: http://localhost:8080/
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 119-983-821
+INFO:werkzeug:127.0.0.1 - - [04/Dec/2024 14:56:03] "[31m[1mPOST /topDestinations/<6> HTTP/1.1[0m" 405 -
+INFO:logger:###              DEMO: GET /topDestinations/<n>              ###
+DEBUG:logger:n: <6>
+ERROR:logger:syntax error at or near "coisa"
+LINE 1: ...ghts FROM fligth where fligth_date BETWEEN alguma coisa GROU...
+                                                             ^
+
+INFO:werkzeug:127.0.0.1 - - [04/Dec/2024 14:56:10] "[35m[1mGET /topDestinations/<6> HTTP/1.1[0m" 500 -
+INFO:logger:###              DEMO: GET /topRoutes/<n>              ###
+DEBUG:logger:n: <6>
+INFO:werkzeug:127.0.0.1 - - [04/Dec/2024 14:56:47] "[35m[1mGET /topRoutes/<6> HTTP/1.1[0m" 500 -
+INFO:werkzeug: * Detected change in 'c:\\Users\\HP\\Desktop\\projetoSGD\\python\\app\\apisgd.py', reloading
+INFO:werkzeug: * Restarting with stat
+INFO:logger:
+---------------------------------------------------------------
+API v1.0 online: http://localhost:8080/
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 119-983-821
+INFO:logger:###              DEMO: GET /topRoutes/<n>              ###
+DEBUG:logger:n: <6>
+INFO:werkzeug:127.0.0.1 - - [04/Dec/2024 14:57:48] "GET /topRoutes/<6> HTTP/1.1" 200 -
+INFO:werkzeug: * Detected change in 'c:\\Users\\HP\\Desktop\\projetoSGD\\python\\app\\apisgd.py', reloading
+INFO:werkzeug: * Restarting with stat
+INFO:logger:
+---------------------------------------------------------------
+API v1.0 online: http://localhost:8080/
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 119-983-821
+INFO:logger:###              DEMO: GET /topRoutes/<n>              ###
+DEBUG:logger:n: <6>
+INFO:werkzeug:127.0.0.1 - - [04/Dec/2024 14:58:48] "GET /topRoutes/<6> HTTP/1.1" 200 -
+INFO:werkzeug: * Detected change in 'c:\\Users\\HP\\Desktop\\projetoSGD\\python\\app\\apisgd.py', reloading
+INFO:werkzeug: * Restarting with stat
+INFO:logger:
+---------------------------------------------------------------
+API v1.0 online: http://localhost:8080/
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 119-983-821
+INFO:logger:###              DEMO: GET /topRoutes/<n>              ###
+DEBUG:logger:n: <6>
+INFO:werkzeug:127.0.0.1 - - [04/Dec/2024 15:14:18] "GET /topRoutes/<6> HTTP/1.1" 200 -
+INFO:werkzeug: * Detected change in 'c:\\Users\\HP\\Desktop\\projetoSGD\\python\\app\\apisgd.py', reloading
+INFO:werkzeug: * Restarting with stat
+INFO:logger:
+---------------------------------------------------------------
+API v1.0 online: http://localhost:8080/
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 119-983-821
+INFO:logger:###              DEMO: GET /topRoutes/<n>              ###
+DEBUG:logger:n: <6>
+INFO:werkzeug:127.0.0.1 - - [04/Dec/2024 15:27:12] "GET /topRoutes/<6> HTTP/1.1" 200 -
+INFO:werkzeug: * Detected change in 'c:\\Users\\HP\\Desktop\\projetoSGD\\python\\app\\apisgd.py', reloading
+INFO:werkzeug: * Restarting with stat
+INFO:logger:
+---------------------------------------------------------------
+API v1.0 online: http://localhost:8080/
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 119-983-821
+INFO:logger:###              DEMO: GET /topRoutes/<n>              ###
+DEBUG:logger:n: <6>
+INFO:werkzeug:127.0.0.1 - - [04/Dec/2024 15:30:04] "GET /topRoutes/<6> HTTP/1.1" 200 -
+INFO:werkzeug: * Detected change in 'c:\\Users\\HP\\Desktop\\projetoSGD\\python\\app\\apisgd.py', reloading
+INFO:werkzeug: * Restarting with stat
+INFO:logger:
+---------------------------------------------------------------
+API v1.0 online: http://localhost:8080/
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 119-983-821
+INFO:logger:###              DEMO: GET /topRoutes/<n>              ###
+DEBUG:logger:n: <6>
+INFO:werkzeug:127.0.0.1 - - [04/Dec/2024 15:32:52] "GET /topRoutes/<6> HTTP/1.1" 200 -
+INFO:werkzeug: * Detected change in 'c:\\Users\\HP\\Desktop\\projetoSGD\\python\\app\\apisgd.py', reloading
+INFO:werkzeug: * Restarting with stat
+INFO:logger:
+---------------------------------------------------------------
+API v1.0 online: http://localhost:8080/
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 119-983-821
+INFO:logger:###              DEMO: GET /topRoutes/<n>              ###
+DEBUG:logger:n: <6>
+INFO:werkzeug:127.0.0.1 - - [04/Dec/2024 15:35:54] "GET /topRoutes/<6> HTTP/1.1" 200 -
+INFO:werkzeug: * Detected change in 'c:\\Users\\HP\\Desktop\\projetoSGD\\python\\app\\apisgd.py', reloading
+INFO:werkzeug: * Restarting with stat
+INFO:logger:
+---------------------------------------------------------------
+API v1.0 online: http://localhost:8080/
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 119-983-821
+INFO:logger:###              DEMO: GET /topRoutes/<n>              ###
+DEBUG:logger:n: <3>
+INFO:werkzeug:127.0.0.1 - - [04/Dec/2024 15:38:14] "GET /topRoutes/<3> HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [04/Dec/2024 15:48:24] "[32mPOST /criarbooking HTTP/1.1[0m" 308 -
+INFO:logger:---- Creating booking ----
+DEBUG:logger:Payload: {'numbertickets': 4, 'seat_id': [1, 2, 3, 4], 'typeluggage': 'porão', 'id_schedule': 7, 'fligth_code': 'AK987', 'id_passengers': [3, 4, 5, 18]}
+ERROR:logger:Error creating booking: 'not found'
+INFO:werkzeug:127.0.0.1 - - [04/Dec/2024 15:48:25] "POST /criarbooking/ HTTP/1.1" 200 -
+INFO:werkzeug: * Detected change in 'c:\\Users\\HP\\Desktop\\projetoSGD\\python\\app\\apisgd.py', reloading
+INFO:werkzeug: * Restarting with stat
+INFO:logger:
+---------------------------------------------------------------
+API v1.0 online: http://localhost:8080/
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 119-983-821
+INFO:werkzeug:127.0.0.1 - - [04/Dec/2024 15:51:37] "[32mPOST /criarbooking HTTP/1.1[0m" 308 -
+INFO:logger:---- Creating booking ----
+DEBUG:logger:Payload: {'numbertickets': 4, 'seat_id': [1, 2, 3, 4], 'typeluggage': 'porão', 'id_schedule': 7, 'fligth_code': 'AK987', 'id_passengers': [3, 4, 5, 18]}
+DEBUG:logger:Checking if schedule 7 exists
+DEBUG:logger:Checking if flight AK987 exists and its capacity
+DEBUG:logger:Checking if the flight has available capacity for 4 passengers
+ERROR:logger:Error creating booking: 'not found'
+INFO:werkzeug:127.0.0.1 - - [04/Dec/2024 15:51:37] "POST /criarbooking/ HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [04/Dec/2024 15:52:26] "[32mPOST /criarbooking HTTP/1.1[0m" 308 -
+INFO:logger:---- Creating booking ----
+DEBUG:logger:Payload: {'numbertickets': 4, 'seat_id': [1, 2, 3, 4], 'typeluggage': 'porão', 'id_schedule': 6, 'fligth_code': 'AK987', 'id_passengers': [3, 4, 5, 18]}
+DEBUG:logger:Checking if schedule 6 exists
+DEBUG:logger:Checking if flight AK987 exists and its capacity
+DEBUG:logger:Checking if the flight has available capacity for 4 passengers
+ERROR:logger:Error creating booking: 'not found'
+INFO:werkzeug:127.0.0.1 - - [04/Dec/2024 15:52:26] "POST /criarbooking/ HTTP/1.1" 200 -
+INFO:werkzeug: * Detected change in 'c:\\Users\\HP\\Desktop\\projetoSGD\\python\\app\\apisgd.py', reloading
+INFO:werkzeug: * Restarting with stat
+INFO:logger:
+---------------------------------------------------------------
+API v1.0 online: http://localhost:8080/
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 119-983-821
+INFO:werkzeug:127.0.0.1 - - [04/Dec/2024 16:20:02] "[32mPOST /criarbooking HTTP/1.1[0m" 308 -
+INFO:logger:---- Creating booking ----
+DEBUG:logger:Payload: {'numbertickets': 4, 'seat_id': [1, 2, 3, 4], 'typeluggage': 'porão', 'id_schedule': 7, 'fligth_code': 'AK987', 'id_passengers': [3, 4, 5, 18]}
+DEBUG:logger:Checking if schedule 7 exists
+DEBUG:logger:Checking if flight AK987 exists and its capacity
+DEBUG:logger:Checking if the flight has available capacity for 4 passengers
+DEBUG:logger:Inserting booking with 4 tickets
+DEBUG:logger:Assigning seats and passengers to the booking
+ERROR:logger:Error creating booking: operator does not exist: character varying = integer
+LINE 1: ...d_booking=3, seat_availability= false WHERE seat_id_seat = 1
+                                                                    ^
+HINT:  No operator matches the given name and argument types. You might need to add explicit type casts.
+
+INFO:werkzeug:127.0.0.1 - - [04/Dec/2024 16:20:02] "POST /criarbooking/ HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [04/Dec/2024 16:20:54] "[32mPOST /criarbooking HTTP/1.1[0m" 308 -
+INFO:logger:---- Creating booking ----
+DEBUG:logger:Payload: {'numbertickets': 4, 'seat_id': ['1A', '2B', '3C', '2A'], 'typeluggage': 'porão', 'id_schedule': 7, 'fligth_code': 'AK987', 'id_passengers': [3, 4, 5, 18]}
+DEBUG:logger:Checking if schedule 7 exists
+DEBUG:logger:Checking if flight AK987 exists and its capacity
+DEBUG:logger:Checking if the flight has available capacity for 4 passengers
+DEBUG:logger:Inserting booking with 4 tickets
+DEBUG:logger:Assigning seats and passengers to the booking
+ERROR:logger:Error creating booking: duplicate key value violates unique constraint "booking_passenger_pkey"
+DETAIL:  Key (passenger_users_id_users)=(3) already exists.
+
+INFO:werkzeug:127.0.0.1 - - [04/Dec/2024 16:20:54] "POST /criarbooking/ HTTP/1.1" 200 -
+INFO:werkzeug: * Detected change in 'c:\\Users\\HP\\Desktop\\projetoSGD\\python\\app\\apisgd.py', reloading
+INFO:werkzeug: * Restarting with stat
+INFO:logger:
+---------------------------------------------------------------
+API v1.0 online: http://localhost:8080/
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 119-983-821
+INFO:werkzeug: * Detected change in 'c:\\Users\\HP\\Desktop\\projetoSGD\\python\\app\\apisgd.py', reloading
+INFO:werkzeug: * Restarting with stat
+INFO:logger:
+---------------------------------------------------------------
+API v1.0 online: http://localhost:8080/
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 119-983-821
+INFO:werkzeug:127.0.0.1 - - [04/Dec/2024 16:37:58] "[32mPOST /criarbooking HTTP/1.1[0m" 308 -
+INFO:logger:---- Creating booking ----
+DEBUG:logger:Payload: {'numbertickets': 4, 'seat_id': ['1A', '2B', '3C', '2A'], 'typeluggage': 'porão', 'id_schedule': 7, 'fligth_code': 'AK987', 'id_passengers': [3, 4, 5, 18]}
+DEBUG:logger:Checking if schedule 7 exists
+DEBUG:logger:Checking if flight AK987 exists and its capacity
+DEBUG:logger:Checking if the flight has available capacity for 4 passengers
+DEBUG:logger:Inserting booking with 4 tickets
+DEBUG:logger:Assigning seats and passengers to the booking
+ERROR:logger:Error creating booking: column "passenger_id_passenger" does not exist
+LINE 1: ... booking_passenger WHERE booking_id_booking=5 AND passenger_...
+                                                             ^
+
+INFO:werkzeug:127.0.0.1 - - [04/Dec/2024 16:37:58] "POST /criarbooking/ HTTP/1.1" 200 -
+INFO:werkzeug: * Detected change in 'c:\\Users\\HP\\Desktop\\projetoSGD\\python\\app\\apisgd.py', reloading
+INFO:werkzeug: * Restarting with stat
+INFO:logger:
+---------------------------------------------------------------
+API v1.0 online: http://localhost:8080/
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 119-983-821
+INFO:werkzeug:127.0.0.1 - - [04/Dec/2024 16:39:04] "[32mPOST /criarbooking HTTP/1.1[0m" 308 -
+INFO:logger:---- Creating booking ----
+DEBUG:logger:Payload: {'numbertickets': 4, 'seat_id': ['1A', '2B', '3C', '2A'], 'typeluggage': 'porão', 'id_schedule': 7, 'fligth_code': 'AK987', 'id_passengers': [3, 4, 5, 18]}
+DEBUG:logger:Checking if schedule 7 exists
+DEBUG:logger:Checking if flight AK987 exists and its capacity
+DEBUG:logger:Checking if the flight has available capacity for 4 passengers
+DEBUG:logger:Inserting booking with 4 tickets
+DEBUG:logger:Assigning seats and passengers to the booking
+WARNING:logger:Passenger 3 is already associated with booking 6. Skipping insertion.
+WARNING:logger:Passenger 4 is already associated with booking 6. Skipping insertion.
+ERROR:logger:Error creating booking: string index out of range
+INFO:werkzeug:127.0.0.1 - - [04/Dec/2024 16:39:04] "POST /criarbooking/ HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [04/Dec/2024 16:45:33] "[32mPOST /criarbooking HTTP/1.1[0m" 308 -
+INFO:logger:---- Creating booking ----
+DEBUG:logger:Payload: {'numbertickets': 4, 'seat_id': ['1A', '2B', '3C', '2A'], 'typeluggage': 'porão', 'id_schedule': 6, 'fligth_code': 'AK987', 'id_passengers': [3, 4, 5, 18]}
+DEBUG:logger:Checking if schedule 6 exists
+DEBUG:logger:Checking if flight AK987 exists and its capacity
+DEBUG:logger:Checking if the flight has available capacity for 4 passengers
+DEBUG:logger:Inserting booking with 4 tickets
+DEBUG:logger:Assigning seats and passengers to the booking
+WARNING:logger:Passenger 3 is already associated with booking 7. Skipping insertion.
+WARNING:logger:Passenger 4 is already associated with booking 7. Skipping insertion.
+ERROR:logger:Error creating booking: string index out of range
+INFO:werkzeug:127.0.0.1 - - [04/Dec/2024 16:45:33] "POST /criarbooking/ HTTP/1.1" 200 -
+INFO:werkzeug: * Detected change in 'c:\\Users\\HP\\Desktop\\projetoSGD\\python\\app\\apisgd.py', reloading
+INFO:werkzeug: * Restarting with stat
+INFO:logger:
+---------------------------------------------------------------
+API v1.0 online: http://localhost:8080/
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 119-983-821
+INFO:werkzeug:127.0.0.1 - - [04/Dec/2024 16:46:45] "[32mPOST /criarbooking HTTP/1.1[0m" 308 -
+INFO:logger:---- Creating booking ----
+DEBUG:logger:Payload: {'numbertickets': 4, 'seat_id': ['1A', '2B', '3C', '2A'], 'typeluggage': 'porão', 'id_schedule': 6, 'fligth_code': 'AK987', 'id_passengers': [3, 4, 5, 18]}
+DEBUG:logger:Checking if schedule 6 exists
+DEBUG:logger:Checking if flight AK987 exists and its capacity
+DEBUG:logger:Checking if the flight has available capacity for 4 passengers
+DEBUG:logger:Inserting booking with 4 tickets
+DEBUG:logger:Assigning seats and passengers to the booking
+WARNING:logger:Passenger 3 is already associated with booking 8. Skipping insertion.
+WARNING:logger:Passenger 4 is already associated with booking 8. Skipping insertion.
+WARNING:logger:Passenger 5 is already associated with booking 8. Skipping insertion.
+WARNING:logger:Passenger 18 is already associated with booking 8. Skipping insertion.
+INFO:werkzeug:127.0.0.1 - - [04/Dec/2024 16:46:45] "POST /criarbooking/ HTTP/1.1" 200 -
+INFO:werkzeug: * Detected change in 'c:\\Users\\HP\\Desktop\\projetoSGD\\python\\app\\apisgd.py', reloading
+INFO:werkzeug: * Restarting with stat
+INFO:logger:
+---------------------------------------------------------------
+API v1.0 online: http://localhost:8080/
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 119-983-821
+INFO:logger:###              DEMO: GET /topRoutes/<n>              ###
+DEBUG:logger:n: <4>
+INFO:werkzeug:127.0.0.1 - - [04/Dec/2024 16:47:53] "GET /topRoutes/<4> HTTP/1.1" 200 -
+INFO:werkzeug: * Detected change in 'c:\\Users\\HP\\Desktop\\projetoSGD\\python\\app\\apisgd.py', reloading
+INFO:werkzeug: * Restarting with stat
+INFO:logger:
+---------------------------------------------------------------
+API v1.0 online: http://localhost:8080/
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 119-983-821
+INFO:logger:###              DEMO: GET /topDestinations/<n>              ###
+DEBUG:logger:n: <4>
+ERROR:logger:column fligth.id_flight does not exist
+LINE 1: ...e) AS number_flights FROM fligth JOIN schedule ON fligth.id_...
+                                                             ^
+HINT:  Perhaps you meant to reference the column "fligth.id_fligth".
+
+INFO:werkzeug:127.0.0.1 - - [04/Dec/2024 17:19:39] "[35m[1mGET /topDestinations/<4> HTTP/1.1[0m" 500 -
+INFO:werkzeug: * Detected change in 'c:\\Users\\HP\\Desktop\\projetoSGD\\python\\app\\apisgd.py', reloading
+INFO:werkzeug: * Restarting with stat
+INFO:logger:
+---------------------------------------------------------------
+API v1.0 online: http://localhost:8080/
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 119-983-821
+INFO:logger:###              DEMO: GET /topDestinations/<n>              ###
+DEBUG:logger:n: <4>
+ERROR:logger:column fligth.id_flight does not exist
+LINE 1: ...e) AS number_flights FROM fligth JOIN schedule ON fligth.id_...
+                                                             ^
+HINT:  Perhaps you meant to reference the column "fligth.id_fligth".
+
+INFO:werkzeug:127.0.0.1 - - [04/Dec/2024 17:20:01] "GET /topDestinations/<4> HTTP/1.1" 200 -
+INFO:werkzeug: * Detected change in 'c:\\Users\\HP\\Desktop\\projetoSGD\\python\\app\\apisgd.py', reloading
+INFO:werkzeug: * Restarting with stat
+INFO:logger:
+---------------------------------------------------------------
+API v1.0 online: http://localhost:8080/
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 119-983-821
+INFO:logger:###              DEMO: GET /topDestinations/<n>              ###
+DEBUG:logger:n: <4>
+ERROR:logger:column schedule.departure_time does not exist
+LINE 1: ...fligth.id_fligth= schedule.fligth_id_fligth where schedule.d...
+                                                             ^
+
+INFO:werkzeug:127.0.0.1 - - [04/Dec/2024 17:20:56] "GET /topDestinations/<4> HTTP/1.1" 200 -
+INFO:werkzeug: * Detected change in 'c:\\Users\\HP\\Desktop\\projetoSGD\\python\\app\\apisgd.py', reloading
+INFO:werkzeug: * Restarting with stat
+INFO:logger:
+---------------------------------------------------------------
+API v1.0 online: http://localhost:8080/
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 119-983-821
+INFO:werkzeug: * Detected change in 'c:\\Users\\HP\\Desktop\\projetoSGD\\python\\app\\apisgd.py', reloading
+INFO:werkzeug: * Restarting with stat
+INFO:logger:
+---------------------------------------------------------------
+API v1.0 online: http://localhost:8080/
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 119-983-821
+INFO:logger:###              DEMO: GET /topDestinations/<n>              ###
+DEBUG:logger:n: <4>
+ERROR:logger:column "number_fligths" does not exist
+LINE 1: ...ths' GROUP BY fligth.airport_id_airport1 ORDER BY number_fli...
+                                                             ^
+
+INFO:werkzeug:127.0.0.1 - - [04/Dec/2024 17:26:22] "GET /topDestinations/<4> HTTP/1.1" 200 -
+INFO:werkzeug: * Detected change in 'c:\\Users\\HP\\Desktop\\projetoSGD\\python\\app\\apisgd.py', reloading
+INFO:werkzeug: * Restarting with stat
+INFO:logger:
+---------------------------------------------------------------
+API v1.0 online: http://localhost:8080/
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 119-983-821
+INFO:werkzeug: * Detected change in 'c:\\Users\\HP\\Desktop\\projetoSGD\\python\\app\\apisgd.py', reloading
+INFO:werkzeug: * Restarting with stat
+INFO:logger:
+---------------------------------------------------------------
+API v1.0 online: http://localhost:8080/
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 119-983-821
+INFO:logger:
+---------------------------------------------------------------
+API v1.0 online: http://localhost:8080/
+INFO:werkzeug:[31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:8080
+INFO:werkzeug:[33mPress CTRL+C to quit[0m
+INFO:werkzeug: * Restarting with stat
+INFO:logger:
+---------------------------------------------------------------
+API v1.0 online: http://localhost:8080/
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 119-983-821
+INFO:logger:###              DEMO: GET /topDestinations/<n>              ###
+DEBUG:logger:n: <4>
+ERROR:logger:column "number_fligths" does not exist
+LINE 1: ...ths' GROUP BY fligth.airport_id_airport1 ORDER BY number_fli...
+                                                             ^
+
+INFO:werkzeug:127.0.0.1 - - [04/Dec/2024 17:57:19] "GET /topDestinations/<4> HTTP/1.1" 200 -
+INFO:werkzeug: * Detected change in 'c:\\Users\\HP\\Desktop\\projetoSGD\\python\\app\\apisgd.py', reloading
+INFO:werkzeug: * Restarting with stat
+INFO:logger:
+---------------------------------------------------------------
+API v1.0 online: http://localhost:8080/
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 119-983-821
+INFO:logger:###              DEMO: GET /topDestinations/<n>              ###
+DEBUG:logger:n: <4>
+ERROR:logger:slice indices must be integers or None or have an __index__ method
+INFO:werkzeug:127.0.0.1 - - [04/Dec/2024 17:58:12] "GET /topDestinations/<4> HTTP/1.1" 200 -
+INFO:logger:###              DEMO: GET /topDestinations/<n>              ###
+DEBUG:logger:n: 4
+ERROR:logger:slice indices must be integers or None or have an __index__ method
+INFO:werkzeug:127.0.0.1 - - [04/Dec/2024 17:58:54] "GET /topDestinations/4 HTTP/1.1" 200 -
+INFO:werkzeug: * Detected change in 'c:\\Users\\HP\\Desktop\\projetoSGD\\python\\app\\apisgd.py', reloading
+INFO:werkzeug: * Restarting with stat
+INFO:logger:
+---------------------------------------------------------------
+API v1.0 online: http://localhost:8080/
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 119-983-821
+INFO:logger:###              DEMO: GET /topDestinations/<n>              ###
+DEBUG:logger:n: 4
+INFO:werkzeug:127.0.0.1 - - [04/Dec/2024 18:00:25] "GET /topDestinations/4 HTTP/1.1" 200 -
+INFO:logger:###              DEMO: GET /topDestinations/<n>              ###
+DEBUG:logger:n: 7
+INFO:werkzeug:127.0.0.1 - - [04/Dec/2024 18:06:17] "GET /topDestinations/7 HTTP/1.1" 200 -
+INFO:logger:###              DEMO: GET /topDestinations/<n>              ###
+DEBUG:logger:n: 20
+INFO:werkzeug:127.0.0.1 - - [04/Dec/2024 18:06:25] "GET /topDestinations/20 HTTP/1.1" 200 -
+INFO:werkzeug: * Detected change in 'c:\\Users\\HP\\Desktop\\projetoSGD\\python\\app\\apisgd.py', reloading
+INFO:werkzeug: * Restarting with stat
+INFO:logger:
+---------------------------------------------------------------
+API v1.0 online: http://localhost:8080/
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 119-983-821
+INFO:logger:
+---------------------------------------------------------------
+API v1.0 online: http://localhost:8080/
+INFO:werkzeug:[31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:8080
+INFO:werkzeug:[33mPress CTRL+C to quit[0m
+INFO:werkzeug: * Restarting with stat
+INFO:logger:
+---------------------------------------------------------------
+API v1.0 online: http://localhost:8080/
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 119-983-821
+INFO:werkzeug:127.0.0.1 - - [05/Dec/2024 12:44:54] "[32mPOST /users HTTP/1.1[0m" 308 -
+INFO:logger:###              DEMO: POST /user              ###
+INFO:logger:---- new user  ----
+DEBUG:logger:payload: {'name': 'mariatarrafa', 'email': 'mariatarrafa@sgd.pt', 'password': '123sgdmariatarrafa'}
+INFO:werkzeug:127.0.0.1 - - [05/Dec/2024 12:44:54] "POST /users/ HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [05/Dec/2024 12:47:47] "[32mPOST /member HTTP/1.1[0m" 308 -
+INFO:logger:###              DEMO: POST /member/create              ###
+INFO:logger:###              DEMO: POST /user              ###
+INFO:logger:---- new user  ----
+DEBUG:logger:payload: {'name': 'parisa', 'email': 'parisa@sgd.pt', 'password': '123sgdparisa'}
+INFO:werkzeug:127.0.0.1 - - [05/Dec/2024 12:47:47] "POST /member/ HTTP/1.1" 200 -
+INFO:logger:###              DEMO: PUT /users            ###
+INFO:werkzeug:127.0.0.1 - - [05/Dec/2024 13:14:47] "PUT /login HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [05/Dec/2024 13:15:52] "[33mPUT /admin HTTP/1.1[0m" 404 -
+INFO:werkzeug:127.0.0.1 - - [05/Dec/2024 13:15:59] "[32mPOST /admin HTTP/1.1[0m" 308 -
+INFO:logger:###              DEMO: POST /admin/create              ###
+INFO:logger:###              DEMO: POST /user              ###
+INFO:logger:---- new user  ----
+DEBUG:logger:payload: {'name': 'ceu', 'email': 'ceu@sgd.pt', 'password': '123sgdceu'}
+INFO:werkzeug:127.0.0.1 - - [05/Dec/2024 13:15:59] "POST /admin/ HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [05/Dec/2024 13:16:29] "[32mPOST /admin HTTP/1.1[0m" 308 -
+INFO:logger:###              DEMO: POST /admin/create              ###
+INFO:werkzeug:127.0.0.1 - - [05/Dec/2024 13:16:29] "[31m[1mPOST /admin/ HTTP/1.1[0m" 401 -
+INFO:werkzeug:127.0.0.1 - - [05/Dec/2024 13:16:52] "[32mPOST /admin HTTP/1.1[0m" 308 -
+INFO:logger:###              DEMO: POST /admin/create              ###
+INFO:logger:###              DEMO: POST /user              ###
+INFO:logger:---- new user  ----
+DEBUG:logger:payload: {'name': 'ceu', 'email': 'ceu@sgd.pt', 'password': '123sgdceu'}
+ERROR:logger:duplicate key value violates unique constraint "administrator_pkey"
+DETAIL:  Key (users_id_users)=(34) already exists.
+
+INFO:werkzeug:127.0.0.1 - - [05/Dec/2024 13:16:52] "[35m[1mPOST /admin/ HTTP/1.1[0m" 500 -
+INFO:werkzeug:127.0.0.1 - - [05/Dec/2024 13:17:41] "[32mPOST /admin HTTP/1.1[0m" 308 -
+INFO:logger:###              DEMO: POST /admin/create              ###
+INFO:logger:###              DEMO: POST /user              ###
+INFO:logger:---- new user  ----
+DEBUG:logger:payload: {'name': 'goncalo', 'password': '123sgdpassword'}
+INFO:werkzeug:127.0.0.1 - - [05/Dec/2024 13:17:41] "POST /admin/ HTTP/1.1" 200 -
+INFO:logger:###              DEMO: PUT /users            ###
+INFO:werkzeug:127.0.0.1 - - [05/Dec/2024 13:17:51] "[31m[1mPUT /login HTTP/1.1[0m" 401 -
+INFO:logger:###              DEMO: PUT /users            ###
+INFO:werkzeug:127.0.0.1 - - [05/Dec/2024 13:18:04] "PUT /login HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [05/Dec/2024 13:18:18] "[32mPOST /admin HTTP/1.1[0m" 308 -
+INFO:logger:###              DEMO: POST /admin/create              ###
+INFO:logger:###              DEMO: POST /user              ###
+INFO:logger:---- new user  ----
+DEBUG:logger:payload: {'name': 'ceu', 'email': 'ceu@sgd.pt', 'password': '123sgdceu'}
+ERROR:logger:duplicate key value violates unique constraint "administrator_pkey"
+DETAIL:  Key (users_id_users)=(34) already exists.
+
+INFO:werkzeug:127.0.0.1 - - [05/Dec/2024 13:18:18] "[35m[1mPOST /admin/ HTTP/1.1[0m" 500 -
+INFO:werkzeug:127.0.0.1 - - [05/Dec/2024 13:20:20] "[32mPOST /admin HTTP/1.1[0m" 308 -
+INFO:logger:###              DEMO: POST /admin/create              ###
+INFO:logger:###              DEMO: POST /user              ###
+INFO:logger:---- new user  ----
+DEBUG:logger:payload: {'name': 'margaridabarradas', 'email': 'margaridabarradas@sgd.pt', 'password': '123sgdmargaridabarradas'}
+INFO:werkzeug:127.0.0.1 - - [05/Dec/2024 13:20:20] "POST /admin/ HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [05/Dec/2024 13:30:47] "[32mPOST /airport HTTP/1.1[0m" 308 -
+INFO:logger:###              DEMO: POST /airport/create              ###
+INFO:logger:---- new airport  ----
+DEBUG:logger:payload: {'city': 'Los Angeles', 'name': 'LAX', 'country': 'Estados unidos'}
+INFO:werkzeug:127.0.0.1 - - [05/Dec/2024 13:30:47] "POST /airport/ HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [05/Dec/2024 13:34:36] "[32mPOST /fligth HTTP/1.1[0m" 308 -
+INFO:logger:###              DEMO: POST /flight              ###
+INFO:werkzeug:127.0.0.1 - - [05/Dec/2024 13:34:36] "[31m[1mPOST /fligth/ HTTP/1.1[0m" 401 -
+INFO:werkzeug:127.0.0.1 - - [05/Dec/2024 13:35:00] "[32mPOST /fligth HTTP/1.1[0m" 308 -
+INFO:logger:###              DEMO: POST /flight              ###
+INFO:logger:---- new flight  ----
+DEBUG:logger:payload: {'departure_time': '2024-12-06', 'arrivel_time': '2024-12-06', 'capacity': 100, 'origin': 'JohnFKennedy', 'destination': 'LAX', 'flight_code': 'HG924'}
+DEBUG:logger:origin_row: (11,)
+DEBUG:logger:origin_row: (14,)
+DEBUG:logger:Assentos gerados: ['1A', '1B', '1C', '1D', '1E', '1F', '2A', '2B', '2C', '2D', '2E', '2F', '3A', '3B', '3C', '3D', '3E', '3F', '4A', '4B', '4C', '4D', '4E', '4F', '5A', '5B', '5C', '5D', '5E', '5F', '6A', '6B', '6C', '6D', '6E', '6F', '7A', '7B', '7C', '7D', '7E', '7F', '8A', '8B', '8C', '8D', '8E', '8F', '9A', '9B', '9C', '9D', '9E', '9F', '10A', '10B', '10C', '10D', '10E', '10F', '11A', '11B', '11C', '11D', '11E', '11F', '12A', '12B', '12C', '12D', '12E', '12F', '13A', '13B', '13C', '13D', '13E', '13F', '14A', '14B', '14C', '14D', '14E', '14F', '15A', '15B', '15C', '15D', '15E', '15F', '16A', '16B', '16C', '16D', '16E', '16F']
+INFO:werkzeug:127.0.0.1 - - [05/Dec/2024 13:35:00] "POST /fligth/ HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [05/Dec/2024 13:36:45] "[33mGET /schedule HTTP/1.1[0m" 404 -
+INFO:werkzeug:127.0.0.1 - - [05/Dec/2024 13:36:50] "[32mPOST /schedule HTTP/1.1[0m" 308 -
+INFO:logger:###              DEMO: POST /schedule              ###
+INFO:werkzeug:127.0.0.1 - - [05/Dec/2024 13:36:50] "[31m[1mPOST /schedule/ HTTP/1.1[0m" 401 -
+INFO:werkzeug:127.0.0.1 - - [05/Dec/2024 13:37:09] "[32mPOST /schedule HTTP/1.1[0m" 308 -
+INFO:logger:###              DEMO: POST /schedule              ###
+INFO:logger:---- new schedule  ----
+DEBUG:logger:payload: {'fligth_date': '2024-12-06', 'fligth_code': 'HG924'}
+INFO:werkzeug:127.0.0.1 - - [05/Dec/2024 13:37:09] "POST /schedule/ HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [05/Dec/2024 13:41:55] "[32mPOST /criarbooking HTTP/1.1[0m" 308 -
+INFO:logger:---- Creating booking ----
+DEBUG:logger:Payload: {'numbertickets': 3, 'seat_id': ['1A', '1B'], 'typeluggage': 'porão', 'id_schedule': 8, 'fligth_code': 'HG924', 'id_passengers': [18, 19]}
+INFO:werkzeug:127.0.0.1 - - [05/Dec/2024 13:41:55] "POST /criarbooking/ HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [05/Dec/2024 13:42:50] "[32mPOST /criarbooking HTTP/1.1[0m" 308 -
+INFO:logger:---- Creating booking ----
+DEBUG:logger:Payload: {'numbertickets': 3, 'seat_id': ['1A', '1B'], 'typeluggage': 'porão', 'id_schedule': 8, 'fligth_code': 'HG924', 'id_passengers': [18, 19]}
+INFO:werkzeug:127.0.0.1 - - [05/Dec/2024 13:42:50] "POST /criarbooking/ HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [05/Dec/2024 13:43:46] "[32mPOST /criarbooking HTTP/1.1[0m" 308 -
+INFO:logger:---- Creating booking ----
+DEBUG:logger:Payload: {'numbertickets': 2, 'seat_id': ['1A', '1B'], 'typeluggage': 'porão', 'id_schedule': 8, 'fligth_code': 'HG924', 'id_passengers': [18, 19]}
+DEBUG:logger:Checking if schedule 8 exists
+DEBUG:logger:Checking if flight HG924 exists and its capacity
+DEBUG:logger:Checking if the flight has available capacity for 2 passengers
+DEBUG:logger:Inserting booking with 2 tickets
+DEBUG:logger:Assigning seats and passengers to the booking
+WARNING:logger:Passenger 18 is already associated with booking 9. Skipping insertion.
+WARNING:logger:Passenger 19 is already associated with booking 9. Skipping insertion.
+INFO:werkzeug:127.0.0.1 - - [05/Dec/2024 13:43:46] "POST /criarbooking/ HTTP/1.1" 200 -
+INFO:werkzeug: * Detected change in 'c:\\Users\\HP\\Desktop\\projetoSGD\\python\\app\\apisgd.py', reloading
+INFO:werkzeug: * Restarting with stat
+INFO:logger:
+---------------------------------------------------------------
+API v1.0 online: http://localhost:8080/
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 119-983-821
+INFO:logger:
+---------------------------------------------------------------
+API v1.0 online: http://localhost:8080/
+INFO:werkzeug:[31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:8080
+INFO:werkzeug:[33mPress CTRL+C to quit[0m
+INFO:werkzeug: * Restarting with stat
+INFO:logger:
+---------------------------------------------------------------
+API v1.0 online: http://localhost:8080/
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 119-983-821
+INFO:logger:###              DEMO: PUT /users            ###
+INFO:werkzeug:127.0.0.1 - - [05/Dec/2024 17:45:12] "PUT /login HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [05/Dec/2024 17:45:24] "[32mPOST /fligth HTTP/1.1[0m" 308 -
+INFO:logger:###              DEMO: POST /flight              ###
+INFO:logger:---- new flight  ----
+DEBUG:logger:payload: {'departure_time': '2024-01-06', 'arrivel_time': '2024-01-07', 'capacity': 100, 'origin': 'JohnFKennedy', 'destination': 'ellisonOnizula', 'flight_code': 'BD569'}
+DEBUG:logger:origin_row: (11,)
+DEBUG:logger:origin_row: (13,)
+DEBUG:logger:Assentos gerados: ['1A', '1B', '1C', '1D', '1E', '1F', '2A', '2B', '2C', '2D', '2E', '2F', '3A', '3B', '3C', '3D', '3E', '3F', '4A', '4B', '4C', '4D', '4E', '4F', '5A', '5B', '5C', '5D', '5E', '5F', '6A', '6B', '6C', '6D', '6E', '6F', '7A', '7B', '7C', '7D', '7E', '7F', '8A', '8B', '8C', '8D', '8E', '8F', '9A', '9B', '9C', '9D', '9E', '9F', '10A', '10B', '10C', '10D', '10E', '10F', '11A', '11B', '11C', '11D', '11E', '11F', '12A', '12B', '12C', '12D', '12E', '12F', '13A', '13B', '13C', '13D', '13E', '13F', '14A', '14B', '14C', '14D', '14E', '14F', '15A', '15B', '15C', '15D', '15E', '15F', '16A', '16B', '16C', '16D', '16E', '16F']
+INFO:werkzeug:127.0.0.1 - - [05/Dec/2024 17:45:24] "POST /fligth/ HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [05/Dec/2024 17:46:15] "[32mPOST /schedule HTTP/1.1[0m" 308 -
+INFO:logger:###              DEMO: POST /schedule              ###
+INFO:werkzeug:127.0.0.1 - - [05/Dec/2024 17:46:15] "[31m[1mPOST /schedule/ HTTP/1.1[0m" 401 -
+INFO:werkzeug:127.0.0.1 - - [05/Dec/2024 17:46:31] "[32mPOST /schedule HTTP/1.1[0m" 308 -
+INFO:logger:###              DEMO: POST /schedule              ###
+INFO:logger:---- new schedule  ----
+DEBUG:logger:payload: {'fligth_date': '2024-01-06', 'fligth_code': 'BD569'}
+INFO:werkzeug:127.0.0.1 - - [05/Dec/2024 17:46:31] "POST /schedule/ HTTP/1.1" 200 -
+INFO:werkzeug: * Detected change in 'c:\\Users\\HP\\Desktop\\projetoSGD\\python\\app\\apisgd.py', reloading
+INFO:werkzeug: * Restarting with stat
+INFO:logger:
+---------------------------------------------------------------
+API v1.0 online: http://localhost:8080/
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 119-983-821
+INFO:logger:
+---------------------------------------------------------------
+API v1.0 online: http://localhost:8080/
+INFO:werkzeug:[31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:8080
+INFO:werkzeug:[33mPress CTRL+C to quit[0m
+INFO:werkzeug: * Restarting with stat
+INFO:logger:
+---------------------------------------------------------------
+API v1.0 online: http://localhost:8080/
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 119-983-821
+INFO:logger:###              DEMO: GET /check_seats            ###
+INFO:logger:---- lugares disponíveis  ----
+DEBUG:logger:payload: {'flight_code': 'HG924', 'id_schedule': 8}
+INFO:werkzeug:127.0.0.1 - - [05/Dec/2024 18:27:25] "GET /check_seats HTTP/1.1" 200 -

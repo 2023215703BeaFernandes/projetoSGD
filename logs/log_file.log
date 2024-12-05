@@ -873,3 +873,3063 @@ INFO:logger:
 API v1.0 online: http://localhost:8080/
 WARNING:werkzeug: * Debugger is active!
 INFO:werkzeug: * Debugger PIN: 119-983-821
+INFO:logger:
+---------------------------------------------------------------
+API v1.0 online: http://localhost:8080/
+INFO:werkzeug:[31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:8080
+INFO:werkzeug:[33mPress CTRL+C to quit[0m
+INFO:werkzeug: * Restarting with stat
+INFO:logger:
+---------------------------------------------------------------
+API v1.0 online: http://localhost:8080/
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 119-983-821
+INFO:logger:
+---------------------------------------------------------------
+API v1.0 online: http://localhost:8080/
+INFO:werkzeug:[31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:8080
+INFO:werkzeug:[33mPress CTRL+C to quit[0m
+INFO:werkzeug: * Restarting with stat
+INFO:logger:
+---------------------------------------------------------------
+API v1.0 online: http://localhost:8080/
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 119-983-821
+INFO:logger:
+---------------------------------------------------------------
+API v1.0 online: http://localhost:8080/
+INFO:werkzeug:[31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:8080
+INFO:werkzeug:[33mPress CTRL+C to quit[0m
+INFO:werkzeug: * Restarting with stat
+INFO:logger:
+---------------------------------------------------------------
+API v1.0 online: http://localhost:8080/
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 119-983-821
+INFO:werkzeug: * Detected change in 'c:\\Users\\HP\\Desktop\\projetoSGD\\python\\app\\apisgd.py', reloading
+INFO:werkzeug: * Restarting with stat
+INFO:logger:
+---------------------------------------------------------------
+API v1.0 online: http://localhost:8080/
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 119-983-821
+INFO:werkzeug:127.0.0.1 - - [27/Nov/2024 16:22:24] "GET / HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [27/Nov/2024 16:22:24] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+INFO:logger:
+---------------------------------------------------------------
+API v1.0 online: http://localhost:8080/
+INFO:werkzeug:[31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:8080
+INFO:werkzeug:[33mPress CTRL+C to quit[0m
+INFO:werkzeug: * Restarting with stat
+INFO:logger:
+---------------------------------------------------------------
+API v1.0 online: http://localhost:8080/
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 119-983-821
+INFO:logger:
+---------------------------------------------------------------
+API v1.0 online: http://localhost:8080/
+INFO:werkzeug:[31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:8080
+INFO:werkzeug:[33mPress CTRL+C to quit[0m
+INFO:werkzeug: * Restarting with stat
+INFO:logger:
+---------------------------------------------------------------
+API v1.0 online: http://localhost:8080/
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 119-983-821
+INFO:werkzeug:127.0.0.1 - - [27/Nov/2024 16:50:15] "[32mPOST /users HTTP/1.1[0m" 308 -
+INFO:logger:###              DEMO: POST /user              ###
+INFO:logger:---- new user  ----
+DEBUG:logger:payload: {'name': 'beatriz', 'email': 'beatriz@sgd.pt', 'password': '123sgdbeatriz'}
+ERROR:logger:'sucess'
+INFO:werkzeug:127.0.0.1 - - [27/Nov/2024 16:50:15] "[35m[1mPOST /users/ HTTP/1.1[0m" 500 -
+INFO:werkzeug: * Detected change in 'c:\\Users\\HP\\Desktop\\projetoSGD\\python\\app\\apisgd.py', reloading
+INFO:werkzeug: * Restarting with stat
+INFO:logger:
+---------------------------------------------------------------
+API v1.0 online: http://localhost:8080/
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 119-983-821
+INFO:logger:
+---------------------------------------------------------------
+API v1.0 online: http://localhost:8080/
+INFO:werkzeug:[31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:8080
+INFO:werkzeug:[33mPress CTRL+C to quit[0m
+INFO:werkzeug: * Restarting with stat
+INFO:logger:
+---------------------------------------------------------------
+API v1.0 online: http://localhost:8080/
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 119-983-821
+INFO:werkzeug:127.0.0.1 - - [27/Nov/2024 17:05:08] "[32mPOST /users HTTP/1.1[0m" 308 -
+INFO:logger:###              DEMO: POST /user              ###
+INFO:logger:---- new user  ----
+DEBUG:logger:payload: {'name': 'beatriz', 'email': 'beatriz@sgd.pt', 'password': '123sgdbeatriz'}
+INFO:werkzeug:127.0.0.1 - - [27/Nov/2024 17:05:09] "POST /users/ HTTP/1.1" 200 -
+INFO:logger:
+---------------------------------------------------------------
+API v1.0 online: http://localhost:8080/
+INFO:werkzeug:[31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:8080
+INFO:werkzeug:[33mPress CTRL+C to quit[0m
+INFO:werkzeug: * Restarting with stat
+INFO:logger:
+---------------------------------------------------------------
+API v1.0 online: http://localhost:8080/
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 119-983-821
+INFO:werkzeug:127.0.0.1 - - [27/Nov/2024 17:53:07] "[32mPOST /passenger HTTP/1.1[0m" 308 -
+INFO:logger:###              DEMO: POST /passenger/create              ###
+INFO:werkzeug:127.0.0.1 - - [27/Nov/2024 17:53:07] "[35m[1mPOST /passenger/ HTTP/1.1[0m" 500 -
+INFO:werkzeug:127.0.0.1 - - [27/Nov/2024 17:54:00] "[32mPOST /passenger HTTP/1.1[0m" 308 -
+INFO:logger:###              DEMO: POST /passenger/create              ###
+INFO:werkzeug:127.0.0.1 - - [27/Nov/2024 17:54:00] "[35m[1mPOST /passenger/ HTTP/1.1[0m" 500 -
+INFO:werkzeug: * Detected change in 'c:\\Users\\HP\\Desktop\\projetoSGD\\python\\app\\apisgd.py', reloading
+INFO:werkzeug: * Restarting with stat
+INFO:logger:
+---------------------------------------------------------------
+API v1.0 online: http://localhost:8080/
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 119-983-821
+INFO:werkzeug:127.0.0.1 - - [27/Nov/2024 17:54:29] "[32mPOST /passenger HTTP/1.1[0m" 308 -
+INFO:logger:###              DEMO: POST /passenger/create              ###
+INFO:logger:###              DEMO: POST /user              ###
+INFO:logger:---- new user  ----
+DEBUG:logger:payload: {'name': 'framcisca', 'email': 'francisca@sgd.pt', 'password': '123sgdfrancisca'}
+INFO:werkzeug:127.0.0.1 - - [27/Nov/2024 17:54:29] "[35m[1mPOST /passenger/ HTTP/1.1[0m" 500 -
+INFO:logger:
+---------------------------------------------------------------
+API v1.0 online: http://localhost:8080/
+INFO:werkzeug:[31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:8080
+INFO:werkzeug:[33mPress CTRL+C to quit[0m
+INFO:werkzeug: * Restarting with stat
+INFO:logger:
+---------------------------------------------------------------
+API v1.0 online: http://localhost:8080/
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 119-983-821
+INFO:werkzeug:127.0.0.1 - - [27/Nov/2024 18:03:23] "[32mPOST /passenger HTTP/1.1[0m" 308 -
+INFO:logger:###              DEMO: POST /passenger/create              ###
+INFO:logger:###              DEMO: POST /user              ###
+INFO:logger:---- new user  ----
+DEBUG:logger:payload: {'name': 'framcisca', 'email': 'francisca@sgd.pt', 'password': '123sgdfrancisca'}
+INFO:werkzeug:127.0.0.1 - - [27/Nov/2024 18:03:23] "[35m[1mPOST /passenger/ HTTP/1.1[0m" 500 -
+INFO:logger:
+---------------------------------------------------------------
+API v1.0 online: http://localhost:8080/
+INFO:werkzeug:[31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:8080
+INFO:werkzeug:[33mPress CTRL+C to quit[0m
+INFO:werkzeug: * Restarting with stat
+INFO:logger:
+---------------------------------------------------------------
+API v1.0 online: http://localhost:8080/
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 119-983-821
+INFO:werkzeug:127.0.0.1 - - [27/Nov/2024 18:28:34] "[32mPOST /passenger HTTP/1.1[0m" 308 -
+INFO:logger:###              DEMO: POST /passenger/create              ###
+INFO:logger:###              DEMO: POST /user              ###
+INFO:logger:---- new user  ----
+DEBUG:logger:payload: {'name': 'framcisca', 'email': 'francisca@sgd.pt', 'password': '123sgdfrancisca'}
+INFO:werkzeug:127.0.0.1 - - [27/Nov/2024 18:28:35] "[35m[1mPOST /passenger/ HTTP/1.1[0m" 500 -
+INFO:werkzeug: * Detected change in 'c:\\Users\\HP\\Desktop\\projetoSGD\\python\\app\\apisgd.py', reloading
+INFO:werkzeug: * Restarting with stat
+INFO:logger:
+---------------------------------------------------------------
+API v1.0 online: http://localhost:8080/
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 119-983-821
+INFO:werkzeug: * Detected change in 'c:\\Users\\HP\\Desktop\\projetoSGD\\python\\app\\apisgd.py', reloading
+INFO:werkzeug: * Restarting with stat
+INFO:logger:
+---------------------------------------------------------------
+API v1.0 online: http://localhost:8080/
+INFO:werkzeug:[31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:8080
+INFO:werkzeug:[33mPress CTRL+C to quit[0m
+INFO:werkzeug: * Restarting with stat
+INFO:logger:
+---------------------------------------------------------------
+API v1.0 online: http://localhost:8080/
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 119-983-821
+INFO:werkzeug:127.0.0.1 - - [27/Nov/2024 18:35:17] "[32mPOST /passenger HTTP/1.1[0m" 308 -
+INFO:logger:###              DEMO: POST /passenger/create              ###
+INFO:logger:###              DEMO: POST /user              ###
+INFO:logger:---- new user  ----
+DEBUG:logger:payload: {'name': 'framcisca', 'email': 'francisca@sgd.pt', 'password': '123sgdfrancisca'}
+ERROR:logger:column "id_user" does not exist
+LINE 1: SELECT id_user FROM users WHERE name = 'framcisca' AND email...
+               ^
+HINT:  Perhaps you meant to reference the column "users.id_users".
+
+INFO:werkzeug:127.0.0.1 - - [27/Nov/2024 18:35:17] "POST /passenger/ HTTP/1.1" 200 -
+INFO:werkzeug: * Detected change in 'c:\\Users\\HP\\Desktop\\projetoSGD\\python\\app\\apisgd.py', reloading
+INFO:werkzeug: * Restarting with stat
+INFO:logger:
+---------------------------------------------------------------
+API v1.0 online: http://localhost:8080/
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 119-983-821
+INFO:logger:
+---------------------------------------------------------------
+API v1.0 online: http://localhost:8080/
+INFO:werkzeug:[31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:8080
+INFO:werkzeug:[33mPress CTRL+C to quit[0m
+INFO:werkzeug: * Restarting with stat
+INFO:logger:
+---------------------------------------------------------------
+API v1.0 online: http://localhost:8080/
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 119-983-821
+INFO:werkzeug:127.0.0.1 - - [27/Nov/2024 18:36:52] "[32mPOST /passenger HTTP/1.1[0m" 308 -
+INFO:logger:###              DEMO: POST /passenger/create              ###
+INFO:logger:###              DEMO: POST /user              ###
+INFO:logger:---- new user  ----
+DEBUG:logger:payload: {'name': 'framcisca', 'email': 'francisca@sgd.pt', 'password': '123sgdfrancisca'}
+ERROR:logger:syntax error at or near ")"
+LINE 1: INSERT INTO passenger (id_users) VALUES (?)
+                                                  ^
+
+INFO:werkzeug:127.0.0.1 - - [27/Nov/2024 18:36:52] "POST /passenger/ HTTP/1.1" 200 -
+INFO:werkzeug: * Detected change in 'c:\\Users\\HP\\Desktop\\projetoSGD\\python\\app\\apisgd.py', reloading
+INFO:werkzeug: * Restarting with stat
+INFO:logger:
+---------------------------------------------------------------
+API v1.0 online: http://localhost:8080/
+INFO:werkzeug:[31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:8080
+INFO:werkzeug:[33mPress CTRL+C to quit[0m
+INFO:werkzeug: * Restarting with stat
+INFO:logger:
+---------------------------------------------------------------
+API v1.0 online: http://localhost:8080/
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 119-983-821
+INFO:werkzeug:127.0.0.1 - - [27/Nov/2024 18:38:08] "[32mPOST /passenger HTTP/1.1[0m" 308 -
+INFO:logger:###              DEMO: POST /passenger/create              ###
+INFO:logger:###              DEMO: POST /user              ###
+INFO:logger:---- new user  ----
+DEBUG:logger:payload: {'name': 'framcisca', 'email': 'francisca@sgd.pt', 'password': '123sgdfrancisca'}
+ERROR:logger:column "id_users" of relation "passenger" does not exist
+LINE 1: INSERT INTO passenger (id_users) VALUES (4)
+                               ^
+
+INFO:werkzeug:127.0.0.1 - - [27/Nov/2024 18:38:08] "POST /passenger/ HTTP/1.1" 200 -
+INFO:werkzeug: * Detected change in 'c:\\Users\\HP\\Desktop\\projetoSGD\\python\\app\\apisgd.py', reloading
+INFO:werkzeug: * Restarting with stat
+INFO:logger:
+---------------------------------------------------------------
+API v1.0 online: http://localhost:8080/
+INFO:werkzeug:[31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:8080
+INFO:werkzeug:[33mPress CTRL+C to quit[0m
+INFO:werkzeug: * Restarting with stat
+INFO:logger:
+---------------------------------------------------------------
+API v1.0 online: http://localhost:8080/
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 119-983-821
+INFO:werkzeug:127.0.0.1 - - [27/Nov/2024 18:39:41] "[32mPOST /passenger HTTP/1.1[0m" 308 -
+INFO:logger:###              DEMO: POST /passenger/create              ###
+INFO:logger:###              DEMO: POST /user              ###
+INFO:logger:---- new user  ----
+DEBUG:logger:payload: {'name': 'framcisca', 'email': 'francisca@sgd.pt', 'password': '123sgdfrancisca'}
+INFO:werkzeug:127.0.0.1 - - [27/Nov/2024 18:39:41] "POST /passenger/ HTTP/1.1" 200 -
+INFO:werkzeug: * Detected change in 'c:\\Users\\HP\\Desktop\\projetoSGD\\python\\app\\apisgd.py', reloading
+INFO:werkzeug: * Restarting with stat
+INFO:logger:
+---------------------------------------------------------------
+API v1.0 online: http://localhost:8080/
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 119-983-821
+INFO:werkzeug: * Detected change in 'c:\\Users\\HP\\Desktop\\projetoSGD\\python\\app\\apisgd.py', reloading
+INFO:werkzeug: * Restarting with stat
+INFO:logger:
+---------------------------------------------------------------
+API v1.0 online: http://localhost:8080/
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 119-983-821
+INFO:logger:
+---------------------------------------------------------------
+API v1.0 online: http://localhost:8080/
+INFO:werkzeug:[31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:8080
+INFO:werkzeug:[33mPress CTRL+C to quit[0m
+INFO:werkzeug: * Restarting with stat
+INFO:logger:
+---------------------------------------------------------------
+API v1.0 online: http://localhost:8080/
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 119-983-821
+INFO:werkzeug:127.0.0.1 - - [27/Nov/2024 18:44:19] "[32mPOST /member HTTP/1.1[0m" 308 -
+INFO:logger:###              DEMO: POST /member/create              ###
+INFO:werkzeug:127.0.0.1 - - [27/Nov/2024 18:44:19] "[35m[1mPOST /member/ HTTP/1.1[0m" 500 -
+INFO:logger:
+---------------------------------------------------------------
+API v1.0 online: http://localhost:8080/
+INFO:werkzeug:[31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:8080
+INFO:werkzeug:[33mPress CTRL+C to quit[0m
+INFO:werkzeug: * Restarting with stat
+INFO:logger:
+---------------------------------------------------------------
+API v1.0 online: http://localhost:8080/
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 119-983-821
+INFO:werkzeug:127.0.0.1 - - [27/Nov/2024 18:46:40] "[32mPOST /member HTTP/1.1[0m" 308 -
+INFO:logger:###              DEMO: POST /member/create              ###
+INFO:logger:###              DEMO: POST /user              ###
+INFO:logger:---- new user  ----
+DEBUG:logger:payload: {'name': 'diana', 'email': 'diana@sgd.pt', 'password': '123sgddiana'}
+ERROR:logger:column "id_user" does not exist
+LINE 1: SELECT id_user FROM users WHERE name = 'diana' AND email = '...
+               ^
+HINT:  Perhaps you meant to reference the column "users.id_users".
+
+INFO:werkzeug:127.0.0.1 - - [27/Nov/2024 18:46:40] "POST /member/ HTTP/1.1" 200 -
+INFO:werkzeug: * Detected change in 'c:\\Users\\HP\\Desktop\\projetoSGD\\python\\app\\apisgd.py', reloading
+INFO:werkzeug: * Restarting with stat
+INFO:logger:
+---------------------------------------------------------------
+API v1.0 online: http://localhost:8080/
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 119-983-821
+INFO:werkzeug: * Detected change in 'c:\\Users\\HP\\Desktop\\projetoSGD\\python\\app\\apisgd.py', reloading
+INFO:werkzeug: * Restarting with stat
+INFO:logger:
+---------------------------------------------------------------
+API v1.0 online: http://localhost:8080/
+INFO:werkzeug:[31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:8080
+INFO:werkzeug:[33mPress CTRL+C to quit[0m
+INFO:werkzeug: * Restarting with stat
+INFO:logger:
+---------------------------------------------------------------
+API v1.0 online: http://localhost:8080/
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 119-983-821
+INFO:werkzeug:127.0.0.1 - - [27/Nov/2024 18:48:05] "[32mPOST /member HTTP/1.1[0m" 308 -
+INFO:logger:###              DEMO: POST /member/create              ###
+INFO:logger:###              DEMO: POST /user              ###
+INFO:logger:---- new user  ----
+DEBUG:logger:payload: {'name': 'diana', 'email': 'diana@sgd.pt', 'password': '123sgddiana'}
+ERROR:logger:null value in column "member_users_id_users" of relation "member" violates not-null constraint
+DETAIL:  Failing row contains (null, 11).
+
+INFO:werkzeug:127.0.0.1 - - [27/Nov/2024 18:48:05] "POST /member/ HTTP/1.1" 200 -
+INFO:logger:
+---------------------------------------------------------------
+API v1.0 online: http://localhost:8080/
+INFO:werkzeug:[31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:8080
+INFO:werkzeug:[33mPress CTRL+C to quit[0m
+INFO:werkzeug: * Restarting with stat
+INFO:logger:
+---------------------------------------------------------------
+API v1.0 online: http://localhost:8080/
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 119-983-821
+INFO:werkzeug:127.0.0.1 - - [28/Nov/2024 18:14:43] "[32mPOST /member HTTP/1.1[0m" 308 -
+INFO:logger:###              DEMO: POST /member/create              ###
+INFO:logger:###              DEMO: POST /user              ###
+INFO:logger:---- new user  ----
+DEBUG:logger:payload: {'name': 'mariana', 'email': 'mariana@sgd.pt', 'password': '123sgdmariana'}
+ERROR:logger:null value in column "member_users_id_users" of relation "member" violates not-null constraint
+DETAIL:  Failing row contains (null, 14).
+
+INFO:werkzeug:127.0.0.1 - - [28/Nov/2024 18:14:44] "POST /member/ HTTP/1.1" 200 -
+INFO:logger:
+---------------------------------------------------------------
+API v1.0 online: http://localhost:8080/
+INFO:werkzeug:[31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:8080
+INFO:werkzeug:[33mPress CTRL+C to quit[0m
+INFO:werkzeug: * Restarting with stat
+INFO:logger:
+---------------------------------------------------------------
+API v1.0 online: http://localhost:8080/
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 119-983-821
+INFO:werkzeug:127.0.0.1 - - [28/Nov/2024 18:17:20] "[32mPOST /member HTTP/1.1[0m" 308 -
+INFO:logger:###              DEMO: POST /member/create              ###
+INFO:logger:###              DEMO: POST /user              ###
+INFO:logger:---- new user  ----
+DEBUG:logger:payload: {'name': 'mariana', 'email': 'mariana@sgd.pt', 'password': '123sgdmariana'}
+INFO:werkzeug:127.0.0.1 - - [28/Nov/2024 18:17:20] "POST /member/ HTTP/1.1" 200 -
+INFO:logger:
+---------------------------------------------------------------
+API v1.0 online: http://localhost:8080/
+INFO:werkzeug:[31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:8080
+INFO:werkzeug:[33mPress CTRL+C to quit[0m
+INFO:werkzeug: * Restarting with stat
+INFO:logger:
+---------------------------------------------------------------
+API v1.0 online: http://localhost:8080/
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 119-983-821
+INFO:werkzeug:127.0.0.1 - - [28/Nov/2024 18:26:05] "[33mPOST /administrator HTTP/1.1[0m" 404 -
+INFO:werkzeug:127.0.0.1 - - [28/Nov/2024 18:26:59] "[33mPOST /administrator HTTP/1.1[0m" 404 -
+INFO:werkzeug:127.0.0.1 - - [28/Nov/2024 18:27:54] "[32mPOST /admin HTTP/1.1[0m" 308 -
+INFO:logger:###              DEMO: POST /admin              ###
+INFO:werkzeug:127.0.0.1 - - [28/Nov/2024 18:27:54] "[35m[1mPOST /admin/ HTTP/1.1[0m" 500 -
+INFO:werkzeug: * Detected change in 'c:\\Users\\HP\\Desktop\\projetoSGD\\python\\app\\apisgd.py', reloading
+INFO:werkzeug: * Restarting with stat
+INFO:logger:
+---------------------------------------------------------------
+API v1.0 online: http://localhost:8080/
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 119-983-821
+INFO:logger:
+---------------------------------------------------------------
+API v1.0 online: http://localhost:8080/
+INFO:werkzeug:[31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:8080
+INFO:werkzeug:[33mPress CTRL+C to quit[0m
+INFO:werkzeug: * Restarting with stat
+INFO:logger:
+---------------------------------------------------------------
+API v1.0 online: http://localhost:8080/
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 119-983-821
+INFO:werkzeug:127.0.0.1 - - [28/Nov/2024 18:38:04] "[32mPOST /admin HTTP/1.1[0m" 308 -
+INFO:logger:###              DEMO: POST /admin              ###
+INFO:werkzeug:127.0.0.1 - - [28/Nov/2024 18:38:04] "[35m[1mPOST /admin/ HTTP/1.1[0m" 500 -
+INFO:werkzeug: * Detected change in 'c:\\Users\\HP\\Desktop\\projetoSGD\\python\\app\\apisgd.py', reloading
+INFO:werkzeug: * Restarting with stat
+INFO:logger:
+---------------------------------------------------------------
+API v1.0 online: http://localhost:8080/
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 119-983-821
+INFO:logger:
+---------------------------------------------------------------
+API v1.0 online: http://localhost:8080/
+INFO:werkzeug:[31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:8080
+INFO:werkzeug:[33mPress CTRL+C to quit[0m
+INFO:werkzeug: * Restarting with stat
+INFO:logger:
+---------------------------------------------------------------
+API v1.0 online: http://localhost:8080/
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 119-983-821
+INFO:werkzeug:127.0.0.1 - - [28/Nov/2024 18:39:26] "[32mPOST /admin HTTP/1.1[0m" 308 -
+INFO:logger:###              DEMO: POST /admin              ###
+INFO:werkzeug:127.0.0.1 - - [28/Nov/2024 18:39:27] "[35m[1mPOST /admin/ HTTP/1.1[0m" 500 -
+INFO:werkzeug: * Detected change in 'c:\\Users\\HP\\Desktop\\projetoSGD\\python\\app\\apisgd.py', reloading
+INFO:werkzeug: * Restarting with stat
+INFO:logger:
+---------------------------------------------------------------
+API v1.0 online: http://localhost:8080/
+INFO:werkzeug:[31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:8080
+INFO:werkzeug:[33mPress CTRL+C to quit[0m
+INFO:werkzeug: * Restarting with stat
+INFO:logger:
+---------------------------------------------------------------
+API v1.0 online: http://localhost:8080/
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 119-983-821
+INFO:werkzeug:127.0.0.1 - - [28/Nov/2024 18:55:05] "[31m[1mPOST /login HTTP/1.1[0m" 405 -
+INFO:logger:###              DEMO: PUT /users            ###
+INFO:werkzeug:127.0.0.1 - - [28/Nov/2024 18:55:24] "[35m[1mPUT /login HTTP/1.1[0m" 500 -
+INFO:logger:###              DEMO: PUT /users            ###
+INFO:werkzeug:127.0.0.1 - - [28/Nov/2024 18:56:19] "[35m[1mPUT /login HTTP/1.1[0m" 500 -
+INFO:logger:###              DEMO: PUT /users            ###
+INFO:werkzeug:127.0.0.1 - - [28/Nov/2024 18:56:53] "[35m[1mPUT /login HTTP/1.1[0m" 500 -
+INFO:logger:
+---------------------------------------------------------------
+API v1.0 online: http://localhost:8080/
+INFO:werkzeug:[31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:8080
+INFO:werkzeug:[33mPress CTRL+C to quit[0m
+INFO:werkzeug: * Restarting with stat
+INFO:logger:
+---------------------------------------------------------------
+API v1.0 online: http://localhost:8080/
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 119-983-821
+INFO:werkzeug:127.0.0.1 - - [28/Nov/2024 18:58:36] "[32mPOST /users HTTP/1.1[0m" 308 -
+INFO:logger:###              DEMO: POST /user              ###
+INFO:logger:---- new user  ----
+DEBUG:logger:payload: {'name': 'pedro', 'email': 'pedro@sgd.pt', 'password': '123sgdpedro'}
+INFO:werkzeug:127.0.0.1 - - [28/Nov/2024 18:58:36] "POST /users/ HTTP/1.1" 200 -
+INFO:logger:###              DEMO: PUT /users            ###
+INFO:werkzeug:127.0.0.1 - - [28/Nov/2024 18:58:49] "[35m[1mPUT /login HTTP/1.1[0m" 500 -
+INFO:logger:
+---------------------------------------------------------------
+API v1.0 online: http://localhost:8080/
+INFO:werkzeug:[31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:8080
+INFO:werkzeug:[33mPress CTRL+C to quit[0m
+INFO:werkzeug: * Restarting with stat
+INFO:logger:
+---------------------------------------------------------------
+API v1.0 online: http://localhost:8080/
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 119-983-821
+INFO:logger:
+---------------------------------------------------------------
+API v1.0 online: http://localhost:8080/
+INFO:werkzeug:[31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:8080
+INFO:werkzeug:[33mPress CTRL+C to quit[0m
+INFO:werkzeug: * Restarting with stat
+INFO:logger:
+---------------------------------------------------------------
+API v1.0 online: http://localhost:8080/
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 119-983-821
+INFO:logger:###              DEMO: PUT /users            ###
+ERROR:logger:Error during login: tuple indices must be integers or slices, not str
+INFO:werkzeug:127.0.0.1 - - [28/Nov/2024 19:10:44] "[35m[1mPUT /login HTTP/1.1[0m" 500 -
+INFO:logger:
+---------------------------------------------------------------
+API v1.0 online: http://localhost:8080/
+INFO:werkzeug:[31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:8080
+INFO:werkzeug:[33mPress CTRL+C to quit[0m
+INFO:werkzeug: * Restarting with stat
+INFO:logger:
+---------------------------------------------------------------
+API v1.0 online: http://localhost:8080/
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 119-983-821
+INFO:logger:###              DEMO: PUT /users            ###
+ERROR:logger:Error during login: tuple indices must be integers or slices, not str
+INFO:werkzeug:127.0.0.1 - - [28/Nov/2024 19:20:25] "[35m[1mPUT /login HTTP/1.1[0m" 500 -
+INFO:logger:
+---------------------------------------------------------------
+API v1.0 online: http://localhost:8080/
+INFO:werkzeug:[31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:8080
+INFO:werkzeug:[33mPress CTRL+C to quit[0m
+INFO:werkzeug: * Restarting with stat
+INFO:logger:
+---------------------------------------------------------------
+API v1.0 online: http://localhost:8080/
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 119-983-821
+INFO:logger:###              DEMO: PUT /users            ###
+INFO:werkzeug:127.0.0.1 - - [28/Nov/2024 19:25:23] "[31m[1mPUT /login HTTP/1.1[0m" 401 -
+INFO:logger:
+---------------------------------------------------------------
+API v1.0 online: http://localhost:8080/
+INFO:werkzeug:[31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:8080
+INFO:werkzeug:[33mPress CTRL+C to quit[0m
+INFO:werkzeug: * Restarting with stat
+INFO:logger:
+---------------------------------------------------------------
+API v1.0 online: http://localhost:8080/
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 119-983-821
+INFO:logger:###              DEMO: PUT /users            ###
+INFO:werkzeug:127.0.0.1 - - [28/Nov/2024 19:28:37] "PUT /login HTTP/1.1" 200 -
+INFO:werkzeug: * Detected change in 'c:\\Users\\HP\\Desktop\\projetoSGD\\python\\app\\apisgd.py', reloading
+INFO:werkzeug: * Restarting with stat
+INFO:logger:
+---------------------------------------------------------------
+API v1.0 online: http://localhost:8080/
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 119-983-821
+INFO:werkzeug: * Detected change in 'c:\\Users\\HP\\Desktop\\projetoSGD\\python\\app\\apisgd.py', reloading
+INFO:werkzeug: * Restarting with stat
+INFO:logger:
+---------------------------------------------------------------
+API v1.0 online: http://localhost:8080/
+INFO:werkzeug:[31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:8080
+INFO:werkzeug:[33mPress CTRL+C to quit[0m
+INFO:werkzeug: * Restarting with stat
+INFO:logger:
+---------------------------------------------------------------
+API v1.0 online: http://localhost:8080/
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 119-983-821
+INFO:logger:###              DEMO: PUT /users            ###
+INFO:werkzeug:127.0.0.1 - - [28/Nov/2024 19:30:21] "PUT /login HTTP/1.1" 200 -
+INFO:logger:
+---------------------------------------------------------------
+API v1.0 online: http://localhost:8080/
+INFO:werkzeug:[31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:8080
+INFO:werkzeug:[33mPress CTRL+C to quit[0m
+INFO:werkzeug: * Restarting with stat
+INFO:logger:
+---------------------------------------------------------------
+API v1.0 online: http://localhost:8080/
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 119-983-821
+INFO:werkzeug:127.0.0.1 - - [29/Nov/2024 16:20:34] "[33mPUT /admin HTTP/1.1[0m" 404 -
+INFO:werkzeug:127.0.0.1 - - [29/Nov/2024 16:21:03] "[32mPOST /admin HTTP/1.1[0m" 308 -
+INFO:logger:###              DEMO: POST /admin              ###
+INFO:werkzeug:127.0.0.1 - - [29/Nov/2024 16:21:03] "[35m[1mPOST /admin/ HTTP/1.1[0m" 500 -
+INFO:werkzeug: * Detected change in 'c:\\Users\\HP\\Desktop\\projetoSGD\\python\\app\\apisgd.py', reloading
+INFO:werkzeug: * Restarting with stat
+INFO:logger:
+---------------------------------------------------------------
+API v1.0 online: http://localhost:8080/
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 119-983-821
+INFO:werkzeug: * Detected change in 'c:\\Users\\HP\\Desktop\\projetoSGD\\python\\app\\apisgd.py', reloading
+INFO:werkzeug: * Restarting with stat
+INFO:logger:
+---------------------------------------------------------------
+API v1.0 online: http://localhost:8080/
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 119-983-821
+INFO:werkzeug: * Detected change in 'c:\\Users\\HP\\Desktop\\projetoSGD\\python\\app\\apisgd.py', reloading
+INFO:werkzeug: * Restarting with stat
+INFO:logger:
+---------------------------------------------------------------
+API v1.0 online: http://localhost:8080/
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 119-983-821
+INFO:werkzeug: * Detected change in 'c:\\Users\\HP\\Desktop\\projetoSGD\\python\\app\\apisgd.py', reloading
+INFO:werkzeug: * Restarting with stat
+INFO:logger:
+---------------------------------------------------------------
+API v1.0 online: http://localhost:8080/
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 119-983-821
+INFO:werkzeug: * Detected change in 'c:\\Users\\HP\\Desktop\\projetoSGD\\python\\app\\apisgd.py', reloading
+INFO:werkzeug: * Restarting with stat
+INFO:logger:
+---------------------------------------------------------------
+API v1.0 online: http://localhost:8080/
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 119-983-821
+INFO:logger:
+---------------------------------------------------------------
+API v1.0 online: http://localhost:8080/
+INFO:werkzeug:[31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:8080
+INFO:werkzeug:[33mPress CTRL+C to quit[0m
+INFO:werkzeug: * Restarting with stat
+INFO:logger:
+---------------------------------------------------------------
+API v1.0 online: http://localhost:8080/
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 119-983-821
+INFO:werkzeug:127.0.0.1 - - [29/Nov/2024 16:32:31] "[32mPOST /admin HTTP/1.1[0m" 308 -
+INFO:logger:###              DEMO: POST /admin              ###
+INFO:werkzeug:127.0.0.1 - - [29/Nov/2024 16:32:31] "[35m[1mPOST /admin/ HTTP/1.1[0m" 500 -
+INFO:logger:
+---------------------------------------------------------------
+API v1.0 online: http://localhost:8080/
+INFO:werkzeug:[31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:8080
+INFO:werkzeug:[33mPress CTRL+C to quit[0m
+INFO:werkzeug: * Restarting with stat
+INFO:logger:
+---------------------------------------------------------------
+API v1.0 online: http://localhost:8080/
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 119-983-821
+INFO:werkzeug:127.0.0.1 - - [29/Nov/2024 16:49:18] "[32mPOST /admin HTTP/1.1[0m" 308 -
+INFO:logger:###              DEMO: POST /admin              ###
+INFO:werkzeug:127.0.0.1 - - [29/Nov/2024 16:49:18] "[35m[1mPOST /admin/ HTTP/1.1[0m" 500 -
+INFO:logger:
+---------------------------------------------------------------
+API v1.0 online: http://localhost:8080/
+INFO:werkzeug:[31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:8080
+INFO:werkzeug:[33mPress CTRL+C to quit[0m
+INFO:werkzeug: * Restarting with stat
+INFO:logger:
+---------------------------------------------------------------
+API v1.0 online: http://localhost:8080/
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 119-983-821
+INFO:werkzeug:127.0.0.1 - - [29/Nov/2024 16:56:58] "[32mPOST /member HTTP/1.1[0m" 308 -
+INFO:logger:###              DEMO: POST /member/create              ###
+INFO:logger:###              DEMO: POST /user              ###
+INFO:logger:---- new user  ----
+DEBUG:logger:payload: {'name': 'anamaria', 'email': 'anamaria@sgd.pt', 'password': '123sgdanamaria'}
+INFO:werkzeug:127.0.0.1 - - [29/Nov/2024 16:56:58] "POST /member/ HTTP/1.1" 200 -
+INFO:logger:
+---------------------------------------------------------------
+API v1.0 online: http://localhost:8080/
+INFO:werkzeug:[31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:8080
+INFO:werkzeug:[33mPress CTRL+C to quit[0m
+INFO:werkzeug: * Restarting with stat
+INFO:logger:
+---------------------------------------------------------------
+API v1.0 online: http://localhost:8080/
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 119-983-821
+INFO:werkzeug:127.0.0.1 - - [29/Nov/2024 16:59:22] "[32mPOST /passenger HTTP/1.1[0m" 308 -
+INFO:logger:###              DEMO: POST /passenger/create              ###
+INFO:logger:###              DEMO: POST /user              ###
+INFO:logger:---- new user  ----
+DEBUG:logger:payload: {'name': 'carmita', 'email': 'carmita@sgd.pt', 'password': '123sgdcarmita'}
+INFO:werkzeug:127.0.0.1 - - [29/Nov/2024 16:59:22] "POST /passenger/ HTTP/1.1" 200 -
+INFO:logger:
+---------------------------------------------------------------
+API v1.0 online: http://localhost:8080/
+INFO:werkzeug:[31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:8080
+INFO:werkzeug:[33mPress CTRL+C to quit[0m
+INFO:werkzeug: * Restarting with stat
+INFO:logger:
+---------------------------------------------------------------
+API v1.0 online: http://localhost:8080/
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 119-983-821
+INFO:logger:###              DEMO: PUT /users            ###
+INFO:werkzeug:127.0.0.1 - - [29/Nov/2024 17:01:37] "PUT /login HTTP/1.1" 200 -
+INFO:logger:
+---------------------------------------------------------------
+API v1.0 online: http://localhost:8080/
+INFO:werkzeug:[31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:8080
+INFO:werkzeug:[33mPress CTRL+C to quit[0m
+INFO:werkzeug: * Restarting with stat
+INFO:logger:
+---------------------------------------------------------------
+API v1.0 online: http://localhost:8080/
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 119-983-821
+INFO:werkzeug:127.0.0.1 - - [29/Nov/2024 19:10:13] "[32mPOST /admin HTTP/1.1[0m" 308 -
+INFO:logger:###              DEMO: POST /admin/create              ###
+INFO:werkzeug:127.0.0.1 - - [29/Nov/2024 19:10:13] "[35m[1mPOST /admin/ HTTP/1.1[0m" 500 -
+INFO:werkzeug: * Detected change in 'c:\\Users\\HP\\Desktop\\projetoSGD\\python\\app\\apisgd.py', reloading
+INFO:werkzeug: * Restarting with stat
+INFO:logger:
+---------------------------------------------------------------
+API v1.0 online: http://localhost:8080/
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 119-983-821
+INFO:werkzeug: * Detected change in 'c:\\Users\\HP\\Desktop\\projetoSGD\\python\\app\\apisgd.py', reloading
+INFO:werkzeug: * Restarting with stat
+INFO:logger:
+---------------------------------------------------------------
+API v1.0 online: http://localhost:8080/
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 119-983-821
+INFO:logger:
+---------------------------------------------------------------
+API v1.0 online: http://localhost:8080/
+INFO:werkzeug:[31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:8080
+INFO:werkzeug:[33mPress CTRL+C to quit[0m
+INFO:werkzeug: * Restarting with stat
+INFO:logger:
+---------------------------------------------------------------
+API v1.0 online: http://localhost:8080/
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 119-983-821
+INFO:werkzeug:127.0.0.1 - - [29/Nov/2024 19:16:58] "[32mPOST /admin HTTP/1.1[0m" 308 -
+INFO:logger:###              DEMO: POST /admin/create              ###
+INFO:werkzeug:127.0.0.1 - - [29/Nov/2024 19:16:58] "[35m[1mPOST /admin/ HTTP/1.1[0m" 500 -
+INFO:werkzeug: * Detected change in 'c:\\Users\\HP\\Desktop\\projetoSGD\\python\\app\\apisgd.py', reloading
+INFO:werkzeug: * Restarting with stat
+INFO:logger:
+---------------------------------------------------------------
+API v1.0 online: http://localhost:8080/
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 119-983-821
+INFO:logger:
+---------------------------------------------------------------
+API v1.0 online: http://localhost:8080/
+INFO:werkzeug:[31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:8080
+INFO:werkzeug:[33mPress CTRL+C to quit[0m
+INFO:werkzeug: * Restarting with stat
+INFO:logger:
+---------------------------------------------------------------
+API v1.0 online: http://localhost:8080/
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 119-983-821
+INFO:werkzeug:127.0.0.1 - - [29/Nov/2024 19:22:52] "[32mPOST /admin HTTP/1.1[0m" 308 -
+INFO:logger:###              DEMO: POST /admin/create              ###
+INFO:werkzeug:127.0.0.1 - - [29/Nov/2024 19:22:52] "[35m[1mPOST /admin/ HTTP/1.1[0m" 500 -
+INFO:werkzeug: * Detected change in 'c:\\Users\\HP\\Desktop\\projetoSGD\\python\\app\\apisgd.py', reloading
+INFO:werkzeug: * Restarting with stat
+INFO:logger:
+---------------------------------------------------------------
+API v1.0 online: http://localhost:8080/
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 119-983-821
+INFO:logger:
+---------------------------------------------------------------
+API v1.0 online: http://localhost:8080/
+INFO:werkzeug:[31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:8080
+INFO:werkzeug:[33mPress CTRL+C to quit[0m
+INFO:werkzeug: * Restarting with stat
+INFO:logger:
+---------------------------------------------------------------
+API v1.0 online: http://localhost:8080/
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 119-983-821
+INFO:logger:###              DEMO: PUT /users            ###
+ERROR:logger:Error during login: gerar_token() got an unexpected keyword argument 'user_id'
+INFO:werkzeug:127.0.0.1 - - [29/Nov/2024 19:34:49] "[35m[1mPUT /login HTTP/1.1[0m" 500 -
+INFO:werkzeug: * Detected change in 'c:\\Users\\HP\\Desktop\\projetoSGD\\python\\app\\apisgd.py', reloading
+INFO:werkzeug: * Restarting with stat
+INFO:logger:
+---------------------------------------------------------------
+API v1.0 online: http://localhost:8080/
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 119-983-821
+INFO:logger:
+---------------------------------------------------------------
+API v1.0 online: http://localhost:8080/
+INFO:werkzeug:[31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:8080
+INFO:werkzeug:[33mPress CTRL+C to quit[0m
+INFO:werkzeug: * Restarting with stat
+INFO:logger:
+---------------------------------------------------------------
+API v1.0 online: http://localhost:8080/
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 119-983-821
+INFO:logger:###              DEMO: PUT /users            ###
+INFO:werkzeug:127.0.0.1 - - [29/Nov/2024 19:39:56] "PUT /login HTTP/1.1" 200 -
+INFO:logger:
+---------------------------------------------------------------
+API v1.0 online: http://localhost:8080/
+INFO:werkzeug:[31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:8080
+INFO:werkzeug:[33mPress CTRL+C to quit[0m
+INFO:werkzeug: * Restarting with stat
+INFO:logger:
+---------------------------------------------------------------
+API v1.0 online: http://localhost:8080/
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 119-983-821
+INFO:logger:###              DEMO: PUT /users            ###
+INFO:werkzeug:127.0.0.1 - - [29/Nov/2024 19:54:15] "PUT /login HTTP/1.1" 200 -
+INFO:werkzeug: * Detected change in 'c:\\Users\\HP\\Desktop\\projetoSGD\\python\\app\\apisgd.py', reloading
+INFO:werkzeug: * Restarting with stat
+INFO:logger:
+---------------------------------------------------------------
+API v1.0 online: http://localhost:8080/
+INFO:werkzeug:[31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:8080
+INFO:werkzeug:[33mPress CTRL+C to quit[0m
+INFO:werkzeug: * Restarting with stat
+INFO:logger:
+---------------------------------------------------------------
+API v1.0 online: http://localhost:8080/
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 119-983-821
+INFO:logger:###              DEMO: PUT /users            ###
+INFO:werkzeug:127.0.0.1 - - [29/Nov/2024 19:56:07] "PUT /login HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [29/Nov/2024 20:00:07] "[32mPOST /admin HTTP/1.1[0m" 308 -
+INFO:logger:###              DEMO: POST /admin/create              ###
+INFO:werkzeug:127.0.0.1 - - [29/Nov/2024 20:00:07] "[35m[1mPOST /admin/ HTTP/1.1[0m" 500 -
+INFO:logger:
+---------------------------------------------------------------
+API v1.0 online: http://localhost:8080/
+INFO:werkzeug:[31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:8080
+INFO:werkzeug:[33mPress CTRL+C to quit[0m
+INFO:werkzeug: * Restarting with stat
+INFO:logger:
+---------------------------------------------------------------
+API v1.0 online: http://localhost:8080/
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 119-983-821
+INFO:werkzeug:127.0.0.1 - - [29/Nov/2024 20:10:34] "[32mPOST /admin HTTP/1.1[0m" 308 -
+INFO:logger:###              DEMO: POST /admin/create              ###
+INFO:werkzeug:127.0.0.1 - - [29/Nov/2024 20:10:34] "[35m[1mPOST /admin/ HTTP/1.1[0m" 500 -
+INFO:logger:
+---------------------------------------------------------------
+API v1.0 online: http://localhost:8080/
+INFO:werkzeug:[31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:8080
+INFO:werkzeug:[33mPress CTRL+C to quit[0m
+INFO:werkzeug: * Restarting with stat
+INFO:logger:
+---------------------------------------------------------------
+API v1.0 online: http://localhost:8080/
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 119-983-821
+INFO:werkzeug:127.0.0.1 - - [29/Nov/2024 20:17:35] "[32mPOST /admin HTTP/1.1[0m" 308 -
+INFO:logger:###              DEMO: POST /admin/create              ###
+INFO:werkzeug:127.0.0.1 - - [29/Nov/2024 20:17:35] "[35m[1mPOST /admin/ HTTP/1.1[0m" 500 -
+INFO:werkzeug: * Detected change in 'c:\\Users\\HP\\Desktop\\projetoSGD\\python\\app\\apisgd.py', reloading
+INFO:werkzeug: * Restarting with stat
+INFO:logger:
+---------------------------------------------------------------
+API v1.0 online: http://localhost:8080/
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 119-983-821
+INFO:werkzeug: * Detected change in 'c:\\Users\\HP\\Desktop\\projetoSGD\\python\\app\\apisgd.py', reloading
+INFO:werkzeug: * Restarting with stat
+INFO:logger:
+---------------------------------------------------------------
+API v1.0 online: http://localhost:8080/
+INFO:logger:
+---------------------------------------------------------------
+API v1.0 online: http://localhost:8080/
+INFO:werkzeug:[31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:8080
+INFO:werkzeug:[33mPress CTRL+C to quit[0m
+INFO:werkzeug: * Restarting with stat
+INFO:logger:
+---------------------------------------------------------------
+API v1.0 online: http://localhost:8080/
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 119-983-821
+INFO:werkzeug:127.0.0.1 - - [29/Nov/2024 20:23:14] "[32mPOST /admin HTTP/1.1[0m" 308 -
+INFO:logger:###              DEMO: POST /admin/create              ###
+INFO:werkzeug:127.0.0.1 - - [29/Nov/2024 20:23:14] "[35m[1mPOST /admin/ HTTP/1.1[0m" 500 -
+INFO:werkzeug: * Detected change in 'c:\\Users\\HP\\Desktop\\projetoSGD\\python\\app\\apisgd.py', reloading
+INFO:werkzeug: * Restarting with stat
+INFO:logger:
+---------------------------------------------------------------
+API v1.0 online: http://localhost:8080/
+INFO:werkzeug:[31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:8080
+INFO:werkzeug:[33mPress CTRL+C to quit[0m
+INFO:werkzeug: * Restarting with stat
+INFO:logger:
+---------------------------------------------------------------
+API v1.0 online: http://localhost:8080/
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 119-983-821
+INFO:werkzeug:127.0.0.1 - - [29/Nov/2024 20:25:26] "[32mPOST /admin HTTP/1.1[0m" 308 -
+INFO:logger:###              DEMO: POST /admin/create              ###
+INFO:werkzeug:127.0.0.1 - - [29/Nov/2024 20:25:26] "[35m[1mPOST /admin/ HTTP/1.1[0m" 500 -
+INFO:werkzeug: * Detected change in 'c:\\Users\\HP\\Desktop\\projetoSGD\\python\\app\\apisgd.py', reloading
+INFO:werkzeug: * Restarting with stat
+INFO:logger:
+---------------------------------------------------------------
+API v1.0 online: http://localhost:8080/
+INFO:werkzeug:[31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:8080
+INFO:werkzeug:[33mPress CTRL+C to quit[0m
+INFO:werkzeug: * Restarting with stat
+INFO:logger:
+---------------------------------------------------------------
+API v1.0 online: http://localhost:8080/
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 119-983-821
+INFO:werkzeug:127.0.0.1 - - [29/Nov/2024 20:31:25] "[32mPOST /admin HTTP/1.1[0m" 308 -
+INFO:logger:###              DEMO: POST /admin/create              ###
+INFO:werkzeug:127.0.0.1 - - [29/Nov/2024 20:31:25] "[35m[1mPOST /admin/ HTTP/1.1[0m" 500 -
+INFO:werkzeug: * Detected change in 'c:\\Users\\HP\\Desktop\\projetoSGD\\python\\app\\apisgd.py', reloading
+INFO:werkzeug: * Restarting with stat
+INFO:logger:
+---------------------------------------------------------------
+API v1.0 online: http://localhost:8080/
+INFO:werkzeug:[31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:8080
+INFO:werkzeug:[33mPress CTRL+C to quit[0m
+INFO:werkzeug: * Restarting with stat
+INFO:logger:
+---------------------------------------------------------------
+API v1.0 online: http://localhost:8080/
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 119-983-821
+INFO:werkzeug:127.0.0.1 - - [29/Nov/2024 20:32:17] "[32mPOST /admin HTTP/1.1[0m" 308 -
+INFO:logger:###              DEMO: POST /admin/create              ###
+INFO:werkzeug:127.0.0.1 - - [29/Nov/2024 20:32:17] "[35m[1mPOST /admin/ HTTP/1.1[0m" 500 -
+INFO:werkzeug: * Detected change in 'c:\\Users\\HP\\Desktop\\projetoSGD\\python\\app\\apisgd.py', reloading
+INFO:werkzeug: * Restarting with stat
+INFO:logger:
+---------------------------------------------------------------
+API v1.0 online: http://localhost:8080/
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 119-983-821
+INFO:logger:
+---------------------------------------------------------------
+API v1.0 online: http://localhost:8080/
+INFO:werkzeug:[31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:8080
+INFO:werkzeug:[33mPress CTRL+C to quit[0m
+INFO:werkzeug: * Restarting with stat
+INFO:logger:
+---------------------------------------------------------------
+API v1.0 online: http://localhost:8080/
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 119-983-821
+INFO:werkzeug:127.0.0.1 - - [29/Nov/2024 20:36:40] "[32mPOST /admin HTTP/1.1[0m" 308 -
+INFO:logger:###              DEMO: POST /admin/create              ###
+INFO:werkzeug:127.0.0.1 - - [29/Nov/2024 20:36:40] "[35m[1mPOST /admin/ HTTP/1.1[0m" 500 -
+INFO:werkzeug: * Detected change in 'c:\\Users\\HP\\Desktop\\projetoSGD\\python\\app\\apisgd.py', reloading
+INFO:werkzeug: * Restarting with stat
+INFO:logger:
+---------------------------------------------------------------
+API v1.0 online: http://localhost:8080/
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 119-983-821
+INFO:werkzeug: * Detected change in 'c:\\Users\\HP\\Desktop\\projetoSGD\\python\\app\\apisgd.py', reloading
+INFO:werkzeug: * Restarting with stat
+INFO:logger:
+---------------------------------------------------------------
+API v1.0 online: http://localhost:8080/
+INFO:werkzeug:[31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:8080
+INFO:werkzeug:[33mPress CTRL+C to quit[0m
+INFO:werkzeug: * Restarting with stat
+INFO:logger:
+---------------------------------------------------------------
+API v1.0 online: http://localhost:8080/
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 119-983-821
+INFO:werkzeug:127.0.0.1 - - [29/Nov/2024 20:38:45] "[32mPOST /admin HTTP/1.1[0m" 308 -
+INFO:logger:###              DEMO: POST /admin/create              ###
+INFO:werkzeug:127.0.0.1 - - [29/Nov/2024 20:38:45] "[35m[1mPOST /admin/ HTTP/1.1[0m" 500 -
+INFO:werkzeug: * Detected change in 'c:\\Users\\HP\\Desktop\\projetoSGD\\python\\app\\apisgd.py', reloading
+INFO:werkzeug: * Restarting with stat
+INFO:logger:
+---------------------------------------------------------------
+API v1.0 online: http://localhost:8080/
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 119-983-821
+INFO:logger:
+---------------------------------------------------------------
+API v1.0 online: http://localhost:8080/
+INFO:werkzeug:[31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:8080
+INFO:werkzeug:[33mPress CTRL+C to quit[0m
+INFO:werkzeug: * Restarting with stat
+INFO:logger:
+---------------------------------------------------------------
+API v1.0 online: http://localhost:8080/
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 119-983-821
+INFO:werkzeug:127.0.0.1 - - [29/Nov/2024 20:39:59] "[32mPOST /admin HTTP/1.1[0m" 308 -
+INFO:logger:###              DEMO: POST /admin/create              ###
+INFO:werkzeug:127.0.0.1 - - [29/Nov/2024 20:39:59] "[35m[1mPOST /admin/ HTTP/1.1[0m" 500 -
+INFO:werkzeug: * Detected change in 'c:\\Users\\HP\\Desktop\\projetoSGD\\python\\app\\apisgd.py', reloading
+INFO:werkzeug: * Restarting with stat
+INFO:logger:
+---------------------------------------------------------------
+API v1.0 online: http://localhost:8080/
+INFO:werkzeug:[31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:8080
+INFO:werkzeug:[33mPress CTRL+C to quit[0m
+INFO:werkzeug: * Restarting with stat
+INFO:logger:
+---------------------------------------------------------------
+API v1.0 online: http://localhost:8080/
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 119-983-821
+INFO:werkzeug:127.0.0.1 - - [29/Nov/2024 20:41:11] "[32mPOST /admin HTTP/1.1[0m" 308 -
+INFO:logger:###              DEMO: POST /admin/create              ###
+INFO:werkzeug:127.0.0.1 - - [29/Nov/2024 20:41:11] "[35m[1mPOST /admin/ HTTP/1.1[0m" 500 -
+INFO:werkzeug: * Detected change in 'c:\\Users\\HP\\Desktop\\projetoSGD\\python\\app\\apisgd.py', reloading
+INFO:werkzeug: * Restarting with stat
+INFO:logger:
+---------------------------------------------------------------
+API v1.0 online: http://localhost:8080/
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 119-983-821
+INFO:logger:
+---------------------------------------------------------------
+API v1.0 online: http://localhost:8080/
+INFO:werkzeug:[31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:8080
+INFO:werkzeug:[33mPress CTRL+C to quit[0m
+INFO:werkzeug: * Restarting with stat
+INFO:logger:
+---------------------------------------------------------------
+API v1.0 online: http://localhost:8080/
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 119-983-821
+INFO:werkzeug:127.0.0.1 - - [29/Nov/2024 20:42:18] "[32mPOST /admin HTTP/1.1[0m" 308 -
+INFO:logger:###              DEMO: POST /admin/create              ###
+INFO:werkzeug:127.0.0.1 - - [29/Nov/2024 20:42:18] "[35m[1mPOST /admin/ HTTP/1.1[0m" 500 -
+INFO:logger:
+---------------------------------------------------------------
+API v1.0 online: http://localhost:8080/
+INFO:werkzeug:[31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:8080
+INFO:werkzeug:[33mPress CTRL+C to quit[0m
+INFO:werkzeug: * Restarting with stat
+INFO:logger:
+---------------------------------------------------------------
+API v1.0 online: http://localhost:8080/
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 119-983-821
+INFO:werkzeug:127.0.0.1 - - [29/Nov/2024 20:43:57] "[32mPOST /admin HTTP/1.1[0m" 308 -
+INFO:logger:###              DEMO: POST /admin/create              ###
+INFO:werkzeug:127.0.0.1 - - [29/Nov/2024 20:43:57] "POST /admin/ HTTP/1.1" 200 -
+INFO:werkzeug: * Detected change in 'c:\\Users\\HP\\Desktop\\projetoSGD\\python\\app\\apisgd.py', reloading
+INFO:werkzeug: * Restarting with stat
+INFO:logger:
+---------------------------------------------------------------
+API v1.0 online: http://localhost:8080/
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 119-983-821
+INFO:logger:
+---------------------------------------------------------------
+API v1.0 online: http://localhost:8080/
+INFO:werkzeug:[31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:8080
+INFO:werkzeug:[33mPress CTRL+C to quit[0m
+INFO:werkzeug: * Restarting with stat
+INFO:logger:
+---------------------------------------------------------------
+API v1.0 online: http://localhost:8080/
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 119-983-821
+INFO:werkzeug:127.0.0.1 - - [29/Nov/2024 20:45:49] "[32mPOST /admin HTTP/1.1[0m" 308 -
+INFO:logger:###              DEMO: POST /admin/create              ###
+INFO:werkzeug:127.0.0.1 - - [29/Nov/2024 20:45:49] "[35m[1mPOST /admin/ HTTP/1.1[0m" 500 -
+INFO:logger:
+---------------------------------------------------------------
+API v1.0 online: http://localhost:8080/
+INFO:werkzeug:[31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:8080
+INFO:werkzeug:[33mPress CTRL+C to quit[0m
+INFO:werkzeug: * Restarting with stat
+INFO:logger:
+---------------------------------------------------------------
+API v1.0 online: http://localhost:8080/
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 119-983-821
+INFO:logger:###              DEMO: PUT /users            ###
+INFO:werkzeug:127.0.0.1 - - [29/Nov/2024 20:48:47] "PUT /login HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [29/Nov/2024 20:50:22] "[32mPOST /admin HTTP/1.1[0m" 308 -
+INFO:logger:###              DEMO: POST /admin/create              ###
+INFO:werkzeug:127.0.0.1 - - [29/Nov/2024 20:50:22] "[35m[1mPOST /admin/ HTTP/1.1[0m" 500 -
+INFO:werkzeug: * Detected change in 'c:\\Users\\HP\\Desktop\\projetoSGD\\python\\app\\apisgd.py', reloading
+INFO:werkzeug: * Restarting with stat
+INFO:logger:
+---------------------------------------------------------------
+API v1.0 online: http://localhost:8080/
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 119-983-821
+INFO:logger:
+---------------------------------------------------------------
+API v1.0 online: http://localhost:8080/
+INFO:werkzeug:[31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:8080
+INFO:werkzeug:[33mPress CTRL+C to quit[0m
+INFO:werkzeug: * Restarting with stat
+INFO:logger:
+---------------------------------------------------------------
+API v1.0 online: http://localhost:8080/
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 119-983-821
+INFO:werkzeug:127.0.0.1 - - [29/Nov/2024 20:51:41] "[32mPOST /admin HTTP/1.1[0m" 308 -
+INFO:logger:###              DEMO: POST /admin/create              ###
+INFO:werkzeug:127.0.0.1 - - [29/Nov/2024 20:51:41] "[35m[1mPOST /admin/ HTTP/1.1[0m" 500 -
+INFO:logger:
+---------------------------------------------------------------
+API v1.0 online: http://localhost:8080/
+INFO:werkzeug:[31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:8080
+INFO:werkzeug:[33mPress CTRL+C to quit[0m
+INFO:werkzeug: * Restarting with stat
+INFO:logger:
+---------------------------------------------------------------
+API v1.0 online: http://localhost:8080/
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 119-983-821
+INFO:werkzeug:127.0.0.1 - - [29/Nov/2024 20:58:48] "[32mPOST /admin HTTP/1.1[0m" 308 -
+INFO:logger:###              DEMO: POST /admin/create              ###
+INFO:werkzeug:127.0.0.1 - - [29/Nov/2024 20:58:48] "[35m[1mPOST /admin/ HTTP/1.1[0m" 500 -
+INFO:werkzeug: * Detected change in 'c:\\Users\\HP\\Desktop\\projetoSGD\\python\\app\\apisgd.py', reloading
+INFO:werkzeug: * Restarting with stat
+INFO:logger:
+---------------------------------------------------------------
+API v1.0 online: http://localhost:8080/
+INFO:werkzeug:[31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:8080
+INFO:werkzeug:[33mPress CTRL+C to quit[0m
+INFO:werkzeug: * Restarting with stat
+INFO:logger:
+---------------------------------------------------------------
+API v1.0 online: http://localhost:8080/
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 119-983-821
+INFO:werkzeug:127.0.0.1 - - [29/Nov/2024 21:06:11] "[32mPOST /admin HTTP/1.1[0m" 308 -
+INFO:logger:###              DEMO: POST /admin/create              ###
+INFO:werkzeug:127.0.0.1 - - [29/Nov/2024 21:06:11] "POST /admin/ HTTP/1.1" 200 -
+INFO:werkzeug: * Detected change in 'c:\\Users\\HP\\Desktop\\projetoSGD\\python\\app\\apisgd.py', reloading
+INFO:werkzeug: * Restarting with stat
+INFO:logger:
+---------------------------------------------------------------
+API v1.0 online: http://localhost:8080/
+INFO:werkzeug:[31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:8080
+INFO:werkzeug:[33mPress CTRL+C to quit[0m
+INFO:werkzeug: * Restarting with stat
+INFO:logger:
+---------------------------------------------------------------
+API v1.0 online: http://localhost:8080/
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 119-983-821
+INFO:werkzeug:127.0.0.1 - - [29/Nov/2024 21:10:27] "[32mPOST /admin HTTP/1.1[0m" 308 -
+INFO:logger:###              DEMO: POST /admin/create              ###
+INFO:werkzeug:127.0.0.1 - - [29/Nov/2024 21:10:27] "POST /admin/ HTTP/1.1" 200 -
+INFO:werkzeug: * Detected change in 'c:\\Users\\HP\\Desktop\\projetoSGD\\python\\app\\apisgd.py', reloading
+INFO:werkzeug: * Restarting with stat
+INFO:logger:
+---------------------------------------------------------------
+API v1.0 online: http://localhost:8080/
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 119-983-821
+INFO:logger:
+---------------------------------------------------------------
+API v1.0 online: http://localhost:8080/
+INFO:werkzeug:[31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:8080
+INFO:werkzeug:[33mPress CTRL+C to quit[0m
+INFO:werkzeug: * Restarting with stat
+INFO:logger:
+---------------------------------------------------------------
+API v1.0 online: http://localhost:8080/
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 119-983-821
+INFO:werkzeug:127.0.0.1 - - [29/Nov/2024 21:15:04] "[32mPOST /admin HTTP/1.1[0m" 308 -
+INFO:logger:###              DEMO: POST /admin/create              ###
+INFO:werkzeug:127.0.0.1 - - [29/Nov/2024 21:15:04] "POST /admin/ HTTP/1.1" 200 -
+INFO:werkzeug: * Detected change in 'c:\\Users\\HP\\Desktop\\projetoSGD\\python\\app\\apisgd.py', reloading
+INFO:werkzeug: * Restarting with stat
+INFO:logger:
+---------------------------------------------------------------
+API v1.0 online: http://localhost:8080/
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 119-983-821
+INFO:logger:
+---------------------------------------------------------------
+API v1.0 online: http://localhost:8080/
+INFO:werkzeug:[31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:8080
+INFO:werkzeug:[33mPress CTRL+C to quit[0m
+INFO:werkzeug: * Restarting with stat
+INFO:logger:
+---------------------------------------------------------------
+API v1.0 online: http://localhost:8080/
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 119-983-821
+INFO:werkzeug:127.0.0.1 - - [29/Nov/2024 22:59:41] "[32mPOST /admin HTTP/1.1[0m" 308 -
+INFO:logger:###              DEMO: POST /admin/create              ###
+INFO:werkzeug:127.0.0.1 - - [29/Nov/2024 22:59:41] "[35m[1mPOST /admin/ HTTP/1.1[0m" 500 -
+INFO:logger:
+---------------------------------------------------------------
+API v1.0 online: http://localhost:8080/
+INFO:werkzeug:[31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:8080
+INFO:werkzeug:[33mPress CTRL+C to quit[0m
+INFO:werkzeug: * Restarting with stat
+INFO:logger:
+---------------------------------------------------------------
+API v1.0 online: http://localhost:8080/
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 119-983-821
+INFO:werkzeug:127.0.0.1 - - [29/Nov/2024 23:17:49] "[32mPOST /admin HTTP/1.1[0m" 308 -
+INFO:logger:###              DEMO: POST /admin/create              ###
+INFO:werkzeug:127.0.0.1 - - [29/Nov/2024 23:17:49] "[31m[1mPOST /admin/ HTTP/1.1[0m" 401 -
+INFO:logger:###              DEMO: PUT /users            ###
+INFO:werkzeug:127.0.0.1 - - [29/Nov/2024 23:20:28] "PUT /login HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [29/Nov/2024 23:20:55] "[32mPOST /admin HTTP/1.1[0m" 308 -
+INFO:logger:###              DEMO: POST /admin/create              ###
+INFO:logger:###              DEMO: POST /user              ###
+INFO:logger:---- new user  ----
+DEBUG:logger:payload: {'name': 'soraia', 'email': 'soraia@sgd.pt', 'password': '123sgdsoraia'}
+ERROR:logger:'name'
+INFO:werkzeug:127.0.0.1 - - [29/Nov/2024 23:20:55] "[35m[1mPOST /admin/ HTTP/1.1[0m" 500 -
+INFO:werkzeug: * Detected change in 'c:\\Users\\HP\\Desktop\\projetoSGD\\python\\app\\apisgd.py', reloading
+INFO:werkzeug: * Restarting with stat
+INFO:logger:
+---------------------------------------------------------------
+API v1.0 online: http://localhost:8080/
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 119-983-821
+INFO:werkzeug:127.0.0.1 - - [29/Nov/2024 23:24:14] "[32mPOST /admin HTTP/1.1[0m" 308 -
+INFO:logger:###              DEMO: POST /admin/create              ###
+INFO:logger:###              DEMO: POST /user              ###
+INFO:logger:---- new user  ----
+DEBUG:logger:payload: {'name': 'soraia', 'email': 'soraia@sgd.pt', 'password': '123sgdsoraia'}
+ERROR:logger:'name'
+INFO:werkzeug:127.0.0.1 - - [29/Nov/2024 23:24:14] "[35m[1mPOST /admin/ HTTP/1.1[0m" 500 -
+INFO:werkzeug: * Detected change in 'c:\\Users\\HP\\Desktop\\projetoSGD\\python\\app\\apisgd.py', reloading
+INFO:werkzeug: * Restarting with stat
+INFO:logger:
+---------------------------------------------------------------
+API v1.0 online: http://localhost:8080/
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 119-983-821
+INFO:logger:
+---------------------------------------------------------------
+API v1.0 online: http://localhost:8080/
+INFO:werkzeug:[31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:8080
+INFO:werkzeug:[33mPress CTRL+C to quit[0m
+INFO:werkzeug: * Restarting with stat
+INFO:logger:
+---------------------------------------------------------------
+API v1.0 online: http://localhost:8080/
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 119-983-821
+INFO:werkzeug:127.0.0.1 - - [29/Nov/2024 23:25:51] "[32mPOST /admin HTTP/1.1[0m" 308 -
+INFO:logger:###              DEMO: POST /admin/create              ###
+DEBUG:logger:Payload recebido: {'name': 'soraia', 'email': 'soraia@sgd.pt', 'password': '123sgdsoraia'}
+INFO:logger:###              DEMO: POST /user              ###
+INFO:logger:---- new user  ----
+DEBUG:logger:payload: {'name': 'soraia', 'email': 'soraia@sgd.pt', 'password': '123sgdsoraia'}
+ERROR:logger:'name'
+INFO:werkzeug:127.0.0.1 - - [29/Nov/2024 23:25:51] "[35m[1mPOST /admin/ HTTP/1.1[0m" 500 -
+INFO:logger:
+---------------------------------------------------------------
+API v1.0 online: http://localhost:8080/
+INFO:werkzeug:[31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:8080
+INFO:werkzeug:[33mPress CTRL+C to quit[0m
+INFO:werkzeug: * Restarting with stat
+INFO:logger:
+---------------------------------------------------------------
+API v1.0 online: http://localhost:8080/
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 119-983-821
+INFO:werkzeug:127.0.0.1 - - [29/Nov/2024 23:31:56] "[32mPOST /admin HTTP/1.1[0m" 308 -
+INFO:logger:###              DEMO: POST /admin/create              ###
+INFO:logger:###              DEMO: POST /user              ###
+INFO:logger:---- new user  ----
+DEBUG:logger:payload: {'name': 'soraia', 'email': 'soraia@sgd.pt', 'password': '123sgdsoraia'}
+ERROR:logger:null value in column "administrator_users_id_users" of relation "administrator" violates not-null constraint
+DETAIL:  Failing row contains (null, 19).
+
+INFO:werkzeug:127.0.0.1 - - [29/Nov/2024 23:31:56] "[35m[1mPOST /admin/ HTTP/1.1[0m" 500 -
+INFO:logger:
+---------------------------------------------------------------
+API v1.0 online: http://localhost:8080/
+INFO:werkzeug:[31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:8080
+INFO:werkzeug:[33mPress CTRL+C to quit[0m
+INFO:werkzeug: * Restarting with stat
+INFO:logger:
+---------------------------------------------------------------
+API v1.0 online: http://localhost:8080/
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 119-983-821
+INFO:werkzeug:127.0.0.1 - - [29/Nov/2024 23:35:05] "[32mPOST /admin HTTP/1.1[0m" 308 -
+INFO:logger:###              DEMO: POST /admin/create              ###
+INFO:logger:###              DEMO: POST /user              ###
+INFO:logger:---- new user  ----
+DEBUG:logger:payload: {'name': 'soraia', 'email': 'soraia@sgd.pt', 'password': '123sgdsoraia'}
+INFO:werkzeug:127.0.0.1 - - [29/Nov/2024 23:35:05] "POST /admin/ HTTP/1.1" 200 -
+INFO:logger:
+---------------------------------------------------------------
+API v1.0 online: http://localhost:8080/
+INFO:werkzeug:[31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:8080
+INFO:werkzeug:[33mPress CTRL+C to quit[0m
+INFO:werkzeug: * Restarting with stat
+INFO:logger:
+---------------------------------------------------------------
+API v1.0 online: http://localhost:8080/
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 119-983-821
+INFO:logger:###              DEMO: PUT /users            ###
+INFO:werkzeug:127.0.0.1 - - [30/Nov/2024 08:50:59] "PUT /login HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [30/Nov/2024 08:51:47] "[32mPOST /admin HTTP/1.1[0m" 308 -
+INFO:logger:###              DEMO: POST /admin/create              ###
+INFO:logger:###              DEMO: POST /user              ###
+INFO:logger:---- new user  ----
+DEBUG:logger:payload: {'name': 'afonso', 'email': 'afonso@sgd.pt', 'password': '123sgdafonso'}
+INFO:werkzeug:127.0.0.1 - - [30/Nov/2024 08:51:47] "POST /admin/ HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [30/Nov/2024 08:52:22] "[32mPOST /member HTTP/1.1[0m" 308 -
+INFO:logger:###              DEMO: POST /member/create              ###
+INFO:logger:###              DEMO: POST /user              ###
+INFO:logger:---- new user  ----
+DEBUG:logger:payload: {'name': 'mariamiguel', 'email': 'mariamiguel@sgd.pt', 'password': '123sgdmariamiguel'}
+INFO:werkzeug:127.0.0.1 - - [30/Nov/2024 08:52:22] "POST /member/ HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [30/Nov/2024 08:52:53] "[32mPOST /passenger HTTP/1.1[0m" 308 -
+INFO:logger:###              DEMO: POST /passenger/create              ###
+INFO:logger:###              DEMO: POST /user              ###
+INFO:logger:---- new user  ----
+DEBUG:logger:payload: {'name': 'fernando', 'email': 'fernando@sgd.pt', 'password': '123sgdfernando'}
+INFO:werkzeug:127.0.0.1 - - [30/Nov/2024 08:52:53] "POST /passenger/ HTTP/1.1" 200 -
+INFO:logger:
+---------------------------------------------------------------
+API v1.0 online: http://localhost:8080/
+INFO:werkzeug:[31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:8080
+INFO:werkzeug:[33mPress CTRL+C to quit[0m
+INFO:werkzeug: * Restarting with stat
+INFO:logger:
+---------------------------------------------------------------
+API v1.0 online: http://localhost:8080/
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 119-983-821
+INFO:logger:###              DEMO: PUT /users            ###
+INFO:werkzeug:127.0.0.1 - - [30/Nov/2024 08:57:38] "PUT /login HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [30/Nov/2024 08:58:35] "[32mPOST /admin HTTP/1.1[0m" 308 -
+INFO:logger:###              DEMO: POST /admin/create              ###
+INFO:werkzeug:127.0.0.1 - - [30/Nov/2024 08:58:35] "[31m[1mPOST /admin/ HTTP/1.1[0m" 403 -
+INFO:logger:
+---------------------------------------------------------------
+API v1.0 online: http://localhost:8080/
+INFO:werkzeug:[31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:8080
+INFO:werkzeug:[33mPress CTRL+C to quit[0m
+INFO:werkzeug: * Restarting with stat
+INFO:logger:
+---------------------------------------------------------------
+API v1.0 online: http://localhost:8080/
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 119-983-821
+INFO:logger:###              DEMO: PUT /users            ###
+INFO:werkzeug:127.0.0.1 - - [30/Nov/2024 09:46:49] "PUT /login HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [30/Nov/2024 09:48:29] "[32mPOST /airport HTTP/1.1[0m" 308 -
+INFO:logger:###              DEMO: POST /airport/create              ###
+INFO:logger:---- new airport  ----
+DEBUG:logger:payload: {'city': 'lisboa', 'name': 'humbertodelgado', 'country': 'portugal'}
+INFO:werkzeug:127.0.0.1 - - [30/Nov/2024 09:48:29] "POST /airport/ HTTP/1.1" 200 -
+INFO:logger:
+---------------------------------------------------------------
+API v1.0 online: http://localhost:8080/
+INFO:werkzeug:[31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:8080
+INFO:werkzeug:[33mPress CTRL+C to quit[0m
+INFO:werkzeug: * Restarting with stat
+INFO:logger:
+---------------------------------------------------------------
+API v1.0 online: http://localhost:8080/
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 119-983-821
+INFO:werkzeug:127.0.0.1 - - [30/Nov/2024 09:52:26] "[32mPOST /airport HTTP/1.1[0m" 308 -
+INFO:logger:###              DEMO: POST /airport/create              ###
+INFO:logger:---- new airport  ----
+DEBUG:logger:payload: {'city': 'lisboa', 'name': 'humbertodelgado', 'country': 'portugal'}
+INFO:werkzeug:127.0.0.1 - - [30/Nov/2024 09:52:26] "[35m[1mPOST /airport/ HTTP/1.1[0m" 500 -
+INFO:werkzeug: * Detected change in 'c:\\Users\\HP\\Desktop\\projetoSGD\\python\\app\\apisgd.py', reloading
+INFO:werkzeug: * Restarting with stat
+INFO:logger:
+---------------------------------------------------------------
+API v1.0 online: http://localhost:8080/
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 119-983-821
+INFO:logger:
+---------------------------------------------------------------
+API v1.0 online: http://localhost:8080/
+INFO:werkzeug:[31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:8080
+INFO:werkzeug:[33mPress CTRL+C to quit[0m
+INFO:werkzeug: * Restarting with stat
+INFO:logger:
+---------------------------------------------------------------
+API v1.0 online: http://localhost:8080/
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 119-983-821
+INFO:werkzeug:127.0.0.1 - - [30/Nov/2024 09:53:45] "[32mPOST /airport HTTP/1.1[0m" 308 -
+INFO:logger:###              DEMO: POST /airport/create              ###
+INFO:logger:---- new airport  ----
+DEBUG:logger:payload: {'city': 'lisboa', 'name': 'humbertodelgado', 'country': 'portugal'}
+INFO:werkzeug:127.0.0.1 - - [30/Nov/2024 09:53:45] "[31m[1mPOST /airport/ HTTP/1.1[0m" 400 -
+INFO:logger:
+---------------------------------------------------------------
+API v1.0 online: http://localhost:8080/
+INFO:werkzeug:[31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:8080
+INFO:werkzeug:[33mPress CTRL+C to quit[0m
+INFO:werkzeug: * Restarting with stat
+INFO:logger:
+---------------------------------------------------------------
+API v1.0 online: http://localhost:8080/
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 119-983-821
+INFO:werkzeug:127.0.0.1 - - [30/Nov/2024 09:55:20] "[32mPOST /airport HTTP/1.1[0m" 308 -
+INFO:logger:###              DEMO: POST /airport/create              ###
+INFO:logger:---- new airport  ----
+DEBUG:logger:payload: {'city': 'porto', 'name': 'franciscosácarneiro', 'country': 'portugal'}
+INFO:werkzeug:127.0.0.1 - - [30/Nov/2024 09:55:20] "POST /airport/ HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [30/Nov/2024 09:55:52] "[32mPOST /airport HTTP/1.1[0m" 308 -
+INFO:logger:###              DEMO: POST /airport/create              ###
+INFO:logger:---- new airport  ----
+DEBUG:logger:payload: {'city': 'madrid', 'name': 'adolfosuarezbarajas', 'country': 'espanha'}
+INFO:werkzeug:127.0.0.1 - - [30/Nov/2024 09:55:52] "POST /airport/ HTTP/1.1" 200 -
+INFO:logger:
+---------------------------------------------------------------
+API v1.0 online: http://localhost:8080/
+INFO:werkzeug:[31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:8080
+INFO:werkzeug:[33mPress CTRL+C to quit[0m
+INFO:werkzeug: * Restarting with stat
+INFO:logger:
+---------------------------------------------------------------
+API v1.0 online: http://localhost:8080/
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 119-983-821
+INFO:werkzeug:127.0.0.1 - - [30/Nov/2024 11:59:06] "[33mPUT /flogin HTTP/1.1[0m" 404 -
+INFO:logger:
+---------------------------------------------------------------
+API v1.0 online: http://localhost:8080/
+INFO:werkzeug:[31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:8080
+INFO:werkzeug:[33mPress CTRL+C to quit[0m
+INFO:werkzeug: * Restarting with stat
+INFO:logger:
+---------------------------------------------------------------
+API v1.0 online: http://localhost:8080/
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 119-983-821
+INFO:logger:###              DEMO: PUT /users            ###
+INFO:werkzeug:127.0.0.1 - - [30/Nov/2024 11:59:51] "PUT /login HTTP/1.1" 200 -
+INFO:werkzeug: * Detected change in 'c:\\Users\\HP\\Desktop\\projetoSGD\\python\\app\\apisgd.py', reloading
+INFO:werkzeug: * Restarting with stat
+INFO:logger:
+---------------------------------------------------------------
+API v1.0 online: http://localhost:8080/
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 119-983-821
+INFO:werkzeug:127.0.0.1 - - [30/Nov/2024 12:00:37] "[32mPOST /fligth HTTP/1.1[0m" 308 -
+INFO:logger:###              DEMO: POST /flight              ###
+INFO:logger:---- new flight  ----
+DEBUG:logger:payload: {'id': 24, 'tempo_expiração': 1732969791.2032995}
+INFO:werkzeug:127.0.0.1 - - [30/Nov/2024 12:00:37] "[35m[1mPOST /fligth/ HTTP/1.1[0m" 500 -
+INFO:logger:
+---------------------------------------------------------------
+API v1.0 online: http://localhost:8080/
+INFO:werkzeug:[31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:8080
+INFO:werkzeug:[33mPress CTRL+C to quit[0m
+INFO:werkzeug: * Restarting with stat
+INFO:logger:
+---------------------------------------------------------------
+API v1.0 online: http://localhost:8080/
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 119-983-821
+INFO:werkzeug:127.0.0.1 - - [30/Nov/2024 12:01:49] "[32mPOST /fligth HTTP/1.1[0m" 308 -
+INFO:logger:###              DEMO: POST /flight              ###
+INFO:logger:---- new flight  ----
+DEBUG:logger:payload: {'id': 24, 'tempo_expiração': 1732969791.2032995}
+INFO:werkzeug:127.0.0.1 - - [30/Nov/2024 12:01:50] "[35m[1mPOST /fligth/ HTTP/1.1[0m" 500 -
+INFO:werkzeug: * Detected change in 'c:\\Users\\HP\\Desktop\\projetoSGD\\python\\app\\apisgd.py', reloading
+INFO:werkzeug: * Restarting with stat
+INFO:logger:
+---------------------------------------------------------------
+API v1.0 online: http://localhost:8080/
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 119-983-821
+INFO:logger:
+---------------------------------------------------------------
+API v1.0 online: http://localhost:8080/
+INFO:werkzeug:[31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:8080
+INFO:werkzeug:[33mPress CTRL+C to quit[0m
+INFO:werkzeug: * Restarting with stat
+INFO:logger:
+---------------------------------------------------------------
+API v1.0 online: http://localhost:8080/
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 119-983-821
+INFO:logger:###              DEMO: PUT /users            ###
+INFO:werkzeug:127.0.0.1 - - [30/Nov/2024 19:31:35] "PUT /login HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [30/Nov/2024 19:32:29] "[32mPOST /fligth HTTP/1.1[0m" 308 -
+INFO:logger:###              DEMO: POST /flight              ###
+INFO:logger:---- new flight  ----
+DEBUG:logger:payload: {'id': 19, 'tempo_expiração': 1732996895.4522042}
+INFO:werkzeug:127.0.0.1 - - [30/Nov/2024 19:32:29] "[35m[1mPOST /fligth/ HTTP/1.1[0m" 500 -
+INFO:werkzeug: * Detected change in 'c:\\Users\\HP\\Desktop\\projetoSGD\\python\\app\\apisgd.py', reloading
+INFO:werkzeug: * Restarting with stat
+INFO:logger:
+---------------------------------------------------------------
+API v1.0 online: http://localhost:8080/
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 119-983-821
+INFO:logger:
+---------------------------------------------------------------
+API v1.0 online: http://localhost:8080/
+INFO:werkzeug:[31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:8080
+INFO:werkzeug:[33mPress CTRL+C to quit[0m
+INFO:werkzeug: * Restarting with stat
+INFO:logger:
+---------------------------------------------------------------
+API v1.0 online: http://localhost:8080/
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 119-983-821
+INFO:werkzeug:127.0.0.1 - - [30/Nov/2024 19:44:05] "[32mPOST /fligth HTTP/1.1[0m" 308 -
+INFO:logger:###              DEMO: POST /flight              ###
+INFO:logger:---- new flight  ----
+DEBUG:logger:payload: {'id': 19, 'tempo_expiração': 1732996895.4522042}
+INFO:werkzeug:127.0.0.1 - - [30/Nov/2024 19:44:05] "POST /fligth/ HTTP/1.1" 200 -
+INFO:logger:
+---------------------------------------------------------------
+API v1.0 online: http://localhost:8080/
+INFO:werkzeug:[31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:8080
+INFO:werkzeug:[33mPress CTRL+C to quit[0m
+INFO:werkzeug: * Restarting with stat
+INFO:logger:
+---------------------------------------------------------------
+API v1.0 online: http://localhost:8080/
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 119-983-821
+INFO:werkzeug:127.0.0.1 - - [30/Nov/2024 19:48:12] "[32mPOST /fligth HTTP/1.1[0m" 308 -
+INFO:logger:###              DEMO: POST /flight              ###
+INFO:logger:---- new flight  ----
+DEBUG:logger:payload: {'id': 19, 'tempo_expiração': 1732996895.4522042}
+INFO:werkzeug:127.0.0.1 - - [30/Nov/2024 19:48:13] "POST /fligth/ HTTP/1.1" 200 -
+INFO:logger:
+---------------------------------------------------------------
+API v1.0 online: http://localhost:8080/
+INFO:werkzeug:[31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:8080
+INFO:werkzeug:[33mPress CTRL+C to quit[0m
+INFO:werkzeug: * Restarting with stat
+INFO:logger:
+---------------------------------------------------------------
+API v1.0 online: http://localhost:8080/
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 119-983-821
+INFO:logger:
+---------------------------------------------------------------
+API v1.0 online: http://localhost:8080/
+INFO:werkzeug:[31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:8080
+INFO:werkzeug:[33mPress CTRL+C to quit[0m
+INFO:werkzeug: * Restarting with stat
+INFO:logger:
+---------------------------------------------------------------
+API v1.0 online: http://localhost:8080/
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 119-983-821
+INFO:werkzeug:127.0.0.1 - - [30/Nov/2024 19:54:10] "[32mPOST /fligth HTTP/1.1[0m" 308 -
+INFO:logger:###              DEMO: POST /flight              ###
+INFO:logger:---- new flight  ----
+DEBUG:logger:payload: {'id': 19, 'tempo_expiração': 1732996895.4522042}
+INFO:werkzeug:127.0.0.1 - - [30/Nov/2024 19:54:10] "POST /fligth/ HTTP/1.1" 200 -
+INFO:logger:
+---------------------------------------------------------------
+API v1.0 online: http://localhost:8080/
+INFO:werkzeug:[31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:8080
+INFO:werkzeug:[33mPress CTRL+C to quit[0m
+INFO:werkzeug: * Restarting with stat
+INFO:logger:
+---------------------------------------------------------------
+API v1.0 online: http://localhost:8080/
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 119-983-821
+INFO:werkzeug:127.0.0.1 - - [30/Nov/2024 19:58:47] "[32mPOST /fligth HTTP/1.1[0m" 308 -
+INFO:logger:###              DEMO: POST /flight              ###
+INFO:logger:---- new flight  ----
+DEBUG:logger:payload: {'departure_time': '2024-10-28', 'arrivel_time': '2024-10-28', 'capacity': 100, 'origin': 'humbertodelgado', 'destination': 'franciscosácarneiro', 'flight_code': 'LP564'}
+ERROR:logger:syntax error at or near "2"
+LINE 3: ...2024-10-28',   '2024-10-28' ,   100,   19 ,   1   2 ,   'LP5...
+                                                             ^
+
+INFO:werkzeug:127.0.0.1 - - [30/Nov/2024 19:58:47] "[35m[1mPOST /fligth/ HTTP/1.1[0m" 500 -
+INFO:werkzeug: * Detected change in 'c:\\Users\\HP\\Desktop\\projetoSGD\\python\\app\\apisgd.py', reloading
+INFO:werkzeug: * Restarting with stat
+INFO:logger:
+---------------------------------------------------------------
+API v1.0 online: http://localhost:8080/
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 119-983-821
+INFO:logger:
+---------------------------------------------------------------
+API v1.0 online: http://localhost:8080/
+INFO:werkzeug:[31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:8080
+INFO:werkzeug:[33mPress CTRL+C to quit[0m
+INFO:werkzeug: * Restarting with stat
+INFO:logger:
+---------------------------------------------------------------
+API v1.0 online: http://localhost:8080/
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 119-983-821
+INFO:werkzeug:127.0.0.1 - - [30/Nov/2024 19:59:26] "[32mPOST /fligth HTTP/1.1[0m" 308 -
+INFO:logger:###              DEMO: POST /flight              ###
+INFO:logger:---- new flight  ----
+DEBUG:logger:payload: {'departure_time': '2024-10-28', 'arrivel_time': '2024-10-28', 'capacity': 100, 'origin': 'humbertodelgado', 'destination': 'franciscosácarneiro', 'flight_code': 'LP564'}
+ERROR:logger:syntax error at or near "2"
+LINE 3: ...2024-10-28',   '2024-10-28' ,   100,   19 ,   1   2 ,   'LP5...
+                                                             ^
+
+INFO:werkzeug:127.0.0.1 - - [30/Nov/2024 19:59:26] "POST /fligth/ HTTP/1.1" 200 -
+INFO:werkzeug: * Detected change in 'c:\\Users\\HP\\Desktop\\projetoSGD\\python\\app\\apisgd.py', reloading
+INFO:werkzeug: * Restarting with stat
+INFO:logger:
+---------------------------------------------------------------
+API v1.0 online: http://localhost:8080/
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 119-983-821
+INFO:logger:
+---------------------------------------------------------------
+API v1.0 online: http://localhost:8080/
+INFO:werkzeug:[31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:8080
+INFO:werkzeug:[33mPress CTRL+C to quit[0m
+INFO:werkzeug: * Restarting with stat
+INFO:logger:
+---------------------------------------------------------------
+API v1.0 online: http://localhost:8080/
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 119-983-821
+INFO:werkzeug:127.0.0.1 - - [30/Nov/2024 20:02:46] "[32mPOST /fligth HTTP/1.1[0m" 308 -
+INFO:logger:###              DEMO: POST /flight              ###
+INFO:werkzeug:127.0.0.1 - - [30/Nov/2024 20:02:46] "[31m[1mPOST /fligth/ HTTP/1.1[0m" 401 -
+INFO:logger:###              DEMO: PUT /users            ###
+ERROR:logger:Error during login: 400 Bad Request: Failed to decode JSON object: Expecting property name enclosed in double quotes: line 4 column 1 (char 58)
+INFO:werkzeug:127.0.0.1 - - [30/Nov/2024 20:03:48] "[35m[1mPUT /login HTTP/1.1[0m" 500 -
+INFO:logger:
+---------------------------------------------------------------
+API v1.0 online: http://localhost:8080/
+INFO:werkzeug:[31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:8080
+INFO:werkzeug:[33mPress CTRL+C to quit[0m
+INFO:werkzeug: * Restarting with stat
+INFO:logger:
+---------------------------------------------------------------
+API v1.0 online: http://localhost:8080/
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 119-983-821
+INFO:logger:###              DEMO: PUT /users            ###
+INFO:werkzeug:127.0.0.1 - - [30/Nov/2024 20:04:32] "PUT /login HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [30/Nov/2024 20:05:05] "[32mPOST /fligth HTTP/1.1[0m" 308 -
+INFO:logger:###              DEMO: POST /flight              ###
+INFO:logger:---- new flight  ----
+DEBUG:logger:payload: {'departure_time': '2024-10-28', 'arrivel_time': '2024-10-28', 'capacity': 100, 'origin': 'humbertodelgado', 'destination': 'franciscosácarneiro', 'flight_code': 'LP564'}
+ERROR:logger:tuple index out of range
+INFO:werkzeug:127.0.0.1 - - [30/Nov/2024 20:05:05] "POST /fligth/ HTTP/1.1" 200 -
+INFO:werkzeug: * Detected change in 'c:\\Users\\HP\\Desktop\\projetoSGD\\python\\app\\apisgd.py', reloading
+INFO:werkzeug: * Restarting with stat
+INFO:logger:
+---------------------------------------------------------------
+API v1.0 online: http://localhost:8080/
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 119-983-821
+INFO:werkzeug: * Detected change in 'c:\\Users\\HP\\Desktop\\projetoSGD\\python\\app\\apisgd.py', reloading
+INFO:werkzeug: * Restarting with stat
+INFO:logger:
+---------------------------------------------------------------
+API v1.0 online: http://localhost:8080/
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 119-983-821
+INFO:werkzeug: * Detected change in 'c:\\Users\\HP\\Desktop\\projetoSGD\\python\\app\\apisgd.py', reloading
+INFO:werkzeug: * Restarting with stat
+INFO:logger:
+---------------------------------------------------------------
+API v1.0 online: http://localhost:8080/
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 119-983-821
+INFO:logger:
+---------------------------------------------------------------
+API v1.0 online: http://localhost:8080/
+INFO:werkzeug:[31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:8080
+INFO:werkzeug:[33mPress CTRL+C to quit[0m
+INFO:werkzeug: * Restarting with stat
+INFO:logger:
+---------------------------------------------------------------
+API v1.0 online: http://localhost:8080/
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 119-983-821
+INFO:werkzeug:127.0.0.1 - - [30/Nov/2024 20:07:23] "[32mPOST /fligth HTTP/1.1[0m" 308 -
+INFO:logger:###              DEMO: POST /flight              ###
+INFO:logger:---- new flight  ----
+DEBUG:logger:payload: {'departure_time': '2024-10-28', 'arrivel_time': '2024-10-28', 'capacity': 100, 'origin': 'humbertodelgado', 'destination': 'franciscosácarneiro', 'flight_code': 'LP564'}
+ERROR:logger:tuple index out of range
+INFO:werkzeug:127.0.0.1 - - [30/Nov/2024 20:07:24] "POST /fligth/ HTTP/1.1" 200 -
+INFO:werkzeug: * Detected change in 'c:\\Users\\HP\\Desktop\\projetoSGD\\python\\app\\apisgd.py', reloading
+INFO:werkzeug: * Restarting with stat
+INFO:logger:
+---------------------------------------------------------------
+API v1.0 online: http://localhost:8080/
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 119-983-821
+INFO:logger:
+---------------------------------------------------------------
+API v1.0 online: http://localhost:8080/
+INFO:werkzeug:[31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:8080
+INFO:werkzeug:[33mPress CTRL+C to quit[0m
+INFO:werkzeug: * Restarting with stat
+INFO:logger:
+---------------------------------------------------------------
+API v1.0 online: http://localhost:8080/
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 119-983-821
+INFO:werkzeug:127.0.0.1 - - [30/Nov/2024 20:08:44] "[32mPOST /fligth HTTP/1.1[0m" 308 -
+INFO:logger:###              DEMO: POST /flight              ###
+INFO:logger:---- new flight  ----
+DEBUG:logger:payload: {'departure_time': '2024-10-28', 'arrivel_time': '2024-10-28', 'capacity': 100, 'origin': 'humbertodelgado', 'destination': 'franciscosácarneiro', 'flight_code': 'LP564'}
+DEBUG:logger:origin_row: (1,)
+DEBUG:logger:origin_row: (2,)
+ERROR:logger:tuple index out of range
+INFO:werkzeug:127.0.0.1 - - [30/Nov/2024 20:08:44] "POST /fligth/ HTTP/1.1" 200 -
+INFO:werkzeug: * Detected change in 'c:\\Users\\HP\\Desktop\\projetoSGD\\python\\app\\apisgd.py', reloading
+INFO:werkzeug: * Restarting with stat
+INFO:logger:
+---------------------------------------------------------------
+API v1.0 online: http://localhost:8080/
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 119-983-821
+INFO:logger:
+---------------------------------------------------------------
+API v1.0 online: http://localhost:8080/
+INFO:werkzeug:[31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:8080
+INFO:werkzeug:[33mPress CTRL+C to quit[0m
+INFO:werkzeug: * Restarting with stat
+INFO:logger:
+---------------------------------------------------------------
+API v1.0 online: http://localhost:8080/
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 119-983-821
+INFO:werkzeug:127.0.0.1 - - [30/Nov/2024 20:09:50] "[32mPOST /fligth HTTP/1.1[0m" 308 -
+INFO:logger:###              DEMO: POST /flight              ###
+INFO:logger:---- new flight  ----
+DEBUG:logger:payload: {'departure_time': '2024-10-28', 'arrivel_time': '2024-10-28', 'capacity': 100, 'origin': 'humbertodelgado', 'destination': 'franciscosácarneiro', 'flight_code': 'LP564'}
+DEBUG:logger:origin_row: (1,)
+DEBUG:logger:origin_row: (2,)
+ERROR:logger:tuple index out of range
+INFO:werkzeug:127.0.0.1 - - [30/Nov/2024 20:09:50] "POST /fligth/ HTTP/1.1" 200 -
+INFO:logger:
+---------------------------------------------------------------
+API v1.0 online: http://localhost:8080/
+INFO:werkzeug:[31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:8080
+INFO:werkzeug:[33mPress CTRL+C to quit[0m
+INFO:werkzeug: * Restarting with stat
+INFO:logger:
+---------------------------------------------------------------
+API v1.0 online: http://localhost:8080/
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 119-983-821
+INFO:werkzeug:127.0.0.1 - - [30/Nov/2024 20:11:02] "[32mPOST /fligth HTTP/1.1[0m" 308 -
+INFO:logger:###              DEMO: POST /flight              ###
+INFO:logger:---- new flight  ----
+DEBUG:logger:payload: {'departure_time': '2024-10-28', 'arrivel_time': '2024-10-28', 'capacity': 100, 'origin': 'humbertodelgado', 'destination': 'franciscosácarneiro', 'flight_code': 'LP564'}
+DEBUG:logger:origin_row: (1,)
+DEBUG:logger:origin_row: (2,)
+ERROR:logger:tuple index out of range
+INFO:werkzeug:127.0.0.1 - - [30/Nov/2024 20:11:02] "POST /fligth/ HTTP/1.1" 200 -
+INFO:werkzeug: * Detected change in 'c:\\Users\\HP\\Desktop\\projetoSGD\\python\\app\\apisgd.py', reloading
+INFO:werkzeug: * Restarting with stat
+INFO:logger:
+---------------------------------------------------------------
+API v1.0 online: http://localhost:8080/
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 119-983-821
+INFO:logger:
+---------------------------------------------------------------
+API v1.0 online: http://localhost:8080/
+INFO:werkzeug:[31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:8080
+INFO:werkzeug:[33mPress CTRL+C to quit[0m
+INFO:werkzeug: * Restarting with stat
+INFO:logger:
+---------------------------------------------------------------
+API v1.0 online: http://localhost:8080/
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 119-983-821
+INFO:werkzeug:127.0.0.1 - - [30/Nov/2024 20:12:30] "[32mPOST /fligth HTTP/1.1[0m" 308 -
+INFO:logger:###              DEMO: POST /flight              ###
+INFO:logger:---- new flight  ----
+DEBUG:logger:payload: {'departure_time': '2024-10-28', 'arrivel_time': '2024-10-28', 'capacity': 100, 'origin': 'humbertodelgado', 'destination': 'franciscosácarneiro', 'flight_code': 'LP564'}
+DEBUG:logger:origin_row: (1,)
+DEBUG:logger:origin_row: (2,)
+ERROR:logger:tuple index out of range
+INFO:werkzeug:127.0.0.1 - - [30/Nov/2024 20:12:31] "POST /fligth/ HTTP/1.1" 200 -
+INFO:werkzeug: * Detected change in 'c:\\Users\\HP\\Desktop\\projetoSGD\\python\\app\\apisgd.py', reloading
+INFO:werkzeug: * Restarting with stat
+INFO:logger:
+---------------------------------------------------------------
+API v1.0 online: http://localhost:8080/
+INFO:werkzeug:[31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:8080
+INFO:werkzeug:[33mPress CTRL+C to quit[0m
+INFO:werkzeug: * Restarting with stat
+INFO:logger:
+---------------------------------------------------------------
+API v1.0 online: http://localhost:8080/
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 119-983-821
+INFO:werkzeug:127.0.0.1 - - [30/Nov/2024 20:17:18] "[32mPOST /fligth HTTP/1.1[0m" 308 -
+INFO:logger:###              DEMO: POST /flight              ###
+INFO:logger:---- new flight  ----
+DEBUG:logger:payload: {'departure_time': '2024-10-28', 'arrivel_time': '2024-10-28', 'capacity': 100, 'origin': 'humbertodelgado', 'destination': 'franciscosácarneiro', 'flight_code': 'LP564'}
+DEBUG:logger:origin_row: (1,)
+DEBUG:logger:origin_row: (2,)
+ERROR:logger:tuple index out of range
+INFO:werkzeug:127.0.0.1 - - [30/Nov/2024 20:17:19] "POST /fligth/ HTTP/1.1" 200 -
+INFO:logger:
+---------------------------------------------------------------
+API v1.0 online: http://localhost:8080/
+INFO:werkzeug:[31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:8080
+INFO:werkzeug:[33mPress CTRL+C to quit[0m
+INFO:werkzeug: * Restarting with stat
+INFO:logger:
+---------------------------------------------------------------
+API v1.0 online: http://localhost:8080/
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 119-983-821
+INFO:werkzeug:127.0.0.1 - - [30/Nov/2024 20:19:25] "[32mPOST /fligth HTTP/1.1[0m" 308 -
+INFO:logger:###              DEMO: POST /flight              ###
+INFO:logger:---- new flight  ----
+DEBUG:logger:payload: {'departure_time': '2024-10-28', 'arrivel_time': '2024-10-28', 'capacity': 100, 'origin': 'humbertodelgado', 'destination': 'franciscosacarneiro', 'flight_code': 'LP564'}
+DEBUG:logger:origin_row: (1,)
+DEBUG:logger:origin_row: (2,)
+ERROR:logger:tuple index out of range
+INFO:werkzeug:127.0.0.1 - - [30/Nov/2024 20:19:26] "POST /fligth/ HTTP/1.1" 200 -
+INFO:werkzeug: * Detected change in 'c:\\Users\\HP\\Desktop\\projetoSGD\\python\\app\\apisgd.py', reloading
+INFO:werkzeug: * Restarting with stat
+INFO:logger:
+---------------------------------------------------------------
+API v1.0 online: http://localhost:8080/
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 119-983-821
+INFO:logger:
+---------------------------------------------------------------
+API v1.0 online: http://localhost:8080/
+INFO:werkzeug:[31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:8080
+INFO:werkzeug:[33mPress CTRL+C to quit[0m
+INFO:werkzeug: * Restarting with stat
+INFO:logger:
+---------------------------------------------------------------
+API v1.0 online: http://localhost:8080/
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 119-983-821
+INFO:werkzeug:127.0.0.1 - - [30/Nov/2024 20:22:59] "[32mPOST /fligth HTTP/1.1[0m" 308 -
+INFO:logger:###              DEMO: POST /flight              ###
+INFO:logger:---- new flight  ----
+DEBUG:logger:payload: {'departure_time': '2024-10-28', 'arrivel_time': '2024-10-28', 'capacity': 100, 'origin': 'humbertodelgado', 'destination': 'franciscosacarneiro', 'flight_code': 'LP564'}
+DEBUG:logger:Buscando ID do aeroporto de origem: humbertodelgado
+DEBUG:logger:ID do aeroporto de origem encontrado: 1
+DEBUG:logger:Buscando ID do aeroporto de destino: franciscosacarneiro
+DEBUG:logger:ID do aeroporto de destino encontrado: 2
+ERROR:logger:tuple index out of range
+INFO:werkzeug:127.0.0.1 - - [30/Nov/2024 20:22:59] "POST /fligth/ HTTP/1.1" 200 -
+INFO:werkzeug: * Detected change in 'c:\\Users\\HP\\Desktop\\projetoSGD\\python\\app\\apisgd.py', reloading
+INFO:werkzeug: * Restarting with stat
+INFO:logger:
+---------------------------------------------------------------
+API v1.0 online: http://localhost:8080/
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 119-983-821
+INFO:werkzeug: * Detected change in 'c:\\Users\\HP\\Desktop\\projetoSGD\\python\\app\\apisgd.py', reloading
+INFO:werkzeug: * Restarting with stat
+INFO:logger:
+---------------------------------------------------------------
+API v1.0 online: http://localhost:8080/
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 119-983-821
+INFO:werkzeug: * Detected change in 'c:\\Users\\HP\\Desktop\\projetoSGD\\python\\app\\apisgd.py', reloading
+INFO:werkzeug: * Restarting with stat
+INFO:logger:
+---------------------------------------------------------------
+API v1.0 online: http://localhost:8080/
+INFO:werkzeug:[31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:8080
+INFO:werkzeug:[33mPress CTRL+C to quit[0m
+INFO:werkzeug: * Restarting with stat
+INFO:logger:
+---------------------------------------------------------------
+API v1.0 online: http://localhost:8080/
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 119-983-821
+INFO:werkzeug:127.0.0.1 - - [30/Nov/2024 20:28:13] "[32mPOST /fligth HTTP/1.1[0m" 308 -
+INFO:logger:###              DEMO: POST /flight              ###
+INFO:logger:---- new flight  ----
+DEBUG:logger:payload: {'departure_time': '2024-10-28', 'arrivel_time': '2024-10-28', 'capacity': 100, 'origin': 'humbertodelgado', 'destination': 'franciscosacarneiro', 'flight_code': 'LP564'}
+DEBUG:logger:origin_row: (1,)
+DEBUG:logger:origin_row: (2,)
+ERROR:logger:tuple index out of range
+INFO:werkzeug:127.0.0.1 - - [30/Nov/2024 20:28:13] "POST /fligth/ HTTP/1.1" 200 -
+INFO:logger:
+---------------------------------------------------------------
+API v1.0 online: http://localhost:8080/
+INFO:werkzeug:[31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:8080
+INFO:werkzeug:[33mPress CTRL+C to quit[0m
+INFO:werkzeug: * Restarting with stat
+INFO:logger:
+---------------------------------------------------------------
+API v1.0 online: http://localhost:8080/
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 119-983-821
+INFO:werkzeug:127.0.0.1 - - [30/Nov/2024 21:21:39] "[31m[1mPATCH /login HTTP/1.1[0m" 405 -
+INFO:logger:###              DEMO: PUT /users            ###
+INFO:werkzeug:127.0.0.1 - - [30/Nov/2024 21:21:49] "PUT /login HTTP/1.1" 200 -
+INFO:werkzeug: * Detected change in 'c:\\Users\\HP\\Desktop\\projetoSGD\\python\\app\\apisgd.py', reloading
+INFO:werkzeug: * Restarting with stat
+INFO:logger:
+---------------------------------------------------------------
+API v1.0 online: http://localhost:8080/
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 119-983-821
+INFO:werkzeug:127.0.0.1 - - [30/Nov/2024 21:22:22] "[32mPOST /fligth HTTP/1.1[0m" 308 -
+INFO:logger:###              DEMO: POST /flight              ###
+INFO:logger:---- new flight  ----
+DEBUG:logger:payload: {'departure_time': '2024-10-28', 'arrivel_time': '2024-10-28', 'capacity': 100, 'origin': 'humbertodelgado', 'destination': 'franciscosácarneiro', 'flight_code': 'LP564'}
+DEBUG:logger:origin_row: (1,)
+INFO:werkzeug:127.0.0.1 - - [30/Nov/2024 21:22:22] "POST /fligth/ HTTP/1.1" 200 -
+INFO:logger:
+---------------------------------------------------------------
+API v1.0 online: http://localhost:8080/
+INFO:werkzeug:[31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:8080
+INFO:werkzeug:[33mPress CTRL+C to quit[0m
+INFO:werkzeug: * Restarting with stat
+INFO:logger:
+---------------------------------------------------------------
+API v1.0 online: http://localhost:8080/
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 119-983-821
+INFO:werkzeug:127.0.0.1 - - [30/Nov/2024 21:23:53] "[32mPOST /fligth HTTP/1.1[0m" 308 -
+INFO:logger:###              DEMO: POST /flight              ###
+INFO:logger:---- new flight  ----
+DEBUG:logger:payload: {'departure_time': '2024-10-28', 'arrivel_time': '2024-10-28', 'capacity': 100, 'origin': 'humbertodelgado', 'destination': 'franciscosacarneiro', 'flight_code': 'LP564'}
+DEBUG:logger:origin_row: (1,)
+DEBUG:logger:origin_row: (2,)
+ERROR:logger:invalid input syntax for type integer: "LP564"
+LINE 3: ...  VALUES ( '2024-10-28', '2024-10-28', 100, 1, 2, 'LP564', 1...
+                                                             ^
+
+INFO:werkzeug:127.0.0.1 - - [30/Nov/2024 21:23:53] "POST /fligth/ HTTP/1.1" 200 -
+INFO:werkzeug: * Detected change in 'c:\\Users\\HP\\Desktop\\projetoSGD\\python\\app\\apisgd.py', reloading
+INFO:werkzeug: * Restarting with stat
+INFO:logger:
+---------------------------------------------------------------
+API v1.0 online: http://localhost:8080/
+INFO:werkzeug:[31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:8080
+INFO:werkzeug:[33mPress CTRL+C to quit[0m
+INFO:werkzeug: * Restarting with stat
+INFO:logger:
+---------------------------------------------------------------
+API v1.0 online: http://localhost:8080/
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 119-983-821
+INFO:werkzeug:127.0.0.1 - - [30/Nov/2024 21:25:46] "[32mPOST /fligth HTTP/1.1[0m" 308 -
+INFO:logger:###              DEMO: POST /flight              ###
+INFO:logger:---- new flight  ----
+DEBUG:logger:payload: {'departure_time': '2024-10-28', 'arrivel_time': '2024-10-28', 'capacity': 100, 'origin': 'humbertodelgado', 'destination': 'franciscosacarneiro', 'flight_code': 'LP564'}
+DEBUG:logger:origin_row: (1,)
+DEBUG:logger:origin_row: (2,)
+INFO:werkzeug:127.0.0.1 - - [30/Nov/2024 21:25:46] "POST /fligth/ HTTP/1.1" 200 -
+INFO:logger:
+---------------------------------------------------------------
+API v1.0 online: http://localhost:8080/
+INFO:werkzeug:[31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:8080
+INFO:werkzeug:[33mPress CTRL+C to quit[0m
+INFO:werkzeug: * Restarting with stat
+INFO:logger:
+---------------------------------------------------------------
+API v1.0 online: http://localhost:8080/
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 119-983-821
+INFO:werkzeug:127.0.0.1 - - [01/Dec/2024 09:44:06] "[32mPOST /passenger HTTP/1.1[0m" 308 -
+INFO:logger:###              DEMO: POST /passenger/create              ###
+INFO:logger:###              DEMO: POST /user              ###
+INFO:logger:---- new user  ----
+DEBUG:logger:payload: {'name': 'francisca', 'email': 'francisca@sgd.pt', 'password': '123sgdfrancisca'}
+INFO:werkzeug:127.0.0.1 - - [01/Dec/2024 09:44:06] "POST /passenger/ HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [01/Dec/2024 09:44:27] "[32mPOST /passenger HTTP/1.1[0m" 308 -
+INFO:logger:###              DEMO: POST /passenger/create              ###
+INFO:logger:###              DEMO: POST /user              ###
+INFO:logger:---- new user  ----
+DEBUG:logger:payload: {'name': 'carmita', 'email': 'carmira@sgd.pt', 'password': '123sgdcarmita'}
+INFO:werkzeug:127.0.0.1 - - [01/Dec/2024 09:44:27] "POST /passenger/ HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [01/Dec/2024 09:44:46] "[32mPOST /passenger HTTP/1.1[0m" 308 -
+INFO:logger:###              DEMO: POST /passenger/create              ###
+INFO:logger:###              DEMO: POST /user              ###
+INFO:logger:---- new user  ----
+DEBUG:logger:payload: {'name': 'fernando', 'email': 'fernando@sgd.pt', 'password': '123sgdfernando'}
+INFO:werkzeug:127.0.0.1 - - [01/Dec/2024 09:44:46] "POST /passenger/ HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [01/Dec/2024 09:45:31] "[32mPOST /member HTTP/1.1[0m" 308 -
+INFO:logger:###              DEMO: POST /member/create              ###
+INFO:logger:###              DEMO: POST /user              ###
+INFO:logger:---- new user  ----
+DEBUG:logger:payload: {'name': 'mariana', 'email': 'mariana@sgd.pt', 'password': '123sgdmariana'}
+INFO:werkzeug:127.0.0.1 - - [01/Dec/2024 09:45:31] "POST /member/ HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [01/Dec/2024 09:45:50] "[32mPOST /member HTTP/1.1[0m" 308 -
+INFO:logger:###              DEMO: POST /member/create              ###
+INFO:logger:###              DEMO: POST /user              ###
+INFO:logger:---- new user  ----
+DEBUG:logger:payload: {'name': 'anamaria', 'email': 'anamaria@sgd.pt', 'password': '123sgdanamaria'}
+INFO:werkzeug:127.0.0.1 - - [01/Dec/2024 09:45:50] "POST /member/ HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [01/Dec/2024 09:46:08] "[32mPOST /member HTTP/1.1[0m" 308 -
+INFO:logger:###              DEMO: POST /member/create              ###
+INFO:logger:###              DEMO: POST /user              ###
+INFO:logger:---- new user  ----
+DEBUG:logger:payload: {'name': 'mariamiguel', 'email': 'mariamiguel@sgd.pt', 'password': '123sgdmariamiguel'}
+INFO:werkzeug:127.0.0.1 - - [01/Dec/2024 09:46:08] "POST /member/ HTTP/1.1" 200 -
+INFO:logger:###              DEMO: PUT /users            ###
+INFO:werkzeug:127.0.0.1 - - [01/Dec/2024 09:46:49] "PUT /login HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [01/Dec/2024 09:47:45] "[32mPOST /admin HTTP/1.1[0m" 308 -
+INFO:logger:###              DEMO: POST /admin/create              ###
+INFO:logger:###              DEMO: POST /user              ###
+INFO:logger:---- new user  ----
+DEBUG:logger:payload: {'name': 'afonso', 'email': 'afonso@sgd.pt', 'password': '123sgdafonso'}
+INFO:werkzeug:127.0.0.1 - - [01/Dec/2024 09:47:45] "POST /admin/ HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [01/Dec/2024 09:48:08] "[32mPOST /admin HTTP/1.1[0m" 308 -
+INFO:logger:###              DEMO: POST /admin/create              ###
+INFO:logger:###              DEMO: POST /user              ###
+INFO:logger:---- new user  ----
+DEBUG:logger:payload: {'name': 'pedro', 'email': 'pedro@sgd.pt', 'password': '123sgdpedro'}
+INFO:werkzeug:127.0.0.1 - - [01/Dec/2024 09:48:08] "POST /admin/ HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [01/Dec/2024 09:48:19] "[32mPOST /admin HTTP/1.1[0m" 308 -
+INFO:logger:###              DEMO: POST /admin/create              ###
+INFO:logger:###              DEMO: POST /user              ###
+INFO:logger:---- new user  ----
+DEBUG:logger:payload: {'name': 'sara', 'email': 'sara@sgd.pt', 'password': '123sgdsara'}
+INFO:werkzeug:127.0.0.1 - - [01/Dec/2024 09:48:19] "POST /admin/ HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [01/Dec/2024 09:48:40] "[32mPOST /admin HTTP/1.1[0m" 308 -
+INFO:logger:###              DEMO: POST /admin/create              ###
+INFO:logger:###              DEMO: POST /user              ###
+INFO:logger:---- new user  ----
+DEBUG:logger:payload: {'name': 'beatriz', 'email': 'beatriz@sgd.pt', 'password': '123sgdbeatriz'}
+INFO:werkzeug:127.0.0.1 - - [01/Dec/2024 09:48:40] "POST /admin/ HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [01/Dec/2024 09:52:20] "[32mPOST /airport HTTP/1.1[0m" 308 -
+INFO:logger:###              DEMO: POST /airport/create              ###
+INFO:logger:---- new airport  ----
+DEBUG:logger:payload: {'city': 'lisboa', 'name': 'humbertodelgado', 'country': 'portugal'}
+INFO:werkzeug:127.0.0.1 - - [01/Dec/2024 09:52:20] "POST /airport/ HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [01/Dec/2024 09:52:39] "[32mPOST /airport HTTP/1.1[0m" 308 -
+INFO:logger:###              DEMO: POST /airport/create              ###
+INFO:logger:---- new airport  ----
+DEBUG:logger:payload: {'city': 'porto', 'name': 'franciscosacarneiro', 'country': 'portugal'}
+INFO:werkzeug:127.0.0.1 - - [01/Dec/2024 09:52:39] "POST /airport/ HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [01/Dec/2024 09:52:54] "[32mPOST /airport HTTP/1.1[0m" 308 -
+INFO:logger:###              DEMO: POST /airport/create              ###
+INFO:logger:---- new airport  ----
+DEBUG:logger:payload: {'city': 'madrid', 'name': 'adolfosuarezbarajas', 'country': 'espanha'}
+INFO:werkzeug:127.0.0.1 - - [01/Dec/2024 09:52:54] "POST /airport/ HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [01/Dec/2024 09:53:15] "[32mPOST /fligth HTTP/1.1[0m" 308 -
+INFO:logger:###              DEMO: POST /flight              ###
+INFO:logger:---- new flight  ----
+DEBUG:logger:payload: {'departure_time': '2024-12-01', 'arrivel_time': '2024-12-01', 'capacity': '100', 'origin': 'humbertodelgado', 'destination': 'adolfosuarezbarajas', 'flight_code': 'LH123'}
+DEBUG:logger:origin_row: (1,)
+DEBUG:logger:origin_row: (3,)
+ERROR:logger:null value in column "users_id_users" of relation "fligth" violates not-null constraint
+DETAIL:  Failing row contains (1, 2024-12-01, 2024-12-01, 100, LH123, null, 1, 1, 3).
+
+INFO:werkzeug:127.0.0.1 - - [01/Dec/2024 09:53:15] "POST /fligth/ HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [01/Dec/2024 09:53:47] "[32mPOST /fligth HTTP/1.1[0m" 308 -
+INFO:logger:###              DEMO: POST /flight              ###
+INFO:logger:---- new flight  ----
+DEBUG:logger:payload: {'departure_time': '2024-12-01', 'arrivel_time': '2024-12-01', 'capacity': '100', 'origin': 'humbertodelgado', 'destination': 'adolfosuarezbarajas', 'flight_code': 'LH123'}
+DEBUG:logger:origin_row: (1,)
+DEBUG:logger:origin_row: (3,)
+INFO:werkzeug:127.0.0.1 - - [01/Dec/2024 09:53:47] "POST /fligth/ HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [01/Dec/2024 09:54:03] "[32mPOST /fligth HTTP/1.1[0m" 308 -
+INFO:logger:###              DEMO: POST /flight              ###
+INFO:logger:---- new flight  ----
+DEBUG:logger:payload: {'departure_time': '2024-10-28', 'arrivel_time': '2024-10-28', 'capacity': 100, 'origin': 'humbertodelgado', 'destination': 'franciscosacarneiro', 'flight_code': 'LP564'}
+DEBUG:logger:origin_row: (1,)
+DEBUG:logger:origin_row: (2,)
+INFO:werkzeug:127.0.0.1 - - [01/Dec/2024 09:54:04] "POST /fligth/ HTTP/1.1" 200 -
+INFO:logger:
+---------------------------------------------------------------
+API v1.0 online: http://localhost:8080/
+INFO:werkzeug:[31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:8080
+INFO:werkzeug:[33mPress CTRL+C to quit[0m
+INFO:werkzeug: * Restarting with stat
+INFO:logger:
+---------------------------------------------------------------
+API v1.0 online: http://localhost:8080/
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 119-983-821
+INFO:logger:
+---------------------------------------------------------------
+API v1.0 online: http://localhost:8080/
+INFO:werkzeug:[31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:8080
+INFO:werkzeug:[33mPress CTRL+C to quit[0m
+INFO:werkzeug: * Restarting with stat
+INFO:logger:
+---------------------------------------------------------------
+API v1.0 online: http://localhost:8080/
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 119-983-821
+INFO:werkzeug:127.0.0.1 - - [01/Dec/2024 09:55:48] "[32mPOST /member HTTP/1.1[0m" 308 -
+INFO:logger:###              DEMO: POST /member/create              ###
+INFO:logger:###              DEMO: POST /user              ###
+INFO:logger:---- new user  ----
+DEBUG:logger:payload: {'name': 'joaolopes', 'email': 'joaolopes@sgd.pt', 'password': '123sgdjoaolopes'}
+INFO:werkzeug:127.0.0.1 - - [01/Dec/2024 09:55:48] "POST /member/ HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [01/Dec/2024 09:56:05] "[32mPOST /member HTTP/1.1[0m" 308 -
+INFO:logger:###              DEMO: POST /member/create              ###
+INFO:logger:###              DEMO: POST /user              ###
+INFO:logger:---- new user  ----
+DEBUG:logger:payload: {'name': 'joaopratas', 'email': 'joaopratas@sgd.pt', 'password': '123sgdjoaopratas'}
+INFO:werkzeug:127.0.0.1 - - [01/Dec/2024 09:56:05] "POST /member/ HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [01/Dec/2024 09:56:22] "[32mPOST /member HTTP/1.1[0m" 308 -
+INFO:logger:###              DEMO: POST /member/create              ###
+INFO:logger:###              DEMO: POST /user              ###
+INFO:logger:---- new user  ----
+DEBUG:logger:payload: {'name': 'andreneto', 'email': 'andreneto@sgd.pt', 'password': '123sgdandreneto'}
+INFO:werkzeug:127.0.0.1 - - [01/Dec/2024 09:56:23] "POST /member/ HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [01/Dec/2024 09:56:36] "[32mPOST /member HTTP/1.1[0m" 308 -
+INFO:logger:###              DEMO: POST /member/create              ###
+INFO:logger:###              DEMO: POST /user              ###
+INFO:logger:---- new user  ----
+DEBUG:logger:payload: {'name': 'tomasgeraldo', 'email': 'tomasgeraldo@sgd.pt', 'password': '123sgdtomasgeraldo'}
+INFO:werkzeug:127.0.0.1 - - [01/Dec/2024 09:56:36] "POST /member/ HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [01/Dec/2024 09:57:01] "[32mPOST /member HTTP/1.1[0m" 308 -
+INFO:logger:###              DEMO: POST /member/create              ###
+INFO:logger:###              DEMO: POST /user              ###
+INFO:logger:---- new user  ----
+DEBUG:logger:payload: {'name': 'tomasduarte', 'email': 'tomasduarte@sgd.pt', 'password': '123sgdtomasduarte'}
+INFO:werkzeug:127.0.0.1 - - [01/Dec/2024 09:57:02] "POST /member/ HTTP/1.1" 200 -
+INFO:logger:
+---------------------------------------------------------------
+API v1.0 online: http://localhost:8080/
+INFO:werkzeug:[31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:8080
+INFO:werkzeug:[33mPress CTRL+C to quit[0m
+INFO:werkzeug: * Restarting with stat
+INFO:logger:
+---------------------------------------------------------------
+API v1.0 online: http://localhost:8080/
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 119-983-821
+INFO:werkzeug:127.0.0.1 - - [01/Dec/2024 10:04:23] "[33mPOST /crew HTTP/1.1[0m" 404 -
+INFO:werkzeug: * Detected change in 'c:\\Users\\HP\\Desktop\\projetoSGD\\python\\app\\apisgd.py', reloading
+INFO:werkzeug: * Restarting with stat
+INFO:logger:
+---------------------------------------------------------------
+API v1.0 online: http://localhost:8080/
+INFO:werkzeug:[31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:8080
+INFO:werkzeug:[33mPress CTRL+C to quit[0m
+INFO:werkzeug: * Restarting with stat
+INFO:logger:
+---------------------------------------------------------------
+API v1.0 online: http://localhost:8080/
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 119-983-821
+INFO:werkzeug:127.0.0.1 - - [01/Dec/2024 10:14:35] "[32mPOST /crew HTTP/1.1[0m" 308 -
+INFO:logger:###              DEMO: POST /crew/create              ###
+INFO:werkzeug:127.0.0.1 - - [01/Dec/2024 10:14:35] "[31m[1mPOST /crew/ HTTP/1.1[0m" 400 -
+INFO:werkzeug:127.0.0.1 - - [01/Dec/2024 10:15:06] "[32mPOST /crew HTTP/1.1[0m" 308 -
+INFO:logger:###              DEMO: POST /crew/create              ###
+INFO:logger:---- Creating Crew ----
+DEBUG:logger:Payload: {'flight_attendants': [7, 8, 13, 14], 'pilots': [2, 6]}
+INFO:werkzeug:127.0.0.1 - - [01/Dec/2024 10:15:06] "POST /crew/ HTTP/1.1" 200 -
+INFO:werkzeug: * Detected change in 'c:\\Users\\HP\\Desktop\\projetoSGD\\python\\app\\apisgd.py', reloading
+INFO:werkzeug: * Restarting with stat
+INFO:logger:
+---------------------------------------------------------------
+API v1.0 online: http://localhost:8080/
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 119-983-821
+INFO:werkzeug: * Detected change in 'c:\\Users\\HP\\Desktop\\projetoSGD\\python\\app\\apisgd.py', reloading
+INFO:werkzeug: * Restarting with stat
+INFO:logger:
+---------------------------------------------------------------
+API v1.0 online: http://localhost:8080/
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 119-983-821
+INFO:werkzeug:127.0.0.1 - - [01/Dec/2024 10:16:13] "[32mPOST /crew HTTP/1.1[0m" 308 -
+INFO:logger:###              DEMO: POST /crew/create              ###
+INFO:logger:---- Creating Crew ----
+DEBUG:logger:Payload: {'flight_attendants': [7, 8, 13, 14], 'pilots': [2, 6]}
+INFO:werkzeug:127.0.0.1 - - [01/Dec/2024 10:16:13] "POST /crew/ HTTP/1.1" 200 -
+INFO:werkzeug: * Detected change in 'c:\\Users\\HP\\Desktop\\projetoSGD\\python\\app\\apisgd.py', reloading
+INFO:werkzeug: * Restarting with stat
+INFO:logger:
+---------------------------------------------------------------
+API v1.0 online: http://localhost:8080/
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 119-983-821
+INFO:werkzeug:127.0.0.1 - - [01/Dec/2024 10:16:26] "[32mPOST /crew HTTP/1.1[0m" 308 -
+INFO:logger:###              DEMO: POST /crew/create              ###
+INFO:logger:---- Creating Crew ----
+DEBUG:logger:Payload: {'flight_attendants': [7, 8, 13, 14], 'pilots': [2, 6]}
+ERROR:logger:Erro ao criar crew: column "crew_id_crew" does not exist
+LINE 1: ...dministrator_users_id_users) VALUES (1) RETURNING crew_id_cr...
+                                                             ^
+
+INFO:werkzeug:127.0.0.1 - - [01/Dec/2024 10:16:26] "POST /crew/ HTTP/1.1" 200 -
+INFO:werkzeug: * Detected change in 'c:\\Users\\HP\\Desktop\\projetoSGD\\python\\app\\apisgd.py', reloading
+INFO:werkzeug: * Restarting with stat
+INFO:logger:
+---------------------------------------------------------------
+API v1.0 online: http://localhost:8080/
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 119-983-821
+INFO:werkzeug:127.0.0.1 - - [01/Dec/2024 10:17:03] "[32mPOST /crew HTTP/1.1[0m" 308 -
+INFO:logger:###              DEMO: POST /crew/create              ###
+INFO:werkzeug:127.0.0.1 - - [01/Dec/2024 10:17:03] "[31m[1mPOST /crew/ HTTP/1.1[0m" 401 -
+INFO:logger:###              DEMO: PUT /users            ###
+INFO:werkzeug:127.0.0.1 - - [01/Dec/2024 10:18:05] "PUT /login HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [01/Dec/2024 10:18:35] "[32mPOST /crew HTTP/1.1[0m" 308 -
+INFO:logger:###              DEMO: POST /crew/create              ###
+INFO:logger:---- Creating Crew ----
+DEBUG:logger:Payload: {'flight_attendants': [7, 8, 13, 14], 'pilots': [2, 6]}
+INFO:werkzeug:127.0.0.1 - - [01/Dec/2024 10:18:36] "POST /crew/ HTTP/1.1" 200 -
+INFO:logger:
+---------------------------------------------------------------
+API v1.0 online: http://localhost:8080/
+INFO:werkzeug:[31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:8080
+INFO:werkzeug:[33mPress CTRL+C to quit[0m
+INFO:werkzeug: * Restarting with stat
+INFO:logger:
+---------------------------------------------------------------
+API v1.0 online: http://localhost:8080/
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 119-983-821
+INFO:werkzeug:127.0.0.1 - - [01/Dec/2024 10:34:06] "[32mPOST /crew HTTP/1.1[0m" 308 -
+INFO:logger:###              DEMO: POST /crew/create              ###
+INFO:logger:---- Creating Crew ----
+DEBUG:logger:Payload: {'flight_attendants': [7, 17, 13, 16], 'pilots': [2, 15]}
+ERROR:logger:Erro ao criar crew: column "id_crew" of relation "flight_attendant" does not exist
+LINE 1: INSERT INTO flight_attendant (id_crew, member_users_id_users...
+                                      ^
+
+INFO:werkzeug:127.0.0.1 - - [01/Dec/2024 10:34:06] "POST /crew/ HTTP/1.1" 200 -
+INFO:werkzeug: * Detected change in 'c:\\Users\\HP\\Desktop\\projetoSGD\\python\\app\\apisgd.py', reloading
+INFO:werkzeug: * Restarting with stat
+INFO:logger:
+---------------------------------------------------------------
+API v1.0 online: http://localhost:8080/
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 119-983-821
+INFO:werkzeug:127.0.0.1 - - [01/Dec/2024 10:35:25] "[32mPOST /crew HTTP/1.1[0m" 308 -
+INFO:logger:###              DEMO: POST /crew/create              ###
+INFO:logger:---- Creating Crew ----
+DEBUG:logger:Payload: {'flight_attendants': [7, 17, 13, 16], 'pilots': [2, 15]}
+ERROR:logger:Erro ao criar crew: duplicate key value violates unique constraint "flight_attendant_pkey"
+DETAIL:  Key (member_users_id_users)=(7) already exists.
+
+INFO:werkzeug:127.0.0.1 - - [01/Dec/2024 10:35:25] "POST /crew/ HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [01/Dec/2024 10:35:57] "[32mPOST /crew HTTP/1.1[0m" 308 -
+INFO:logger:###              DEMO: POST /crew/create              ###
+INFO:logger:---- Creating Crew ----
+DEBUG:logger:Payload: {'flight_attendants': [17, 16], 'pilots': [15]}
+INFO:werkzeug:127.0.0.1 - - [01/Dec/2024 10:35:57] "POST /crew/ HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [01/Dec/2024 10:37:44] "[33mGET /sgdproj/schedule HTTP/1.1[0m" 404 -
+INFO:werkzeug:127.0.0.1 - - [01/Dec/2024 10:37:44] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+INFO:logger:
+---------------------------------------------------------------
+API v1.0 online: http://localhost:8080/
+INFO:werkzeug:[31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:8080
+INFO:werkzeug:[33mPress CTRL+C to quit[0m
+INFO:werkzeug: * Restarting with stat
+INFO:logger:
+---------------------------------------------------------------
+API v1.0 online: http://localhost:8080/
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 119-983-821
+INFO:werkzeug:127.0.0.1 - - [01/Dec/2024 15:32:57] "[32mPOST /crew HTTP/1.1[0m" 308 -
+INFO:logger:###              DEMO: POST /crew/create              ###
+INFO:werkzeug:127.0.0.1 - - [01/Dec/2024 15:32:57] "[31m[1mPOST /crew/ HTTP/1.1[0m" 401 -
+INFO:logger:###              DEMO: PUT /users            ###
+INFO:werkzeug:127.0.0.1 - - [01/Dec/2024 15:33:05] "PUT /login HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [01/Dec/2024 15:34:29] "[32mPOST /schedule HTTP/1.1[0m" 308 -
+INFO:logger:###              DEMO: POST /schedule              ###
+INFO:logger:---- new schedule  ----
+DEBUG:logger:payload: {'fligth_date': '2024-12-01', 'fligth_code': 'LH123'}
+INFO:werkzeug:127.0.0.1 - - [01/Dec/2024 15:34:30] "[35m[1mPOST /schedule/ HTTP/1.1[0m" 500 -
+INFO:werkzeug: * Detected change in 'c:\\Users\\HP\\Desktop\\projetoSGD\\python\\app\\apisgd.py', reloading
+INFO:werkzeug: * Restarting with stat
+INFO:logger:
+---------------------------------------------------------------
+API v1.0 online: http://localhost:8080/
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 119-983-821
+INFO:werkzeug:127.0.0.1 - - [01/Dec/2024 15:35:14] "[32mPOST /schedule HTTP/1.1[0m" 308 -
+INFO:logger:###              DEMO: POST /schedule              ###
+INFO:logger:---- new schedule  ----
+DEBUG:logger:payload: {'fligth_date': '2024-12-01', 'fligth_code': 'LH123'}
+INFO:werkzeug:127.0.0.1 - - [01/Dec/2024 15:35:14] "[35m[1mPOST /schedule/ HTTP/1.1[0m" 500 -
+INFO:werkzeug: * Detected change in 'c:\\Users\\HP\\Desktop\\projetoSGD\\python\\app\\apisgd.py', reloading
+INFO:werkzeug: * Restarting with stat
+INFO:logger:
+---------------------------------------------------------------
+API v1.0 online: http://localhost:8080/
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 119-983-821
+INFO:werkzeug:127.0.0.1 - - [01/Dec/2024 15:35:59] "[32mPOST /schedule HTTP/1.1[0m" 308 -
+INFO:logger:###              DEMO: POST /schedule              ###
+INFO:logger:---- new schedule  ----
+DEBUG:logger:payload: {'fligth_date': '2024-12-01', 'fligth_code': 'LH123'}
+INFO:werkzeug:127.0.0.1 - - [01/Dec/2024 15:35:59] "POST /schedule/ HTTP/1.1" 200 -
+INFO:werkzeug: * Detected change in 'c:\\Users\\HP\\Desktop\\projetoSGD\\python\\app\\apisgd.py', reloading
+INFO:werkzeug: * Restarting with stat
+INFO:logger:
+---------------------------------------------------------------
+API v1.0 online: http://localhost:8080/
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 119-983-821
+INFO:werkzeug: * Detected change in 'c:\\Users\\HP\\Desktop\\projetoSGD\\python\\app\\apisgd.py', reloading
+INFO:werkzeug: * Restarting with stat
+INFO:logger:
+---------------------------------------------------------------
+API v1.0 online: http://localhost:8080/
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 119-983-821
+INFO:logger:
+---------------------------------------------------------------
+API v1.0 online: http://localhost:8080/
+INFO:werkzeug:[31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:8080
+INFO:werkzeug:[33mPress CTRL+C to quit[0m
+INFO:werkzeug: * Restarting with stat
+INFO:logger:
+---------------------------------------------------------------
+API v1.0 online: http://localhost:8080/
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 119-983-821
+INFO:werkzeug:127.0.0.1 - - [01/Dec/2024 17:03:21] "[33mPUT /pedro HTTP/1.1[0m" 404 -
+INFO:logger:###              DEMO: PUT /users            ###
+INFO:werkzeug:127.0.0.1 - - [01/Dec/2024 17:03:28] "PUT /login HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [01/Dec/2024 17:04:02] "[32mPOST /schedule HTTP/1.1[0m" 308 -
+INFO:logger:###              DEMO: POST /schedule              ###
+INFO:logger:---- new schedule  ----
+DEBUG:logger:payload: {'fligth_date': '2024-12-01', 'fligth_code': 'LH123'}
+INFO:werkzeug:127.0.0.1 - - [01/Dec/2024 17:04:02] "POST /schedule/ HTTP/1.1" 200 -
+INFO:logger:###              DEMO: GET /check_seats            ###
+INFO:logger:---- lugares disponíveis  ----
+DEBUG:logger:payload: {'flight_code': 'LH123', 'schedule_id': '1'}
+INFO:werkzeug:127.0.0.1 - - [01/Dec/2024 17:05:19] "GET /check_seats HTTP/1.1" 200 -
+INFO:logger:###              DEMO: GET /check_seats            ###
+INFO:logger:---- lugares disponíveis  ----
+DEBUG:logger:payload: {'flight_code': 'LH123', 'id_schedule': '1'}
+INFO:werkzeug:127.0.0.1 - - [01/Dec/2024 17:05:31] "[35m[1mGET /check_seats HTTP/1.1[0m" 500 -
+INFO:werkzeug: * Detected change in 'c:\\Users\\HP\\Desktop\\projetoSGD\\python\\app\\apisgd.py', reloading
+INFO:werkzeug: * Restarting with stat
+INFO:logger:
+---------------------------------------------------------------
+API v1.0 online: http://localhost:8080/
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 119-983-821
+INFO:logger:###              DEMO: GET /check_seats            ###
+INFO:logger:---- lugares disponíveis  ----
+DEBUG:logger:payload: {'flight_code': 'LH123', 'id_schedule': '1'}
+INFO:werkzeug:127.0.0.1 - - [01/Dec/2024 17:06:07] "[35m[1mGET /check_seats HTTP/1.1[0m" 500 -
+INFO:logger:
+---------------------------------------------------------------
+API v1.0 online: http://localhost:8080/
+INFO:werkzeug:[31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:8080
+INFO:werkzeug:[33mPress CTRL+C to quit[0m
+INFO:werkzeug: * Restarting with stat
+INFO:logger:
+---------------------------------------------------------------
+API v1.0 online: http://localhost:8080/
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 119-983-821
+INFO:logger:###              DEMO: GET /check_seats            ###
+INFO:logger:---- lugares disponíveis  ----
+DEBUG:logger:payload: {'flight_code': 'LH123', 'id_schedule': '1'}
+INFO:werkzeug:127.0.0.1 - - [01/Dec/2024 17:08:41] "[35m[1mGET /check_seats HTTP/1.1[0m" 500 -
+INFO:werkzeug: * Detected change in 'c:\\Users\\HP\\Desktop\\projetoSGD\\python\\app\\apisgd.py', reloading
+INFO:werkzeug: * Restarting with stat
+INFO:logger:
+---------------------------------------------------------------
+API v1.0 online: http://localhost:8080/
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 119-983-821
+INFO:logger:
+---------------------------------------------------------------
+API v1.0 online: http://localhost:8080/
+INFO:werkzeug:[31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:8080
+INFO:werkzeug:[33mPress CTRL+C to quit[0m
+INFO:werkzeug: * Restarting with stat
+INFO:logger:
+---------------------------------------------------------------
+API v1.0 online: http://localhost:8080/
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 119-983-821
+INFO:logger:###              DEMO: GET /check_seats            ###
+INFO:logger:---- lugares disponíveis  ----
+DEBUG:logger:payload: {'flight_code': 'LH123', 'id_schedule': '1'}
+INFO:werkzeug:127.0.0.1 - - [01/Dec/2024 17:09:52] "GET /check_seats HTTP/1.1" 200 -
+INFO:werkzeug: * Detected change in 'c:\\Users\\HP\\Desktop\\projetoSGD\\python\\app\\apisgd.py', reloading
+INFO:werkzeug: * Restarting with stat
+INFO:logger:
+---------------------------------------------------------------
+API v1.0 online: http://localhost:8080/
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 119-983-821
+INFO:werkzeug: * Detected change in 'c:\\Users\\HP\\Desktop\\projetoSGD\\python\\app\\apisgd.py', reloading
+INFO:werkzeug: * Restarting with stat
+INFO:logger:
+---------------------------------------------------------------
+API v1.0 online: http://localhost:8080/
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 119-983-821
+INFO:logger:
+---------------------------------------------------------------
+API v1.0 online: http://localhost:8080/
+INFO:werkzeug:[31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:8080
+INFO:werkzeug:[33mPress CTRL+C to quit[0m
+INFO:werkzeug: * Restarting with stat
+INFO:logger:
+---------------------------------------------------------------
+API v1.0 online: http://localhost:8080/
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 119-983-821
+INFO:logger:###              DEMO: PUT /users            ###
+INFO:werkzeug:127.0.0.1 - - [02/Dec/2024 10:29:55] "PUT /login HTTP/1.1" 200 -
+INFO:logger:###              DEMO: GET /check_routes            ###
+INFO:werkzeug:127.0.0.1 - - [02/Dec/2024 10:31:01] "[35m[1mGET /check_routes HTTP/1.1[0m" 500 -
+INFO:werkzeug: * Detected change in 'c:\\Users\\HP\\Desktop\\projetoSGD\\python\\app\\apisgd.py', reloading
+INFO:werkzeug: * Restarting with stat
+INFO:logger:
+---------------------------------------------------------------
+API v1.0 online: http://localhost:8080/
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 119-983-821
+INFO:werkzeug: * Detected change in 'c:\\Users\\HP\\Desktop\\projetoSGD\\python\\app\\apisgd.py', reloading
+INFO:werkzeug: * Restarting with stat
+INFO:logger:
+---------------------------------------------------------------
+API v1.0 online: http://localhost:8080/
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 119-983-821
+INFO:werkzeug: * Detected change in 'c:\\Users\\HP\\Desktop\\projetoSGD\\python\\app\\apisgd.py', reloading
+INFO:werkzeug: * Restarting with stat
+INFO:logger:
+---------------------------------------------------------------
+API v1.0 online: http://localhost:8080/
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 119-983-821
+INFO:logger:###              DEMO: GET /check_routes            ###
+INFO:logger:---- rotas disponíveis  ----
+DEBUG:logger:payload: {'origin_airport': '1', 'destination_airport': '3'}
+INFO:werkzeug:127.0.0.1 - - [02/Dec/2024 10:46:20] "[35m[1mGET /check_routes HTTP/1.1[0m" 500 -
+INFO:werkzeug: * Detected change in 'c:\\Users\\HP\\Desktop\\projetoSGD\\python\\app\\apisgd.py', reloading
+INFO:werkzeug: * Restarting with stat
+INFO:logger:
+---------------------------------------------------------------
+API v1.0 online: http://localhost:8080/
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 119-983-821
+INFO:logger:###              DEMO: GET /check_routes            ###
+INFO:logger:---- rotas disponíveis  ----
+DEBUG:logger:payload: {'origin_airport': '1', 'destination_airport': '3'}
+INFO:werkzeug:127.0.0.1 - - [02/Dec/2024 10:47:45] "[35m[1mGET /check_routes HTTP/1.1[0m" 500 -
+INFO:werkzeug: * Detected change in 'c:\\Users\\HP\\Desktop\\projetoSGD\\python\\app\\apisgd.py', reloading
+INFO:werkzeug: * Restarting with stat
+INFO:logger:
+---------------------------------------------------------------
+API v1.0 online: http://localhost:8080/
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 119-983-821
+INFO:logger:###              DEMO: GET /check_routes            ###
+INFO:logger:---- rotas disponíveis  ----
+DEBUG:logger:payload: {'origin_airport': '1', 'destination_airport': '3'}
+INFO:werkzeug:127.0.0.1 - - [02/Dec/2024 10:49:32] "[35m[1mGET /check_routes HTTP/1.1[0m" 500 -
+INFO:werkzeug: * Detected change in 'c:\\Users\\HP\\Desktop\\projetoSGD\\python\\app\\apisgd.py', reloading
+INFO:werkzeug: * Restarting with stat
+INFO:logger:
+---------------------------------------------------------------
+API v1.0 online: http://localhost:8080/
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 119-983-821
+INFO:logger:###              DEMO: GET /check_routes            ###
+INFO:logger:---- rotas disponíveis  ----
+DEBUG:logger:payload: {'origin_airport': '1', 'destination_airport': '3'}
+INFO:werkzeug:127.0.0.1 - - [02/Dec/2024 10:49:53] "GET /check_routes HTTP/1.1" 200 -
+INFO:logger:
+---------------------------------------------------------------
+API v1.0 online: http://localhost:8080/
+INFO:werkzeug:[31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:8080
+INFO:werkzeug:[33mPress CTRL+C to quit[0m
+INFO:werkzeug: * Restarting with stat
+INFO:logger:
+---------------------------------------------------------------
+API v1.0 online: http://localhost:8080/
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 119-983-821
+INFO:werkzeug: * Detected change in 'c:\\Users\\HP\\Desktop\\projetoSGD\\python\\app\\apisgd.py', reloading
+INFO:werkzeug: * Restarting with stat
+INFO:logger:
+---------------------------------------------------------------
+API v1.0 online: http://localhost:8080/
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 119-983-821
+INFO:logger:
+---------------------------------------------------------------
+API v1.0 online: http://localhost:8080/
+INFO:werkzeug:[31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:8080
+INFO:werkzeug:[33mPress CTRL+C to quit[0m
+INFO:werkzeug: * Restarting with stat
+INFO:logger:
+---------------------------------------------------------------
+API v1.0 online: http://localhost:8080/
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 119-983-821
+INFO:werkzeug: * Detected change in 'c:\\Users\\HP\\Desktop\\projetoSGD\\python\\app\\apisgd.py', reloading
+INFO:werkzeug: * Restarting with stat
+INFO:logger:
+---------------------------------------------------------------
+API v1.0 online: http://localhost:8080/
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 119-983-821
+INFO:logger:
+---------------------------------------------------------------
+API v1.0 online: http://localhost:8080/
+INFO:werkzeug:[31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:8080
+INFO:werkzeug:[33mPress CTRL+C to quit[0m
+INFO:werkzeug: * Restarting with stat
+INFO:logger:
+---------------------------------------------------------------
+API v1.0 online: http://localhost:8080/
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 119-983-821
+INFO:logger:###              DEMO: PUT /users            ###
+INFO:werkzeug:127.0.0.1 - - [02/Dec/2024 13:44:51] "PUT /login HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [02/Dec/2024 13:47:13] "[32mPOST /criar_booking HTTP/1.1[0m" 308 -
+INFO:logger:---- Creating booking ----
+DEBUG:logger:Payload: {'numbertickets': 3, 'typeluggage': 'porão', 'id_schedule': 1, 'id_user': 3}
+INFO:werkzeug:127.0.0.1 - - [02/Dec/2024 13:47:13] "POST /criar_booking/ HTTP/1.1" 200 -
+INFO:werkzeug: * Detected change in 'c:\\Users\\HP\\Desktop\\projetoSGD\\python\\app\\apisgd.py', reloading
+INFO:werkzeug: * Restarting with stat
+INFO:logger:
+---------------------------------------------------------------
+API v1.0 online: http://localhost:8080/
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 119-983-821
+INFO:werkzeug:127.0.0.1 - - [02/Dec/2024 13:50:30] "[32mPOST /criar_booking HTTP/1.1[0m" 308 -
+INFO:logger:---- Creating booking ----
+DEBUG:logger:Payload: {'numbertickets': 3, 'typeluggage': 'porão', 'id_schedule': 1}
+INFO:werkzeug:127.0.0.1 - - [02/Dec/2024 13:50:30] "[35m[1mPOST /criar_booking/ HTTP/1.1[0m" 500 -
+INFO:werkzeug:127.0.0.1 - - [02/Dec/2024 13:51:27] "[32mPOST /criar_booking HTTP/1.1[0m" 308 -
+INFO:logger:---- Creating booking ----
+DEBUG:logger:Payload: {'numbertickets': 3, 'typeluggage': 'porão', 'id_schedule': 1}
+INFO:werkzeug:127.0.0.1 - - [02/Dec/2024 13:51:27] "[35m[1mPOST /criar_booking/ HTTP/1.1[0m" 500 -
+INFO:werkzeug: * Detected change in 'c:\\Users\\HP\\Desktop\\projetoSGD\\python\\app\\apisgd.py', reloading
+INFO:werkzeug: * Restarting with stat
+INFO:logger:
+---------------------------------------------------------------
+API v1.0 online: http://localhost:8080/
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 119-983-821
+INFO:werkzeug:127.0.0.1 - - [02/Dec/2024 13:52:10] "[32mPOST /criar_booking HTTP/1.1[0m" 308 -
+INFO:logger:---- Creating booking ----
+DEBUG:logger:Payload: {'numbertickets': 3, 'typeluggage': 'porão', 'id_schedule': 1}
+INFO:werkzeug:127.0.0.1 - - [02/Dec/2024 13:52:10] "[35m[1mPOST /criar_booking/ HTTP/1.1[0m" 500 -
+INFO:werkzeug: * Detected change in 'c:\\Users\\HP\\Desktop\\projetoSGD\\python\\app\\apisgd.py', reloading
+INFO:werkzeug: * Restarting with stat
+INFO:logger:
+---------------------------------------------------------------
+API v1.0 online: http://localhost:8080/
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 119-983-821
+INFO:werkzeug:127.0.0.1 - - [02/Dec/2024 13:52:33] "[32mPOST /criar_booking HTTP/1.1[0m" 308 -
+INFO:logger:---- Creating booking ----
+DEBUG:logger:Payload: {'numbertickets': 3, 'typeluggage': 'porão', 'id_schedule': 1}
+INFO:werkzeug:127.0.0.1 - - [02/Dec/2024 13:52:34] "POST /criar_booking/ HTTP/1.1" 200 -
+INFO:werkzeug: * Detected change in 'c:\\Users\\HP\\Desktop\\projetoSGD\\python\\app\\apisgd.py', reloading
+INFO:werkzeug: * Restarting with stat
+INFO:logger:
+---------------------------------------------------------------
+API v1.0 online: http://localhost:8080/
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 119-983-821
+INFO:werkzeug: * Detected change in 'c:\\Users\\HP\\Desktop\\projetoSGD\\python\\app\\apisgd.py', reloading
+INFO:werkzeug: * Restarting with stat
+INFO:logger:
+---------------------------------------------------------------
+API v1.0 online: http://localhost:8080/
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 119-983-821
+INFO:werkzeug:127.0.0.1 - - [02/Dec/2024 13:55:20] "[32mPOST /criar_booking HTTP/1.1[0m" 308 -
+INFO:logger:---- Creating booking ----
+DEBUG:logger:Payload: {'numbertickets': 3, 'typeluggage': 'porão', 'id_schedule': 1}
+INFO:werkzeug:127.0.0.1 - - [02/Dec/2024 13:55:20] "POST /criar_booking/ HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [02/Dec/2024 13:55:23] "[32mPOST /criar_booking HTTP/1.1[0m" 308 -
+INFO:logger:---- Creating booking ----
+DEBUG:logger:Payload: {'numbertickets': 3, 'typeluggage': 'porão', 'id_schedule': 1}
+INFO:werkzeug:127.0.0.1 - - [02/Dec/2024 13:55:23] "POST /criar_booking/ HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [02/Dec/2024 13:56:09] "[32mPOST /criar_booking HTTP/1.1[0m" 308 -
+INFO:logger:---- Creating booking ----
+DEBUG:logger:Payload: {'numbertickets': 3, 'typeluggage': 'porao', 'id_schedule': 1}
+INFO:werkzeug:127.0.0.1 - - [02/Dec/2024 13:56:10] "POST /criar_booking/ HTTP/1.1" 200 -
+INFO:werkzeug: * Detected change in 'c:\\Users\\HP\\Desktop\\projetoSGD\\python\\app\\apisgd.py', reloading
+INFO:werkzeug: * Restarting with stat
+INFO:logger:
+---------------------------------------------------------------
+API v1.0 online: http://localhost:8080/
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 119-983-821
+INFO:werkzeug:127.0.0.1 - - [02/Dec/2024 13:57:32] "[32mPOST /criar_booking HTTP/1.1[0m" 308 -
+INFO:logger:---- Creating booking ----
+DEBUG:logger:Payload: {'numbertickets': 3, 'typeluggage': 'porao', 'id_schedule': 1}
+INFO:werkzeug:127.0.0.1 - - [02/Dec/2024 13:57:32] "POST /criar_booking/ HTTP/1.1" 200 -
+INFO:werkzeug: * Detected change in 'c:\\Users\\HP\\Desktop\\projetoSGD\\python\\app\\apisgd.py', reloading
+INFO:werkzeug: * Restarting with stat
+INFO:logger:
+---------------------------------------------------------------
+API v1.0 online: http://localhost:8080/
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 119-983-821
+INFO:werkzeug:127.0.0.1 - - [02/Dec/2024 13:58:01] "[32mPOST /criar_booking HTTP/1.1[0m" 308 -
+INFO:logger:---- Creating booking ----
+DEBUG:logger:Payload: {'numbertickets': 3, 'typeluggage': 'porao', 'id_schedule': 1}
+INFO:werkzeug:127.0.0.1 - - [02/Dec/2024 13:58:01] "POST /criar_booking/ HTTP/1.1" 200 -
+INFO:werkzeug: * Detected change in 'c:\\Users\\HP\\Desktop\\projetoSGD\\python\\app\\apisgd.py', reloading
+INFO:werkzeug: * Restarting with stat
+INFO:logger:
+---------------------------------------------------------------
+API v1.0 online: http://localhost:8080/
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 119-983-821
+INFO:werkzeug:127.0.0.1 - - [02/Dec/2024 13:58:28] "[32mPOST /criar_booking HTTP/1.1[0m" 308 -
+INFO:logger:---- Creating booking ----
+DEBUG:logger:Payload: {'numbertickets': 3, 'typeluggage': 'porao', 'id_schedule': 1}
+INFO:werkzeug:127.0.0.1 - - [02/Dec/2024 13:58:28] "POST /criar_booking/ HTTP/1.1" 200 -
+INFO:werkzeug: * Detected change in 'c:\\Users\\HP\\Desktop\\projetoSGD\\python\\app\\apisgd.py', reloading
+INFO:werkzeug: * Restarting with stat
+INFO:logger:
+---------------------------------------------------------------
+API v1.0 online: http://localhost:8080/
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 119-983-821
+INFO:werkzeug:127.0.0.1 - - [02/Dec/2024 13:59:14] "[32mPOST /criar_booking HTTP/1.1[0m" 308 -
+INFO:logger:---- Creating booking ----
+DEBUG:logger:Payload: {'numbertickets': 3, 'typeluggage': 'porao', 'id_schedule': 1}
+INFO:werkzeug:127.0.0.1 - - [02/Dec/2024 13:59:14] "POST /criar_booking/ HTTP/1.1" 200 -
+INFO:werkzeug: * Detected change in 'c:\\Users\\HP\\Desktop\\projetoSGD\\python\\app\\apisgd.py', reloading
+INFO:werkzeug: * Restarting with stat
+INFO:logger:
+---------------------------------------------------------------
+API v1.0 online: http://localhost:8080/
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 119-983-821
+INFO:werkzeug:127.0.0.1 - - [02/Dec/2024 14:02:37] "[32mPOST /criar_booking HTTP/1.1[0m" 308 -
+INFO:logger:---- Creating booking ----
+DEBUG:logger:Payload: {'numbertickets': 3, 'typeluggage': 'porao', 'id_schedule': 1}
+INFO:logger:conexao feita
+INFO:werkzeug:127.0.0.1 - - [02/Dec/2024 14:02:37] "POST /criar_booking/ HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [02/Dec/2024 14:08:56] "[32mPOST /criar_booking HTTP/1.1[0m" 308 -
+INFO:logger:---- Creating booking ----
+DEBUG:logger:Payload: {'numbertickets': 3, 'typeluggage': 'porao', 'id_schedule': 1}
+INFO:logger:conexao feita
+INFO:werkzeug:127.0.0.1 - - [02/Dec/2024 14:08:56] "POST /criar_booking/ HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [02/Dec/2024 14:10:36] "[32mPOST /criar_seats HTTP/1.1[0m" 308 -
+INFO:logger:---- Creating seats ----
+DEBUG:logger:Payload: {'id_booking': 1, 'total_linhas': 25, 'numero_por_linha': 4}
+INFO:werkzeug:127.0.0.1 - - [02/Dec/2024 14:10:36] "POST /criar_seats/ HTTP/1.1" 200 -
+INFO:werkzeug: * Detected change in 'c:\\Users\\HP\\Desktop\\projetoSGD\\python\\app\\apisgd.py', reloading
+INFO:werkzeug: * Restarting with stat
+INFO:logger:
+---------------------------------------------------------------
+API v1.0 online: http://localhost:8080/
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 119-983-821
+INFO:werkzeug:127.0.0.1 - - [02/Dec/2024 14:11:16] "[32mPOST /criarseats HTTP/1.1[0m" 308 -
+INFO:logger:---- Creating seats ----
+DEBUG:logger:Payload: {'id_booking': 1, 'total_linhas': 25, 'numero_por_linha': 4}
+INFO:werkzeug:127.0.0.1 - - [02/Dec/2024 14:11:16] "POST /criarseats/ HTTP/1.1" 200 -
+INFO:logger:
+---------------------------------------------------------------
+API v1.0 online: http://localhost:8080/
+INFO:werkzeug:[31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:8080
+INFO:werkzeug:[33mPress CTRL+C to quit[0m
+INFO:werkzeug: * Restarting with stat
+INFO:logger:
+---------------------------------------------------------------
+API v1.0 online: http://localhost:8080/
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 119-983-821
+INFO:werkzeug:127.0.0.1 - - [02/Dec/2024 17:46:13] "[33mPOST /criar_booking HTTP/1.1[0m" 404 -
+INFO:werkzeug:127.0.0.1 - - [02/Dec/2024 17:46:50] "[32mPOST /criarbooking HTTP/1.1[0m" 308 -
+INFO:logger:---- Creating booking ----
+DEBUG:logger:Payload: {'numbertickets': 3, 'typeluggage': 'porao', 'id_schedule': 1}
+INFO:werkzeug:127.0.0.1 - - [02/Dec/2024 17:46:50] "POST /criarbooking/ HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [02/Dec/2024 17:52:47] "[32mPOST /passenger HTTP/1.1[0m" 308 -
+INFO:logger:###              DEMO: POST /passenger/create              ###
+INFO:logger:###              DEMO: POST /user              ###
+INFO:logger:---- new user  ----
+DEBUG:logger:payload: {'name': 'luismiguel', 'email': 'luismiguel@sgd.pt', 'password': '123sgdluismiguel'}
+INFO:werkzeug:127.0.0.1 - - [02/Dec/2024 17:52:47] "POST /passenger/ HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [02/Dec/2024 17:53:11] "[32mPOST /passenger HTTP/1.1[0m" 308 -
+INFO:logger:###              DEMO: POST /passenger/create              ###
+INFO:logger:###              DEMO: POST /user              ###
+INFO:logger:---- new user  ----
+DEBUG:logger:payload: {'name': 'marianateles', 'email': 'marianateles@sgd.pt', 'password': '123sgdmarianateles'}
+INFO:werkzeug:127.0.0.1 - - [02/Dec/2024 17:53:11] "POST /passenger/ HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [02/Dec/2024 17:53:27] "[32mPOST /passenger HTTP/1.1[0m" 308 -
+INFO:logger:###              DEMO: POST /passenger/create              ###
+INFO:logger:###              DEMO: POST /user              ###
+INFO:logger:---- new user  ----
+DEBUG:logger:payload: {'name': 'gustavosilva', 'email': 'gustavosilva@sgd.pt', 'password': '123sgdgustavosilva'}
+INFO:werkzeug:127.0.0.1 - - [02/Dec/2024 17:53:27] "POST /passenger/ HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [02/Dec/2024 17:53:49] "[32mPOST /passenger HTTP/1.1[0m" 308 -
+INFO:logger:###              DEMO: POST /passenger/create              ###
+INFO:logger:###              DEMO: POST /user              ###
+INFO:logger:---- new user  ----
+DEBUG:logger:payload: {'name': 'olgasofia', 'email': 'olgasofia@sgd.pt', 'password': '123sgdolgasofia'}
+INFO:werkzeug:127.0.0.1 - - [02/Dec/2024 17:53:50] "POST /passenger/ HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [02/Dec/2024 17:54:00] "[32mPOST /passenger HTTP/1.1[0m" 308 -
+INFO:logger:###              DEMO: POST /passenger/create              ###
+INFO:logger:###              DEMO: POST /user              ###
+INFO:logger:---- new user  ----
+DEBUG:logger:payload: {'name': 'henrique', 'email': 'henrique@sgd.pt', 'password': '123sgdhenrique'}
+INFO:werkzeug:127.0.0.1 - - [02/Dec/2024 17:54:01] "POST /passenger/ HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [02/Dec/2024 17:54:37] "[32mPOST /member HTTP/1.1[0m" 308 -
+INFO:logger:###              DEMO: POST /member/create              ###
+INFO:logger:###              DEMO: POST /user              ###
+INFO:logger:---- new user  ----
+DEBUG:logger:payload: {'name': 'pedrosandoval', 'email': 'pedrosandoval@sgd.pt', 'password': '123sgdpedrosandoval'}
+INFO:werkzeug:127.0.0.1 - - [02/Dec/2024 17:54:37] "POST /member/ HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [02/Dec/2024 17:55:07] "[32mPOST /member HTTP/1.1[0m" 308 -
+INFO:logger:###              DEMO: POST /member/create              ###
+INFO:logger:###              DEMO: POST /user              ###
+INFO:logger:---- new user  ----
+DEBUG:logger:payload: {'name': 'lorran', 'email': 'lorran@sgd.pt', 'password': '123sgdlorran'}
+INFO:werkzeug:127.0.0.1 - - [02/Dec/2024 17:55:07] "POST /member/ HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [02/Dec/2024 17:55:20] "[32mPOST /member HTTP/1.1[0m" 308 -
+INFO:logger:###              DEMO: POST /member/create              ###
+INFO:logger:###              DEMO: POST /user              ###
+INFO:logger:---- new user  ----
+DEBUG:logger:payload: {'name': 'will', 'email': 'will@sgd.pt', 'password': '123sgdwill'}
+INFO:werkzeug:127.0.0.1 - - [02/Dec/2024 17:55:20] "POST /member/ HTTP/1.1" 200 -
+INFO:logger:###              DEMO: PUT /users            ###
+INFO:werkzeug:127.0.0.1 - - [02/Dec/2024 17:55:39] "PUT /login HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [02/Dec/2024 17:56:28] "[32mPOST /admin HTTP/1.1[0m" 308 -
+INFO:logger:###              DEMO: POST /admin/create              ###
+INFO:logger:###              DEMO: POST /user              ###
+INFO:logger:---- new user  ----
+DEBUG:logger:payload: {'name': 'catarinaramos', 'email': 'catarinaramos@sgd.pt', 'password': '123sgdcatarinaramos'}
+INFO:werkzeug:127.0.0.1 - - [02/Dec/2024 17:56:28] "POST /admin/ HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [02/Dec/2024 17:56:46] "[32mPOST /admin HTTP/1.1[0m" 308 -
+INFO:logger:###              DEMO: POST /admin/create              ###
+INFO:logger:###              DEMO: POST /user              ###
+INFO:logger:---- new user  ----
+DEBUG:logger:payload: {'name': 'josefina', 'email': 'josefina@sgd.pt', 'password': '123sgdjosefina'}
+INFO:werkzeug:127.0.0.1 - - [02/Dec/2024 17:56:47] "POST /admin/ HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [02/Dec/2024 17:57:09] "[32mPOST /admin HTTP/1.1[0m" 308 -
+INFO:logger:###              DEMO: POST /admin/create              ###
+INFO:logger:###              DEMO: POST /user              ###
+INFO:logger:---- new user  ----
+DEBUG:logger:payload: {'name': 'duarte', 'email': 'duarte@sgd.pt', 'password': '123sgdduarte'}
+INFO:werkzeug:127.0.0.1 - - [02/Dec/2024 17:57:09] "POST /admin/ HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [02/Dec/2024 17:57:23] "[32mPOST /admin HTTP/1.1[0m" 308 -
+INFO:logger:###              DEMO: POST /admin/create              ###
+INFO:logger:###              DEMO: POST /user              ###
+INFO:logger:---- new user  ----
+DEBUG:logger:payload: {'name': 'goncalo', 'email': 'goncalo@sgd.pt', 'password': '123sgdgoncalo'}
+INFO:werkzeug:127.0.0.1 - - [02/Dec/2024 17:57:23] "POST /admin/ HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [02/Dec/2024 17:57:49] "[32mPOST /admin HTTP/1.1[0m" 308 -
+INFO:logger:###              DEMO: POST /admin/create              ###
+INFO:logger:###              DEMO: POST /user              ###
+INFO:logger:---- new user  ----
+DEBUG:logger:payload: {'name': 'rodolfo', 'email': 'rodolfo@sgd.pt', 'password': '123sgdrodolfo'}
+INFO:werkzeug:127.0.0.1 - - [02/Dec/2024 17:57:49] "POST /admin/ HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [02/Dec/2024 18:02:38] "[32mPOST /airport HTTP/1.1[0m" 308 -
+INFO:logger:###              DEMO: POST /airport/create              ###
+INFO:logger:---- new airport  ----
+DEBUG:logger:payload: {'city': 'lanzarote', 'name': 'Arrecife', 'country': 'ilhasCanarias'}
+INFO:werkzeug:127.0.0.1 - - [02/Dec/2024 18:02:38] "POST /airport/ HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [02/Dec/2024 18:02:58] "[32mPOST /airport HTTP/1.1[0m" 308 -
+INFO:logger:###              DEMO: POST /airport/create              ###
+INFO:logger:---- new airport  ----
+DEBUG:logger:payload: {'city': 'corunha', 'name': 'corunha', 'country': 'espanha'}
+INFO:werkzeug:127.0.0.1 - - [02/Dec/2024 18:02:59] "POST /airport/ HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [02/Dec/2024 18:03:31] "[32mPOST /airport HTTP/1.1[0m" 308 -
+INFO:logger:###              DEMO: POST /airport/create              ###
+INFO:logger:---- new airport  ----
+DEBUG:logger:payload: {'city': 'paris', 'name': 'CharlesdeGaulle', 'country': 'frança'}
+INFO:werkzeug:127.0.0.1 - - [02/Dec/2024 18:03:32] "POST /airport/ HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [02/Dec/2024 18:04:16] "[32mPOST /airport HTTP/1.1[0m" 308 -
+INFO:logger:###              DEMO: POST /airport/create              ###
+INFO:logger:---- new airport  ----
+DEBUG:logger:payload: {'city': 'munique', 'name': 'munique', 'country': 'alemanha'}
+INFO:werkzeug:127.0.0.1 - - [02/Dec/2024 18:04:17] "POST /airport/ HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [02/Dec/2024 18:04:55] "[32mPOST /airport HTTP/1.1[0m" 308 -
+INFO:logger:###              DEMO: POST /airport/create              ###
+INFO:logger:---- new airport  ----
+DEBUG:logger:payload: {'city': 'bruxelas', 'name': 'brussels', 'country': 'belgica'}
+INFO:werkzeug:127.0.0.1 - - [02/Dec/2024 18:04:55] "POST /airport/ HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [02/Dec/2024 18:05:37] "[32mPOST /airport HTTP/1.1[0m" 308 -
+INFO:logger:###              DEMO: POST /airport/create              ###
+INFO:logger:---- new airport  ----
+DEBUG:logger:payload: {'city': 'genebra', 'name': 'GeneveCointrin', 'country': 'suiça'}
+INFO:werkzeug:127.0.0.1 - - [02/Dec/2024 18:05:37] "POST /airport/ HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [02/Dec/2024 18:06:20] "[32mPOST /airport HTTP/1.1[0m" 308 -
+INFO:logger:###              DEMO: POST /airport/create              ###
+INFO:logger:---- new airport  ----
+DEBUG:logger:payload: {'city': 'saopaulo', 'name': 'GRU', 'country': 'brasil'}
+INFO:werkzeug:127.0.0.1 - - [02/Dec/2024 18:06:21] "POST /airport/ HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [02/Dec/2024 18:08:01] "[32mPOST /airport HTTP/1.1[0m" 308 -
+INFO:logger:###              DEMO: POST /airport/create              ###
+INFO:logger:---- new airport  ----
+DEBUG:logger:payload: {'city': 'novayork', 'name': 'JohnFKennedy', 'country': 'estadosunidos'}
+INFO:werkzeug:127.0.0.1 - - [02/Dec/2024 18:08:01] "POST /airport/ HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [02/Dec/2024 18:11:04] "[32mPOST /airport HTTP/1.1[0m" 308 -
+INFO:logger:###              DEMO: POST /airport/create              ###
+INFO:logger:---- new airport  ----
+DEBUG:logger:payload: {'departure_time': '2024-12-02', 'arrivel_time': '2024-12-03', 'capacity': 100, 'origin': 'GeneveCointrin', 'destination': 'JohnFKennedy', 'flight_code': 'AJ629'}
+INFO:werkzeug:127.0.0.1 - - [02/Dec/2024 18:11:05] "POST /airport/ HTTP/1.1" 200 -
+INFO:werkzeug: * Detected change in 'c:\\Users\\HP\\Desktop\\projetoSGD\\python\\app\\apisgd.py', reloading
+INFO:werkzeug: * Restarting with stat
+INFO:logger:
+---------------------------------------------------------------
+API v1.0 online: http://localhost:8080/
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 119-983-821
+INFO:werkzeug:127.0.0.1 - - [02/Dec/2024 18:12:08] "[32mPOST /fligth HTTP/1.1[0m" 308 -
+INFO:logger:###              DEMO: POST /flight              ###
+INFO:logger:---- new flight  ----
+DEBUG:logger:payload: {'departure_time': '2024-12-02', 'arrivel_time': '2024-12-03', 'capacity': 100, 'origin': 'GeneveCointrin', 'destination': 'JohnFKennedy', 'flight_code': 'AJ629'}
+DEBUG:logger:origin_row: (9,)
+DEBUG:logger:origin_row: (11,)
+INFO:werkzeug:127.0.0.1 - - [02/Dec/2024 18:12:09] "POST /fligth/ HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [02/Dec/2024 18:13:00] "[32mPOST /fligth HTTP/1.1[0m" 308 -
+INFO:logger:###              DEMO: POST /flight              ###
+INFO:logger:---- new flight  ----
+DEBUG:logger:payload: {'departure_time': '2024-12-30', 'arrivel_time': '2024-12-30', 'capacity': 75, 'origin': 'CharlesdeGaulle', 'destination': 'corunha', 'flight_code': 'HJ734'}
+DEBUG:logger:origin_row: (6,)
+DEBUG:logger:origin_row: (5,)
+INFO:werkzeug:127.0.0.1 - - [02/Dec/2024 18:13:00] "POST /fligth/ HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [02/Dec/2024 18:14:01] "[32mPOST /fligth HTTP/1.1[0m" 308 -
+INFO:logger:###              DEMO: POST /flight              ###
+INFO:logger:---- new flight  ----
+DEBUG:logger:payload: {'departure_time': '2025-02-05', 'arrivel_time': '2025-02-06', 'capacity': 75, 'origin': 'humbertodelgado', 'destination': 'GRU', 'flight_code': 'LB256'}
+DEBUG:logger:origin_row: (1,)
+DEBUG:logger:origin_row: (10,)
+INFO:werkzeug:127.0.0.1 - - [02/Dec/2024 18:14:02] "POST /fligth/ HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [02/Dec/2024 18:15:10] "[32mPOST /schedule HTTP/1.1[0m" 308 -
+INFO:logger:###              DEMO: POST /schedule              ###
+INFO:logger:---- new schedule  ----
+DEBUG:logger:payload: {'fligth_date': '2025-02-05', 'fligth_code': 'LB256'}
+INFO:werkzeug:127.0.0.1 - - [02/Dec/2024 18:15:10] "POST /schedule/ HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [02/Dec/2024 18:15:32] "[32mPOST /schedule HTTP/1.1[0m" 308 -
+INFO:logger:###              DEMO: POST /schedule              ###
+INFO:logger:---- new schedule  ----
+DEBUG:logger:payload: {'fligth_date': '2024-12-30', 'fligth_code': 'AJ629'}
+INFO:werkzeug:127.0.0.1 - - [02/Dec/2024 18:15:33] "POST /schedule/ HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [02/Dec/2024 18:18:18] "[32mPOST /schedule HTTP/1.1[0m" 308 -
+INFO:logger:###              DEMO: POST /schedule              ###
+INFO:logger:---- new schedule  ----
+DEBUG:logger:payload: {'fligth_date': '2024-12-02', 'fligth_code': 'AJ629'}
+INFO:werkzeug:127.0.0.1 - - [02/Dec/2024 18:18:19] "POST /schedule/ HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [02/Dec/2024 18:18:30] "[32mPOST /schedule HTTP/1.1[0m" 308 -
+INFO:logger:###              DEMO: POST /schedule              ###
+INFO:logger:---- new schedule  ----
+DEBUG:logger:payload: {'fligth_date': '2024-12-30', 'fligth_code': 'HJ734'}
+INFO:werkzeug:127.0.0.1 - - [02/Dec/2024 18:18:31] "POST /schedule/ HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [02/Dec/2024 18:18:56] "[32mPOST /schedule HTTP/1.1[0m" 308 -
+INFO:logger:###              DEMO: POST /schedule              ###
+INFO:logger:---- new schedule  ----
+DEBUG:logger:payload: {'fligth_date': '2024-10-28', 'fligth_code': 'LP564'}
+INFO:werkzeug:127.0.0.1 - - [02/Dec/2024 18:18:57] "POST /schedule/ HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [02/Dec/2024 18:20:42] "[32mPOST /criarbooking HTTP/1.1[0m" 308 -
+INFO:logger:---- Creating booking ----
+DEBUG:logger:Payload: {'numbertickets': 5, 'typeluggage': 'porao', 'id_schedule': 6}
+INFO:werkzeug:127.0.0.1 - - [02/Dec/2024 18:20:42] "POST /criarbooking/ HTTP/1.1" 200 -
+INFO:logger:
+---------------------------------------------------------------
+API v1.0 online: http://localhost:8080/
+INFO:werkzeug:[31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:8080
+INFO:werkzeug:[33mPress CTRL+C to quit[0m
+INFO:werkzeug: * Restarting with stat
+INFO:logger:
+---------------------------------------------------------------
+API v1.0 online: http://localhost:8080/
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 119-983-821
+INFO:logger:###              DEMO: PUT /users            ###
+INFO:werkzeug:127.0.0.1 - - [02/Dec/2024 19:29:53] "PUT /login HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [02/Dec/2024 19:30:58] "[32mPOST /airport HTTP/1.1[0m" 308 -
+INFO:logger:###              DEMO: POST /airport/create              ###
+INFO:logger:---- new airport  ----
+DEBUG:logger:payload: {'city': 'havana', 'name': 'HAV', 'country': 'cuba'}
+INFO:werkzeug:127.0.0.1 - - [02/Dec/2024 19:30:59] "POST /airport/ HTTP/1.1" 200 -
+INFO:werkzeug: * Detected change in 'c:\\Users\\HP\\Desktop\\projetoSGD\\python\\app\\apisgd.py', reloading
+INFO:werkzeug: * Restarting with stat
+INFO:logger:
+---------------------------------------------------------------
+API v1.0 online: http://localhost:8080/
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 119-983-821
+INFO:werkzeug: * Detected change in 'c:\\Users\\HP\\Desktop\\projetoSGD\\python\\app\\apisgd.py', reloading
+INFO:werkzeug: * Restarting with stat
+INFO:logger:
+---------------------------------------------------------------
+API v1.0 online: http://localhost:8080/
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 119-983-821
+INFO:werkzeug:127.0.0.1 - - [02/Dec/2024 19:31:57] "[32mPOST /airport HTTP/1.1[0m" 308 -
+INFO:logger:###              DEMO: POST /airport/create              ###
+INFO:logger:---- new airport  ----
+DEBUG:logger:payload: {'city': 'kona', 'name': 'ellisonOnizula', 'country': 'havai'}
+INFO:werkzeug:127.0.0.1 - - [02/Dec/2024 19:31:57] "POST /airport/ HTTP/1.1" 200 -
+INFO:werkzeug: * Detected change in 'c:\\Users\\HP\\Desktop\\projetoSGD\\python\\app\\apisgd.py', reloading
+INFO:werkzeug: * Restarting with stat
+INFO:logger:
+---------------------------------------------------------------
+API v1.0 online: http://localhost:8080/
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 119-983-821
+INFO:werkzeug: * Detected change in 'c:\\Users\\HP\\Desktop\\projetoSGD\\python\\app\\apisgd.py', reloading
+INFO:werkzeug: * Restarting with stat
+INFO:logger:
+---------------------------------------------------------------
+API v1.0 online: http://localhost:8080/
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 119-983-821
+INFO:werkzeug: * Detected change in 'c:\\Users\\HP\\Desktop\\projetoSGD\\python\\app\\apisgd.py', reloading
+INFO:werkzeug: * Restarting with stat
+INFO:logger:
+---------------------------------------------------------------
+API v1.0 online: http://localhost:8080/
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 119-983-821
+INFO:werkzeug: * Detected change in 'c:\\Users\\HP\\Desktop\\projetoSGD\\python\\app\\apisgd.py', reloading
+INFO:werkzeug: * Restarting with stat
+INFO:logger:
+---------------------------------------------------------------
+API v1.0 online: http://localhost:8080/
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 119-983-821
+INFO:werkzeug:127.0.0.1 - - [02/Dec/2024 19:37:12] "[32mPOST /airport HTTP/1.1[0m" 308 -
+INFO:logger:###              DEMO: POST /airport/create              ###
+INFO:logger:---- new airport  ----
+DEBUG:logger:payload: {'name': 'luisvaz', 'email': 'luisvaz@sgd.pt', 'password': '123sgdluisvaz'}
+INFO:werkzeug:127.0.0.1 - - [02/Dec/2024 19:37:12] "POST /airport/ HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [02/Dec/2024 19:37:20] "[32mPOST /admin HTTP/1.1[0m" 308 -
+INFO:logger:###              DEMO: POST /admin/create              ###
+INFO:logger:###              DEMO: POST /user              ###
+INFO:logger:---- new user  ----
+DEBUG:logger:payload: {'name': 'luisvaz', 'email': 'luisvaz@sgd.pt', 'password': '123sgdluisvaz'}
+INFO:werkzeug:127.0.0.1 - - [02/Dec/2024 19:37:20] "POST /admin/ HTTP/1.1" 200 -
+INFO:werkzeug: * Detected change in 'c:\\Users\\HP\\Desktop\\projetoSGD\\python\\app\\apisgd.py', reloading
+INFO:werkzeug: * Restarting with stat
+INFO:logger:
+---------------------------------------------------------------
+API v1.0 online: http://localhost:8080/
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 119-983-821
+INFO:werkzeug: * Detected change in 'c:\\Users\\HP\\Desktop\\projetoSGD\\python\\app\\apisgd.py', reloading
+INFO:werkzeug: * Restarting with stat
+INFO:logger:
+---------------------------------------------------------------
+API v1.0 online: http://localhost:8080/
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 119-983-821
+INFO:werkzeug: * Detected change in 'c:\\Users\\HP\\Desktop\\projetoSGD\\python\\app\\apisgd.py', reloading
+INFO:werkzeug: * Restarting with stat
+INFO:logger:
+---------------------------------------------------------------
+API v1.0 online: http://localhost:8080/
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 119-983-821
+INFO:werkzeug: * Detected change in 'c:\\Users\\HP\\Desktop\\projetoSGD\\python\\app\\apisgd.py', reloading
+INFO:werkzeug: * Restarting with stat
