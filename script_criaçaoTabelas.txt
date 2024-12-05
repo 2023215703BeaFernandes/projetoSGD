@@ -1,0 +1,129 @@
+CREATE TABLE administrator (
+	administrator_users_id_users INTEGER NOT NULL,
+	users_id_users		 INTEGER,
+	PRIMARY KEY(users_id_users)
+);
+
+CREATE TABLE passenger (
+	users_id_users INTEGER,
+	PRIMARY KEY(users_id_users)
+);
+
+CREATE TABLE crew (
+	id_crew			 BIGSERIAL,
+	administrator_users_id_users INTEGER NOT NULL,
+	PRIMARY KEY(id_crew)
+);
+
+CREATE TABLE payment (
+	id_payment	 SERIAL,
+	valuepayment	 INTEGER NOT NULL,
+	datepayment	 DATE NOT NULL,
+	methodspayment	 VARCHAR(512) NOT NULL,
+	percent_payment	 FLOAT(8) NOT NULL,
+	booking_id_booking INTEGER NOT NULL,
+	PRIMARY KEY(id_payment)
+);
+
+CREATE TABLE airport (
+	id_airport			 SERIAL,
+	city			 VARCHAR(512) NOT NULL,
+	name			 VARCHAR(512) NOT NULL,
+	country			 VARCHAR(512) NOT NULL,
+	administrator_users_id_users INTEGER NOT NULL,
+	PRIMARY KEY(id_airport)
+);
+
+CREATE TABLE fligth (
+	id_fligth			 SERIAL,
+	departure_time		 DATE NOT NULL,
+	arrivel_time		 DATE NOT NULL,
+	capacity			 INTEGER NOT NULL,
+	flight_code			 VARCHAR(512),
+	users_id_users		 INTEGER NOT NULL,
+	administrator_users_id_users INTEGER NOT NULL,
+	airport_id_airport		 INTEGER NOT NULL,
+	airport_id_airport1		 INTEGER NOT NULL,
+	PRIMARY KEY(id_fligth)
+);
+
+CREATE TABLE booking (
+	id_booking		 SERIAL,
+	numbertickets	 INTEGER NOT NULL,
+	type_luggage	 VARCHAR(512) NOT NULL,
+	schedule_id_schedule INTEGER NOT NULL,
+	PRIMARY KEY(id_booking)
+);
+
+CREATE TABLE ticket_seat (
+	id_tickets	 SERIAL,
+	seat_id_seat	 VARCHAR(3),
+	booking_id_booking INTEGER NOT NULL
+);
+
+CREATE TABLE schedule (
+	id_schedule			 SERIAL,
+	fligth_date			 DATE NOT NULL,
+	administrator_users_id_users INTEGER NOT NULL,
+	crew_id_crew		 BIGINT NOT NULL,
+	fligth_id_fligth		 INTEGER NOT NULL,
+	PRIMARY KEY(id_schedule)
+);
+
+CREATE TABLE users (
+	id_users SERIAL,
+	name	 VARCHAR(512) NOT NULL,
+	email	 VARCHAR(512) NOT NULL,
+	password VARCHAR(512) NOT NULL,
+	PRIMARY KEY(id_users)
+);
+
+CREATE TABLE member (
+	member_users_id_users INTEGER NOT NULL,
+	users_id_users	 INTEGER,
+	PRIMARY KEY(users_id_users)
+);
+
+CREATE TABLE flight_attendant (
+	crew_id_crew		 BIGINT NOT NULL,
+	member_users_id_users INTEGER,
+	PRIMARY KEY(member_users_id_users)
+);
+
+CREATE TABLE pilot (
+	crew_id_crew		 BIGINT NOT NULL,
+	member_users_id_users INTEGER,
+	PRIMARY KEY(member_users_id_users)
+);
+
+CREATE TABLE booking_passenger (
+	booking_id_booking	 INTEGER NOT NULL,
+	passenger_users_id_users INTEGER,
+	PRIMARY KEY(passenger_users_id_users)
+);
+
+ALTER TABLE administrator ADD CONSTRAINT administrator_fk1 FOREIGN KEY (administrator_users_id_users) REFERENCES administrator(users_id_users);
+ALTER TABLE administrator ADD CONSTRAINT administrator_fk2 FOREIGN KEY (users_id_users) REFERENCES users(id_users);
+ALTER TABLE passenger ADD CONSTRAINT passenger_fk1 FOREIGN KEY (users_id_users) REFERENCES users(id_users);
+ALTER TABLE crew ADD CONSTRAINT crew_fk1 FOREIGN KEY (administrator_users_id_users) REFERENCES administrator(users_id_users);
+ALTER TABLE payment ADD CONSTRAINT payment_fk1 FOREIGN KEY (booking_id_booking) REFERENCES booking(id_booking);
+ALTER TABLE airport ADD CONSTRAINT airport_fk1 FOREIGN KEY (administrator_users_id_users) REFERENCES administrator(users_id_users);
+ALTER TABLE fligth ADD UNIQUE (flight_code);
+ALTER TABLE fligth ADD CONSTRAINT fligth_fk1 FOREIGN KEY (users_id_users) REFERENCES users(id_users);
+ALTER TABLE fligth ADD CONSTRAINT fligth_fk2 FOREIGN KEY (administrator_users_id_users) REFERENCES administrator(users_id_users);
+ALTER TABLE fligth ADD CONSTRAINT fligth_fk3 FOREIGN KEY (airport_id_airport) REFERENCES airport(id_airport);
+ALTER TABLE fligth ADD CONSTRAINT fligth_fk4 FOREIGN KEY (airport_id_airport1) REFERENCES airport(id_airport);
+ALTER TABLE booking ADD CONSTRAINT booking_fk1 FOREIGN KEY (schedule_id_schedule) REFERENCES schedule(id_schedule);
+ALTER TABLE ticket_seat ADD CONSTRAINT ticket_seat_fk1 FOREIGN KEY (booking_id_booking) REFERENCES booking(id_booking);
+ALTER TABLE schedule ADD CONSTRAINT schedule_fk1 FOREIGN KEY (administrator_users_id_users) REFERENCES administrator(users_id_users);
+ALTER TABLE schedule ADD CONSTRAINT schedule_fk2 FOREIGN KEY (crew_id_crew) REFERENCES crew(id_crew);
+ALTER TABLE schedule ADD CONSTRAINT schedule_fk3 FOREIGN KEY (fligth_id_fligth) REFERENCES fligth(id_fligth);
+ALTER TABLE member ADD CONSTRAINT member_fk1 FOREIGN KEY (member_users_id_users) REFERENCES member(users_id_users);
+ALTER TABLE member ADD CONSTRAINT member_fk2 FOREIGN KEY (users_id_users) REFERENCES users(id_users);
+ALTER TABLE flight_attendant ADD CONSTRAINT flight_attendant_fk1 FOREIGN KEY (crew_id_crew) REFERENCES crew(id_crew);
+ALTER TABLE flight_attendant ADD CONSTRAINT flight_attendant_fk2 FOREIGN KEY (member_users_id_users) REFERENCES member(users_id_users);
+ALTER TABLE pilot ADD CONSTRAINT pilot_fk1 FOREIGN KEY (crew_id_crew) REFERENCES crew(id_crew);
+ALTER TABLE pilot ADD CONSTRAINT pilot_fk2 FOREIGN KEY (member_users_id_users) REFERENCES member(users_id_users);
+ALTER TABLE booking_passenger ADD CONSTRAINT booking_passenger_fk1 FOREIGN KEY (booking_id_booking) REFERENCES booking(id_booking);
+ALTER TABLE booking_passenger ADD CONSTRAINT booking_passenger_fk2 FOREIGN KEY (passenger_users_id_users) REFERENCES passenger(users_id_users);
+
