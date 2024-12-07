@@ -1,0 +1,464 @@
+{
+	"info": {
+		"_postman_id": "eb3adce2-bfc8-475b-8742-8843d41dca33",
+		"name": "Turkis Hairlines",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
+		"_exporter_id": "39991943"
+	},
+	"item": [
+		{
+			"name": "topDestination",
+			"protocolProfileBehavior": {
+				"disableBodyPruning": true
+			},
+			"request": {
+				"method": "GET",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "http://localhost:8080/topDestinations/2",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8080",
+					"path": [
+						"topDestinations",
+						"2"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "topRoutes",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "http://localhost:8080/topRoutes/2",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8080",
+					"path": [
+						"topRoutes",
+						"2"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "add user",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n    \"name\": \"mariatarrafa\",\r\n    \"email\": \"mariatarrafa@sgd.pt\",\r\n    \"password\":\"123sgdmariatarrafa\"\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "http://localhost:8080/users",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8080",
+					"path": [
+						"users"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "addMemberCrew",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n    \"name\":\"elisa\",\r\n    \"email\":\"elisa@sgd.pt\",\r\n    \"password\":\"123sgdelisa\"\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "http://localhost:8080/member",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8080",
+					"path": [
+						"member"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "login",
+			"request": {
+				"auth": {
+					"type": "bearer",
+					"bearer": [
+						{
+							"key": "token",
+							"value": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6MjksInRlbXBvX2V4cGlyYVx1MDBlN1x1MDBlM28iOjE3MzM0MDYyODcuNDk4NjQ0OH0.NP2zEdK8bIkRvyykfgXU0CCZvuQMmBB0nZxduDYlk7E",
+							"type": "string"
+						}
+					]
+				},
+				"method": "PUT",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n    \"name\":\"beatriz\",\r\n    \"password\":\"123sgdbeatriz\"\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "http://localhost:8080/login",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8080",
+					"path": [
+						"login"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "addAirport",
+			"request": {
+				"auth": {
+					"type": "bearer",
+					"bearer": [
+						{
+							"key": "token",
+							"value": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6MTIsInRlbXBvX2V4cGlyYVx1MDBlN1x1MDBlM28iOjE3MzM1Mjg0MTQuNjA3NDI0M30.kT2SJxEWKss5QgKJf6lEjdx-9KbhViIpH4m8byBsuv4",
+							"type": "string"
+						}
+					]
+				},
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n    \"city\":\"roma\",\r\n    \"name\":\"fiumicino\",\r\n    \"country\":\"italia\"\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "http://localhost:8080/airport",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8080",
+					"path": [
+						"airport"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "addFligth",
+			"request": {
+				"auth": {
+					"type": "bearer",
+					"bearer": [
+						{
+							"key": "token",
+							"value": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6MTIsInRlbXBvX2V4cGlyYVx1MDBlN1x1MDBlM28iOjE3MzM1NjczODIuNjgyNzI1Mn0.dkVjl4grzNH82ltwBDHemNnaFf8aFIiotFMI9iPKSDE",
+							"type": "string"
+						}
+					]
+				},
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n    \"departure_time\":\"2024-09-28 10:54\",\r\n    \"arrivel_time\":\"2024-09-29 05:38:00\",\r\n    \"capacity\":100,\r\n    \"origin\":\"Arrecife\",\r\n    \"destination\":\"corunha\",\r\n    \"flight_code\":\"KD937\"\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "http://localhost:8080/fligth",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8080",
+					"path": [
+						"fligth"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "addBooking",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n    \"numbertickets\":1,\r\n    \"seat_id\":[\"14D\"],\r\n    \"typeluggage\": \"porão\",\r\n    \"id_schedule\":18,\r\n    \"fligth_code\": \"AC839\",\r\n    \"id_passengers\": [59]\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "http://localhost:8080/criarbooking",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8080",
+					"path": [
+						"criarbooking"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "addCrew",
+			"request": {
+				"auth": {
+					"type": "bearer",
+					"bearer": [
+						{
+							"key": "token",
+							"value": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6MTIsInRlbXBvX2V4cGlyYVx1MDBlN1x1MDBlM28iOjE3MzM1NjczODIuNjgyNzI1Mn0.dkVjl4grzNH82ltwBDHemNnaFf8aFIiotFMI9iPKSDE",
+							"type": "string"
+						}
+					]
+				},
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n    \"flight_attendants\": [81,82,83,84,85,86],\r\n    \"pilots\": [88,87]\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "http://localhost:8080/crew",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8080",
+					"path": [
+						"crew"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "addAdmin",
+			"request": {
+				"auth": {
+					"type": "bearer",
+					"bearer": [
+						{
+							"key": "token",
+							"value": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6MTIsInRlbXBvX2V4cGlyYVx1MDBlN1x1MDBlM28iOjE3MzM1NjczODIuNjgyNzI1Mn0.dkVjl4grzNH82ltwBDHemNnaFf8aFIiotFMI9iPKSDE",
+							"type": "string"
+						}
+					]
+				},
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n    \"name\":\"renato\",\r\n    \"email\":\"renato@sgd.pt\",\r\n    \"password\":\"123sgdrenato\"\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "http://localhost:8080/admin",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8080",
+					"path": [
+						"admin"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "addPassenger",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n    \"name\":\"rodrigosantana\",\r\n    \"email\":\"rodrigosantana@sgd.pt\",\r\n    \"password\":\"123sgdrodrigosantana\"\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "http://localhost:8080/passenger",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8080",
+					"path": [
+						"passenger"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "check_routes",
+			"protocolProfileBehavior": {
+				"disableBodyPruning": true
+			},
+			"request": {
+				"method": "GET",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n    \"origin_airport\":11,\r\n    \"destination_airport\":14\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "http://localhost:8080/check_routes",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8080",
+					"path": [
+						"check_routes"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "check_seats",
+			"protocolProfileBehavior": {
+				"disableBodyPruning": true
+			},
+			"request": {
+				"method": "GET",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n    \"flight_code\":\"TAP123\",\r\n    \"id_schedule\":17\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "http://localhost:8080/check_seats",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8080",
+					"path": [
+						"check_seats"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "addSchedule",
+			"request": {
+				"auth": {
+					"type": "bearer",
+					"bearer": [
+						{
+							"key": "token",
+							"value": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6MTIsInRlbXBvX2V4cGlyYVx1MDBlN1x1MDBlM28iOjE3MzM1NjczODIuNjgyNzI1Mn0.dkVjl4grzNH82ltwBDHemNnaFf8aFIiotFMI9iPKSDE",
+							"type": "string"
+						}
+					]
+				},
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n    \"flight_date\":\"2024-10-28 10:54:00\",\r\n    \"flight_code\":\"AC839\"\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "http://localhost:8080/schedule",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8080",
+					"path": [
+						"schedule"
+					]
+				}
+			},
+			"response": []
+		}
+	]
+}
